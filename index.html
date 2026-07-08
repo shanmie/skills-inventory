@@ -16,7 +16,7 @@ h1 { margin:0 0 6px; font-size:24px; line-height:1.25; font-weight:760; letter-s
 .metric { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:12px 14px; }
 .metric strong { display:block; font-size:22px; line-height:1.2; }
 .metric span { color:var(--muted); font-size:13px; }
-.controls { display:grid; grid-template-columns: minmax(260px, 1fr) 240px 180px 180px; gap:10px; margin-top:16px; }
+.controls { display:grid; grid-template-columns: minmax(260px, 1fr) 170px 230px 170px 170px; gap:10px; margin-top:16px; }
 input, select { width:100%; border:1px solid var(--line); border-radius:7px; padding:10px 12px; background:#fff; color:var(--text); font-size:14px; }
 main.wrap { padding-top:16px; }
 .chips { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
@@ -32,6 +32,8 @@ tr:hover td { background:#fbfcff; }
 .cat { display:inline-block; padding:3px 8px; border-radius:5px; background:#ecfdf3; color:#027a48; font-size:12px; font-weight:650; }
 .path { color:#667085; font-size:12px; word-break:break-all; margin-top:6px; }
 .devices { color:#475467; font-size:12px; margin-top:6px; }
+.children { color:#475467; font-size:12px; margin-top:6px; line-height:1.5; }
+.count-pill { display:inline-block; margin-top:5px; padding:2px 7px; border-radius:5px; background:#eef6ff; color:#175cd3; font-size:12px; }
 .conflict { display:inline-block; color:var(--warn); background:var(--warnBg); border:1px solid #fecdca; border-radius:5px; padding:2px 7px; font-size:12px; font-weight:650; }
 .example { color:#344054; }
 .empty { padding:32px; text-align:center; color:var(--muted); }
@@ -43,15 +45,16 @@ tr:hover td { background:#fbfcff; }
 <header>
   <div class="wrap">
     <h1>Codex Skills 云端可视化清单</h1>
-    <p class="sub">聚合各设备同步到私有 GitHub 仓库的技能清单。生成时间：2026-07-08 17:50:44</p>
+    <p class="sub">聚合各设备同步到私有 GitHub 仓库的技能清单。生成时间：2026-07-08 18:00:17</p>
     <div class="summary">
-      <div class="metric"><strong id="totalCount">103</strong><span>技能总数</span></div>
+      <div class="metric"><strong id="totalCount">103</strong><span>当前显示</span></div>
       <div class="metric"><strong>10</strong><span>分类数量</span></div>
       <div class="metric"><strong>87</strong><span>个人安装</span></div>
       <div class="metric"><strong>0</strong><span>冲突项</span></div>
     </div>
     <div class="controls">
       <input id="search" placeholder="搜索技能名、用途、场景、示例、设备..." />
+      <select id="mode"><option value="group">分组视图</option><option value="detail">明细视图</option></select>
       <select id="category"><option value="">全部类别</option></select>
       <select id="source"><option value="">全部来源</option><option>个人安装</option><option>系统内置</option><option>插件技能</option></select>
       <select id="device"><option value="">全部设备</option></select>
@@ -75,6 +78,7 @@ const counts = [{"category":"Codex 扩展与系统工具","count":6},{"category"
 const tbody = document.getElementById('tbody');
 const empty = document.getElementById('empty');
 const search = document.getElementById('search');
+const mode = document.getElementById('mode');
 const category = document.getElementById('category');
 const source = document.getElementById('source');
 const device = document.getElementById('device');
@@ -90,6 +94,49 @@ for (const d of devices) {
   const opt = document.createElement('option'); opt.value = d; opt.textContent = d; device.appendChild(opt);
 }
 function esc(v) { return String(v ?? '').replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s])); }
+function uniq(values) { return Array.from(new Set(values.filter(Boolean))); }
+function rowText(r) {
+  return [r.name,r.folder,r.category,r.source,r.purpose,r.scenario,r.example,r.relative_path,(r.installed_on||[]).join(' ')].join(' ').toLowerCase();
+}
+function groupInfo(r) {
+  const n = String(r.name || '').toLowerCase();
+  const cat = r.category || '通用工具';
+  if (n.indexOf('hyperframes') === 0) return { key:'hyperframes', title:'HyperFrames 视频创作工作流', category:'视频、图像与生成媒体', purpose:'用 HTML 合成、媒体处理、动画、关键帧和 registry 组件制作视频。', scenario:'适合从一个视频需求出发，按创意、媒体、动画、核心合成和 CLI 执行拆分工作。', example:'例：先用 hyperframes 选择总流程，再按字幕、媒体、关键帧或 registry 子技能执行。' };
+  if (['gpt-image-2-skill','gpt-image-2','image2','image2-0'].includes(n)) return { key:'gpt-image-2', title:'GPT Image 2 / image2.0 图片工作流', category:'视频、图像与生成媒体', purpose:'生成、编辑、抠图和验证图片资产，包含多个便于搜索的短别名。', scenario:'适合海报、logo、icon、产品图、透明 PNG 和参考图编辑。', example:'例：用 image2 生成中文海报，或把商品图处理成透明 PNG。' };
+  if (n.indexOf('github:') === 0) return { key:'github-plugin', title:'GitHub 插件与 PR 工作流', category:'GitHub、协作与交接', purpose:'读取 GitHub 仓库、PR、issue、CI 和 review 反馈并推进协作任务。', scenario:'适合查看 PR、修复 CI、处理 review comment 或发布本地变更。', example:'例：先看 PR 摘要，再用 gh-address-comments 处理未解决的 review 线程。' };
+  if (n.indexOf('google-drive:') === 0) return { key:'google-drive-plugin', title:'Google Drive 文档/表格/幻灯片插件', category:'办公文档与表格', purpose:'通过 Google Drive 插件读取、创建和编辑 Docs、Sheets、Slides 及评论。', scenario:'适合整理表格、生成演示、总结文档或处理 Drive 评论。', example:'例：用 google-sheets 清理数据表，再用 google-slides 生成展示页。' };
+  if (n.endsWith('-reader') || ['opencli-reader','scrapling-official'].includes(n)) return { key:'external-readers', title:'外部信息读取与抓取技能组', category:'数据抓取与外部信息读取', purpose:'读取网页、社交平台、市场终端、Telegram、Discord、LinkedIn 等外部信息源。', scenario:'适合先判断信息来源，再选择网页抓取、社媒读取或市场终端读取。', example:'例：用 scrapling 抓网页，用 twitter-reader 或 telegram-reader 读取社交信号。' };
+  if (cat === '金融与市场分析') return { key:'finance-analysis', title:'金融与市场分析技能组', category:cat, purpose:'围绕股票、ETF、财报、估值、情绪、流动性、期权和交易策略做分析。', scenario:'适合先判断问题属于估值、财报、数据、ETF、期权、情绪还是交易策略。', example:'例：估值用 company-valuation，行情数据用 yfinance-data，ETF 偏离用 etf-premium。' };
+  if (cat === '视频、图像与生成媒体') return { key:'video-media', title:'视频、图像与生成媒体工作流', category:cat, purpose:'制作、剪辑、渲染或迁移视频/图像/音频相关内容。', scenario:'适合根据素材类型和输出目标选择视频剪辑、短片生成、字幕、PPT 或动态图形流程。', example:'例：已有口播用 video-use，新建讲解视频用 faceless-explainer，短动效用 motion-graphics。' };
+  if (cat === 'GitHub、协作与交接') return { key:'collaboration', title:'GitHub、协作与交接技能组', category:cat, purpose:'处理 issue、PR、分支、冲突、任务拆分、交接和协作流程。', scenario:'适合把需求整理为 PRD/issue、审查变更、解决冲突或交接上下文。', example:'例：用 to-prd 整理需求，用 code-review 审查分支，用 handoff 交接任务。' };
+  if (cat === '软件工程与代码质量') return { key:'engineering-quality', title:'软件工程与代码质量技能组', category:cat, purpose:'辅助实现、测试、调试、架构设计、TDD 和代码质量提升。', scenario:'适合从实现、测试、诊断、架构或重构角度推进工程任务。', example:'例：修 bug 用 diagnosing-bugs，测试先行用 tdd，架构边界用 codebase-design。' };
+  if (cat === 'UI/UX 与前端设计') return { key:'ui-ux-design', title:'UI/UX 与前端设计技能组', category:cat, purpose:'设计、评审、原型验证和优化前端界面。', scenario:'适合页面设计、交互评审、可视化报告和一次性原型。', example:'例：用 ui-ux 评审页面，用 prototype 验证交互手感。' };
+  if (cat === '办公文档与表格') return { key:'docs-sheets', title:'办公文档与表格技能组', category:cat, purpose:'处理文档、表格、演示、研究输出和带文档的需求澄清。', scenario:'适合把调研、计划或数据整理成 Markdown、表格或演示材料。', example:'例：用 research 保存调研，用 grill-with-docs 形成 ADR 和术语表。' };
+  if (cat === '研究、写作与知识管理') return { key:'research-writing', title:'研究、写作与知识管理技能组', category:cat, purpose:'做调研、写作、教学、笔记管理和需求澄清。', scenario:'适合把想法整理为文章、学习材料、笔记或可执行需求。', example:'例：用 edit-article 修改文章，用 obsidian-vault 整理笔记。' };
+  if (cat === 'Codex 扩展与系统工具') return { key:'codex-tools', title:'Codex 扩展与系统工具', category:cat, purpose:'安装、创建、管理或扩展 Codex 的技能、插件和运行环境。', scenario:'适合管理 skill、插件、OpenAI 文档和桌面/浏览器控制能力。', example:'例：用 skill-installer 安装技能，用 plugin-creator 创建插件。' };
+  return { key:'single:' + r.name + '|' + r.source, title:r.name, category:cat, purpose:r.purpose, scenario:r.scenario, example:r.example };
+}
+function groupedRows(items, query) {
+  const groups = new Map();
+  for (const r of items) {
+    const info = groupInfo(r);
+    if (!groups.has(info.key)) groups.set(info.key, { name:info.title, category:info.category, source:'', purpose:info.purpose, scenario:info.scenario, example:info.example, children:[], installed_on:[], files:0, conflict:false, relative_path:'' });
+    const g = groups.get(info.key);
+    g.children.push(r);
+    g.files += r.files || 0;
+    g.conflict = g.conflict || !!r.conflict;
+    g.installed_on = uniq(g.installed_on.concat(r.installed_on || []));
+  }
+  let result = Array.from(groups.values()).map(g => {
+    g.source = uniq(g.children.map(c => c.source)).join(' / ');
+    g.relative_path = g.children.map(c => c.name).sort().join(', ');
+    g.child_count = g.children.length;
+    g.search_text = [g.name,g.category,g.source,g.purpose,g.scenario,g.example,g.relative_path,g.installed_on.join(' ')].join(' ').toLowerCase();
+    return g;
+  });
+  if (query) result = result.filter(g => g.search_text.includes(query) || g.children.some(row => rowText(row).includes(query)));
+  return result.sort((a,b)=> (a.category + a.name).localeCompare(b.category + b.name,'zh-Hans-CN'));
+}
 function render() {
   const q = search.value.trim().toLowerCase();
   const cat = category.value;
@@ -100,22 +147,29 @@ function render() {
     if (cat && r.category !== cat) return false;
     if (src && r.source !== src) return false;
     if (dev && !(r.installed_on || []).includes(dev)) return false;
+    if (mode.value === 'group') return true;
     if (!q) return true;
-    return [r.name,r.folder,r.category,r.source,r.purpose,r.scenario,r.example,r.relative_path,(r.installed_on||[]).join(' ')].join(' ').toLowerCase().includes(q);
+    return rowText(r).includes(q);
   });
-  totalCount.textContent = filtered.length;
-  tbody.innerHTML = filtered.map(r =>
+  const visible = mode.value === 'group' ? groupedRows(filtered, q) : filtered;
+  totalCount.textContent = visible.length;
+  tbody.innerHTML = visible.map(r => {
+    const isGroup = mode.value === 'group';
+    const childNames = isGroup ? r.children.map(c => c.name).sort() : [];
+    const childText = isGroup ? childNames.slice(0, 18).join(', ') + (childNames.length > 18 ? ' 等 ' + childNames.length + ' 个' : '') : '';
+    return (
     '<tr>' +
-    '<td><div class="name">' + esc(r.name) + '</div><span class="source">' + esc(r.source) + ' · ' + (r.files || 0) + ' 文件</span>' + (r.conflict ? '<div class="conflict">内容冲突</div>' : '') + '<div class="devices">设备：' + esc((r.installed_on || []).join(', ')) + '</div><div class="path">' + esc(r.relative_path || '') + '</div></td>' +
+    '<td><div class="name">' + esc(r.name) + '</div><span class="source">' + esc(r.source) + ' · ' + (r.files || 0) + ' 文件</span>' + (isGroup ? '<div class="count-pill">' + r.child_count + ' 个子技能</div>' : '') + (r.conflict ? '<div class="conflict">内容冲突</div>' : '') + '<div class="devices">设备：' + esc((r.installed_on || []).join(', ')) + '</div>' + (isGroup ? '<div class="children">子技能：' + esc(childText) + '</div>' : '<div class="path">' + esc(r.relative_path || '') + '</div>') + '</td>' +
     '<td><span class="cat">' + esc(r.category) + '</span></td>' +
     '<td>' + esc(r.purpose) + '</td>' +
     '<td>' + esc(r.scenario) + '</td>' +
     '<td class="example">' + esc(r.example) + '</td>' +
     '</tr>'
-  ).join('');
-  empty.hidden = filtered.length !== 0;
+    );
+  }).join('');
+  empty.hidden = visible.length !== 0;
 }
-search.addEventListener('input', render); category.addEventListener('change', render); source.addEventListener('change', render); device.addEventListener('change', render);
+search.addEventListener('input', render); mode.addEventListener('change', render); category.addEventListener('change', render); source.addEventListener('change', render); device.addEventListener('change', render);
 render();
 </script>
 </body>
