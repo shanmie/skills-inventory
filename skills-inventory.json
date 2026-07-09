@@ -51,6 +51,40 @@
         "conflict":  false
     },
     {
+        "name":  "codebase-memory-mcp",
+        "folder":  "codebase-memory-mcp",
+        "category":  "Codex 扩展与系统工具",
+        "source":  "个人安装",
+        "purpose":  "使用 Codebase Memory MCP 为代码库建立持久知识图谱和代码索引，适用于跨会话理解大型仓库、查找符号关系、减少重复阅读代码和辅助架构/重构分析。来源：DeusData/codebase-memory-mcp。",
+        "scenario":  "安装、创建、管理或扩展 Codex 能力。",
+        "example":  "例：使用 codebase-memory-mcp 安装新 skill、创建插件或配置工具链。",
+        "description":  "使用 Codebase Memory MCP 为代码库建立持久知识图谱和代码索引，适用于跨会话理解大型仓库、查找符号关系、减少重复阅读代码和辅助架构/重构分析。来源：DeusData/codebase-memory-mcp。",
+        "files":  1,
+        "relative_path":  "skills/codebase-memory-mcp/SKILL.md",
+        "content_hash":  "9650b6469c72c81d469ef202bd11e8c99364f0eaa0d07ed915ba03c46e39ec87",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "ponytail",
+        "folder":  "ponytail",
+        "category":  "软件工程与代码质量",
+        "source":  "个人安装",
+        "purpose":  "用 Ponytail 的“懒惰高级工程师”原则处理代码任务：优先删除、复用现有代码、标准库、平台能力和最短可行改动，避免过度工程。来源：DietrichGebert/ponytail。",
+        "scenario":  "辅助实现、测试、调试、架构设计和代码质量提升。",
+        "example":  "例：使用 ponytail 完成功能、写测试或审查模块边界。",
+        "description":  "用 Ponytail 的“懒惰高级工程师”原则处理代码任务：优先删除、复用现有代码、标准库、平台能力和最短可行改动，避免过度工程。来源：DietrichGebert/ponytail。",
+        "files":  1,
+        "relative_path":  "skills/ponytail/SKILL.md",
+        "content_hash":  "f36a7ded357e7f195d151911c3bb88b75193eb509b0250e9be81565ca42c9d67",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
         "name":  "implement",
         "folder":  "implement",
         "category":  "GitHub、协作与交接",
@@ -79,40 +113,6 @@
         "files":  1,
         "relative_path":  "skills/handoff/SKILL.md",
         "content_hash":  "78a54bfe74d8cf42417320a3ece4bb57351f435323384faf12f2878ea0c74fad",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "codebase-memory-mcp",
-        "folder":  "codebase-memory-mcp",
-        "category":  "Codex 扩展与系统工具",
-        "source":  "个人安装",
-        "purpose":  "使用 Codebase Memory MCP 为代码库建立持久知识图谱和代码索引，适用于跨会话理解大型仓库、查找符号关系、减少重复阅读代码和辅助架构/重构分析。来源：DeusData/codebase-memory-mcp。",
-        "scenario":  "安装、创建、管理或扩展 Codex 能力。",
-        "example":  "例：使用 codebase-memory-mcp 安装新 skill、创建插件或配置工具链。",
-        "description":  "使用 Codebase Memory MCP 为代码库建立持久知识图谱和代码索引，适用于跨会话理解大型仓库、查找符号关系、减少重复阅读代码和辅助架构/重构分析。来源：DeusData/codebase-memory-mcp。",
-        "files":  1,
-        "relative_path":  "skills/codebase-memory-mcp/SKILL.md",
-        "content_hash":  "9650b6469c72c81d469ef202bd11e8c99364f0eaa0d07ed915ba03c46e39ec87",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "yc-reader",
-        "folder":  "yc-reader",
-        "category":  "数据抓取与外部信息读取",
-        "source":  "个人安装",
-        "purpose":  "读取 Y Combinator 公司数据，适用于创业公司研究、批次筛选、公司资料、行业趋势和早期项目信息。",
-        "scenario":  "读取网页、社交平台、市场终端或外部信息源。",
-        "example":  "例：使用 yc-reader 抽取网页内容、社媒观点或行情终端数据。",
-        "description":  "读取 Y Combinator 公司数据，适用于创业公司研究、批次筛选、公司资料、行业趋势和早期项目信息。",
-        "files":  3,
-        "relative_path":  "skills/yc-reader/SKILL.md",
-        "content_hash":  "5882d65ccd1695bcac7cbdd7dc50fafaf7ac0e6b281d329f3fb158f83f650b5d",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -170,6 +170,40 @@
         "conflict":  false
     },
     {
+        "name":  "openmontage",
+        "folder":  "openmontage",
+        "category":  "视频、图像与生成媒体",
+        "source":  "个人安装",
+        "purpose":  "使用 OpenMontage 作为开源 agentic 视频生产系统的总入口，规划脚本、素材、配音、字幕、剪辑、合成和发布流程，避免把大量子技能拆成重复清单项。来源：calesthio/OpenMontage。",
+        "scenario":  "生成、剪辑、渲染或处理视频/图像/音频素材。",
+        "example":  "例：使用 openmontage 制作短视频、字幕、动态图形或图像素材。",
+        "description":  "使用 OpenMontage 作为开源 agentic 视频生产系统的总入口，规划脚本、素材、配音、字幕、剪辑、合成和发布流程，避免把大量子技能拆成重复清单项。来源：calesthio/OpenMontage。",
+        "files":  1,
+        "relative_path":  "skills/openmontage/SKILL.md",
+        "content_hash":  "71f349493c74674071e947073765253b6507a3b8350fed4dfd76484ebdf1b56f",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "yc-reader",
+        "folder":  "yc-reader",
+        "category":  "数据抓取与外部信息读取",
+        "source":  "个人安装",
+        "purpose":  "读取 Y Combinator 公司数据，适用于创业公司研究、批次筛选、公司资料、行业趋势和早期项目信息。",
+        "scenario":  "读取网页、社交平台、市场终端或外部信息源。",
+        "example":  "例：使用 yc-reader 抽取网页内容、社媒观点或行情终端数据。",
+        "description":  "读取 Y Combinator 公司数据，适用于创业公司研究、批次筛选、公司资料、行业趋势和早期项目信息。",
+        "files":  3,
+        "relative_path":  "skills/yc-reader/SKILL.md",
+        "content_hash":  "5882d65ccd1695bcac7cbdd7dc50fafaf7ac0e6b281d329f3fb158f83f650b5d",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
         "name":  "generative-media",
         "folder":  "generative-media",
         "category":  "视频、图像与生成媒体",
@@ -204,74 +238,6 @@
         "conflict":  false
     },
     {
-        "name":  "openmontage",
-        "folder":  "openmontage",
-        "category":  "视频、图像与生成媒体",
-        "source":  "个人安装",
-        "purpose":  "使用 OpenMontage 作为开源 agentic 视频生产系统的总入口，规划脚本、素材、配音、字幕、剪辑、合成和发布流程，避免把大量子技能拆成重复清单项。来源：calesthio/OpenMontage。",
-        "scenario":  "生成、剪辑、渲染或处理视频/图像/音频素材。",
-        "example":  "例：使用 openmontage 制作短视频、字幕、动态图形或图像素材。",
-        "description":  "使用 OpenMontage 作为开源 agentic 视频生产系统的总入口，规划脚本、素材、配音、字幕、剪辑、合成和发布流程，避免把大量子技能拆成重复清单项。来源：calesthio/OpenMontage。",
-        "files":  1,
-        "relative_path":  "skills/openmontage/SKILL.md",
-        "content_hash":  "71f349493c74674071e947073765253b6507a3b8350fed4dfd76484ebdf1b56f",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "ponytail",
-        "folder":  "ponytail",
-        "category":  "软件工程与代码质量",
-        "source":  "个人安装",
-        "purpose":  "用 Ponytail 的“懒惰高级工程师”原则处理代码任务：优先删除、复用现有代码、标准库、平台能力和最短可行改动，避免过度工程。来源：DietrichGebert/ponytail。",
-        "scenario":  "辅助实现、测试、调试、架构设计和代码质量提升。",
-        "example":  "例：使用 ponytail 完成功能、写测试或审查模块边界。",
-        "description":  "用 Ponytail 的“懒惰高级工程师”原则处理代码任务：优先删除、复用现有代码、标准库、平台能力和最短可行改动，避免过度工程。来源：DietrichGebert/ponytail。",
-        "files":  1,
-        "relative_path":  "skills/ponytail/SKILL.md",
-        "content_hash":  "f36a7ded357e7f195d151911c3bb88b75193eb509b0250e9be81565ca42c9d67",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "talking-head-recut",
-        "folder":  "talking-head-recut",
-        "category":  "视频、图像与生成媒体",
-        "source":  "个人安装",
-        "purpose":  "为已有口播视频增加设计化图形包装，如 lower-third、数据 callout、动态标题、引用卡片；通常不改变原始讲话素材顺序。默认使用中文沟通。",
-        "scenario":  "生成、剪辑、渲染或处理视频/图像/音频素材。",
-        "example":  "例：使用 talking-head-recut 制作短视频、字幕、动态图形或图像素材。",
-        "description":  "为已有口播视频增加设计化图形包装，如 lower-third、数据 callout、动态标题、引用卡片；通常不改变原始讲话素材顺序。默认使用中文沟通。",
-        "files":  27,
-        "relative_path":  "skills/talking-head-recut/SKILL.md",
-        "content_hash":  "ab6db835cc48434bdaca72c5bebea9d775db9c169c91523d9eeee4b76d468e2f",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "google-drive:google-drive",
-        "folder":  "google-drive",
-        "category":  "数据抓取与外部信息读取",
-        "source":  "插件技能",
-        "purpose":  "Use connected Google Drive as the single entrypoint for Drive, Docs, Sheets, and Slides work. Use when the user wants to find,...",
-        "scenario":  "读取网页、社交平台、市场终端或外部信息源。",
-        "example":  "例：使用 google-drive:google-drive 抽取网页内容、社媒观点或行情终端数据。",
-        "description":  "Use connected Google Drive as the single entrypoint for Drive, Docs, Sheets, and Slides work. Use when the user wants to find, fetch, organize, share, export, copy, or delete Drive files, or summarize and edit Google Docs, Google Sheets, and Google Slides through one unified Google Drive plugin.",
-        "files":  10,
-        "relative_path":  "plugins/cache/openai-curated-remote/google-drive/0.1.8/skills/google-drive/SKILL.md",
-        "content_hash":  "",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
         "name":  "scaffold-exercises",
         "folder":  "scaffold-exercises",
         "category":  "通用工具",
@@ -289,17 +255,51 @@
         "conflict":  false
     },
     {
-        "name":  "twitter-reader",
-        "folder":  "twitter-reader",
-        "category":  "数据抓取与外部信息读取",
+        "name":  "general-video",
+        "folder":  "general-video",
+        "category":  "视频、图像与生成媒体",
         "source":  "个人安装",
-        "purpose":  "通过 opencli 只读读取 Twitter/X 研究内容，适用于市场情绪、KOL 观点、突发新闻、公司动态和社交信号分析。",
+        "purpose":  "HyperFrames 的通用视频工作流。适用于不匹配专用工作流的长视频、多场景视频、静态循环、海报或自定义 HTML 合成。默认使用中文沟通。",
+        "scenario":  "处理通用视频创作。",
+        "example":  "例：做一个 2 分钟多场景说明视频。",
+        "description":  "HyperFrames 的通用视频工作流。适用于不匹配专用工作流的长视频、多场景视频、静态循环、海报或自定义 HTML 合成。默认使用中文沟通。",
+        "files":  1,
+        "relative_path":  "skills/general-video/SKILL.md",
+        "content_hash":  "1bc4cc64916cdef8c5ffa8a4f11865d23014626e7d3f134022b3b1ddbac18a9b",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "git-guardrails-claude-code",
+        "folder":  "git-guardrails-claude-code",
+        "category":  "GitHub、协作与交接",
+        "source":  "个人安装",
+        "purpose":  "为 Claude Code 设置 hooks，在危险 git 命令执行前拦截，例如 push、reset --hard、clean、branch -D 等。适用于防止破坏性 git 操作、添加 git 安全 hooks 或阻止 push/reset。默认...",
+        "scenario":  "处理 issue、PR、分支、冲突、交接和协作流程。",
+        "example":  "例：使用 git-guardrails-claude-code 整理交接说明或处理 PR 反馈。",
+        "description":  "为 Claude Code 设置 hooks，在危险 git 命令执行前拦截，例如 push、reset --hard、clean、branch -D 等。适用于防止破坏性 git 操作、添加 git 安全 hooks 或阻止 push/reset。默认使用中文沟通。",
+        "files":  2,
+        "relative_path":  "skills/git-guardrails-claude-code/SKILL.md",
+        "content_hash":  "577cb597440318db6cdd75bf159262b46c05ab470d093245233b26e8b7d25d0e",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "google-drive:google-drive",
+        "folder":  "google-drive",
+        "category":  "数据抓取与外部信息读取",
+        "source":  "插件技能",
+        "purpose":  "Use connected Google Drive as the single entrypoint for Drive, Docs, Sheets, and Slides work. Use when the user wants to find,...",
         "scenario":  "读取网页、社交平台、市场终端或外部信息源。",
-        "example":  "例：使用 twitter-reader 抽取网页内容、社媒观点或行情终端数据。",
-        "description":  "通过 opencli 只读读取 Twitter/X 研究内容，适用于市场情绪、KOL 观点、突发新闻、公司动态和社交信号分析。",
-        "files":  4,
-        "relative_path":  "skills/twitter-reader/SKILL.md",
-        "content_hash":  "552f8988618b1844e9babb73f754f63862eb8438f351cdfaddcd409ee2921e09",
+        "example":  "例：使用 google-drive:google-drive 抽取网页内容、社媒观点或行情终端数据。",
+        "description":  "Use connected Google Drive as the single entrypoint for Drive, Docs, Sheets, and Slides work. Use when the user wants to find, fetch, organize, share, export, copy, or delete Drive files, or summarize and edit Google Docs, Google Sheets, and Google Slides through one unified Google Drive plugin.",
+        "files":  10,
+        "relative_path":  "plugins/cache/openai-curated-remote/google-drive/0.1.8/skills/google-drive/SKILL.md",
+        "content_hash":  "",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -340,17 +340,17 @@
         "conflict":  false
     },
     {
-        "name":  "general-video",
-        "folder":  "general-video",
+        "name":  "talking-head-recut",
+        "folder":  "talking-head-recut",
         "category":  "视频、图像与生成媒体",
         "source":  "个人安装",
-        "purpose":  "HyperFrames 的通用视频工作流。适用于不匹配专用工作流的长视频、多场景视频、静态循环、海报或自定义 HTML 合成。默认使用中文沟通。",
-        "scenario":  "处理通用视频创作。",
-        "example":  "例：做一个 2 分钟多场景说明视频。",
-        "description":  "HyperFrames 的通用视频工作流。适用于不匹配专用工作流的长视频、多场景视频、静态循环、海报或自定义 HTML 合成。默认使用中文沟通。",
-        "files":  1,
-        "relative_path":  "skills/general-video/SKILL.md",
-        "content_hash":  "1bc4cc64916cdef8c5ffa8a4f11865d23014626e7d3f134022b3b1ddbac18a9b",
+        "purpose":  "为已有口播视频增加设计化图形包装，如 lower-third、数据 callout、动态标题、引用卡片；通常不改变原始讲话素材顺序。默认使用中文沟通。",
+        "scenario":  "生成、剪辑、渲染或处理视频/图像/音频素材。",
+        "example":  "例：使用 talking-head-recut 制作短视频、字幕、动态图形或图像素材。",
+        "description":  "为已有口播视频增加设计化图形包装，如 lower-third、数据 callout、动态标题、引用卡片；通常不改变原始讲话素材顺序。默认使用中文沟通。",
+        "files":  27,
+        "relative_path":  "skills/talking-head-recut/SKILL.md",
+        "content_hash":  "ab6db835cc48434bdaca72c5bebea9d775db9c169c91523d9eeee4b76d468e2f",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -408,6 +408,40 @@
         "conflict":  false
     },
     {
+        "name":  "github:github",
+        "folder":  "github",
+        "category":  "GitHub、协作与交接",
+        "source":  "插件技能",
+        "purpose":  "Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app. Use when the user asks for...",
+        "scenario":  "处理 issue、PR、分支、冲突、交接和协作流程。",
+        "example":  "例：使用 github:github 整理交接说明或处理 PR 反馈。",
+        "description":  "Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app. Use when the user asks for general GitHub help, wants PR or issue summaries, or needs repository context before choosing a more specific GitHub workflow.",
+        "files":  4,
+        "relative_path":  "plugins/cache/openai-curated-remote/github/0.1.7-2841cf9749ae/skills/github/SKILL.md",
+        "content_hash":  "",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "ui-design-handoff-fidelity",
+        "folder":  "ui-design-handoff-fidelity",
+        "category":  "数据抓取与外部信息读取",
+        "source":  "个人安装",
+        "purpose":  "Preserve UI implementation fidelity from design handoff through delivery. Use when implementing, reviewing, or planning app/web...",
+        "scenario":  "读取网页、社交平台、市场终端或外部信息源。",
+        "example":  "例：使用 ui-design-handoff-fidelity 抽取网页内容、社媒观点或行情终端数据。",
+        "description":  "Preserve UI implementation fidelity from design handoff through delivery. Use when implementing, reviewing, or planning app/web UI from reference images, screenshots, Figma, Open Design, Stitch, visual direction, design assets, tokens, or handoff packages; use for pixel-fidelity requests, screenshot QA, static UI artifacts, responsive layout checks, or when design facts are incomplete and work should stop before coding.",
+        "files":  2,
+        "relative_path":  "skills/ui-design-handoff-fidelity/SKILL.md",
+        "content_hash":  "b8692346aa3a0bfb328de02ef1923006092c257fd812b9360b5410f2b8f66650",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
         "name":  "faceless-explainer",
         "folder":  "faceless-explainer",
         "category":  "视频、图像与生成媒体",
@@ -436,40 +470,6 @@
         "files":  3,
         "relative_path":  "skills/prototype/SKILL.md",
         "content_hash":  "4e3043ef4f72f6f0d24ed82dfe1cd70c69d022e57a08bf83e6ce2a93bc9ffa0b",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "github:github",
-        "folder":  "github",
-        "category":  "GitHub、协作与交接",
-        "source":  "插件技能",
-        "purpose":  "Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app. Use when the user asks for...",
-        "scenario":  "处理 issue、PR、分支、冲突、交接和协作流程。",
-        "example":  "例：使用 github:github 整理交接说明或处理 PR 反馈。",
-        "description":  "Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app. Use when the user asks for general GitHub help, wants PR or issue summaries, or needs repository context before choosing a more specific GitHub workflow.",
-        "files":  4,
-        "relative_path":  "plugins/cache/openai-curated-remote/github/0.1.7-2841cf9749ae/skills/github/SKILL.md",
-        "content_hash":  "",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "google-drive:google-slides",
-        "folder":  "google-slides",
-        "category":  "办公文档与表格",
-        "source":  "插件技能",
-        "purpose":  "Google Slides work for finding, reading, summarizing, creating, importing, template following, visual cleanup, source-deck adap...",
-        "scenario":  "查找、读取、创建或编辑办公文档、表格和演示。",
-        "example":  "例：使用 google-drive:google-slides 总结文档、整理表格或创建演示稿。",
-        "description":  "Google Slides work for finding, reading, summarizing, creating, importing, template following, visual cleanup, source-deck adaptation, structural repair, and content edits in native Slides decks.",
-        "files":  19,
-        "relative_path":  "plugins/cache/openai-curated-remote/google-drive/0.1.8/skills/google-slides/SKILL.md",
-        "content_hash":  "",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -527,6 +527,40 @@
         "conflict":  false
     },
     {
+        "name":  "remotion-to-hyperframes",
+        "folder":  "remotion-to-hyperframes",
+        "category":  "视频、图像与生成媒体",
+        "source":  "个人安装",
+        "purpose":  "把已有 Remotion/React 视频合成迁移到 HyperFrames。适用于迁移和转换，不用于从零创作新视频。默认使用中文说明。",
+        "scenario":  "生成、剪辑、渲染或处理视频/图像/音频素材。",
+        "example":  "例：使用 remotion-to-hyperframes 制作短视频、字幕、动态图形或图像素材。",
+        "description":  "把已有 Remotion/React 视频合成迁移到 HyperFrames。适用于迁移和转换，不用于从零创作新视频。默认使用中文说明。",
+        "files":  70,
+        "relative_path":  "skills/remotion-to-hyperframes/SKILL.md",
+        "content_hash":  "b3f70531db3f0364170b000069bf0aafb25465a714038be06d905cb70fed1a7b",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "imagegen",
+        "folder":  "imagegen",
+        "category":  "UI/UX 与前端设计",
+        "source":  "个人安装",
+        "purpose":  "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, s...",
+        "scenario":  "设计、实现或评审用户界面。",
+        "example":  "例：使用 imagegen 设计响应式页面或优化组件交互。",
+        "description":  "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
+        "files":  11,
+        "relative_path":  "skills/imagegen/SKILL.md",
+        "content_hash":  "7598aeefb84068bbdd68beb923e1c4304ebd6810abc932c51da0972c161e17f8",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
         "name":  "edit-article",
         "folder":  "edit-article",
         "category":  "研究、写作与知识管理",
@@ -555,40 +589,6 @@
         "files":  32,
         "relative_path":  "skills/website-to-video/SKILL.md",
         "content_hash":  "164a0504a70281cc4c219f0743a7e4fd83bca570bd4c6296707a69b0d3c5781c",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "remotion-to-hyperframes",
-        "folder":  "remotion-to-hyperframes",
-        "category":  "视频、图像与生成媒体",
-        "source":  "个人安装",
-        "purpose":  "把已有 Remotion/React 视频合成迁移到 HyperFrames。适用于迁移和转换，不用于从零创作新视频。默认使用中文说明。",
-        "scenario":  "生成、剪辑、渲染或处理视频/图像/音频素材。",
-        "example":  "例：使用 remotion-to-hyperframes 制作短视频、字幕、动态图形或图像素材。",
-        "description":  "把已有 Remotion/React 视频合成迁移到 HyperFrames。适用于迁移和转换，不用于从零创作新视频。默认使用中文说明。",
-        "files":  70,
-        "relative_path":  "skills/remotion-to-hyperframes/SKILL.md",
-        "content_hash":  "b3f70531db3f0364170b000069bf0aafb25465a714038be06d905cb70fed1a7b",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "record-and-replay",
-        "folder":  "record-and-replay",
-        "category":  "视频、图像与生成媒体",
-        "source":  "个人安装",
-        "purpose":  "当用户希望 Codex 录制 Linux 桌面或浏览器工作流，并把可重复流程转成可复用 skill 时使用。需要 Record \u0026 Replay event-stream MCP server。回答和说明默认使用中文。",
-        "scenario":  "把可重复的桌面/浏览器操作录制成可复用流程。",
-        "example":  "例：录制一次后台系统导出报表流程，再转成 skill。",
-        "description":  "当用户希望 Codex 录制 Linux 桌面或浏览器工作流，并把可重复流程转成可复用 skill 时使用。需要 Record \u0026 Replay event-stream MCP server。回答和说明默认使用中文。",
-        "files":  1,
-        "relative_path":  "skills/record-and-replay/SKILL.md",
-        "content_hash":  "86a0c307b996ee71ac11ae5dac54f5c508a570a655beee76b6b07e097824b4ea",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -646,6 +646,40 @@
         "conflict":  false
     },
     {
+        "name":  "saas-valuation-compression",
+        "folder":  "saas-valuation-compression",
+        "category":  "金融与市场分析",
+        "source":  "个人安装",
+        "purpose":  "分析 SaaS 公司估值倍数压缩，覆盖 ARR/收入倍数、利率、增长、利润率、同业比较、原因归因和情景影响。",
+        "scenario":  "研究行情、财务、估值、市场情绪或交易风险。",
+        "example":  "例：使用 saas-valuation-compression 分析某只股票/ETF 的关键指标、风险和关注点。",
+        "description":  "分析 SaaS 公司估值倍数压缩，覆盖 ARR/收入倍数、利率、增长、利润率、同业比较、原因归因和情景影响。",
+        "files":  2,
+        "relative_path":  "skills/saas-valuation-compression/SKILL.md",
+        "content_hash":  "85e776d18dd975f1f77168b2021cc6002ca998fa965271fa5dfa7721bbf068f4",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "record-and-replay",
+        "folder":  "record-and-replay",
+        "category":  "视频、图像与生成媒体",
+        "source":  "个人安装",
+        "purpose":  "当用户希望 Codex 录制 Linux 桌面或浏览器工作流，并把可重复流程转成可复用 skill 时使用。需要 Record \u0026 Replay event-stream MCP server。回答和说明默认使用中文。",
+        "scenario":  "把可重复的桌面/浏览器操作录制成可复用流程。",
+        "example":  "例：录制一次后台系统导出报表流程，再转成 skill。",
+        "description":  "当用户希望 Codex 录制 Linux 桌面或浏览器工作流，并把可重复流程转成可复用 skill 时使用。需要 Record \u0026 Replay event-stream MCP server。回答和说明默认使用中文。",
+        "files":  1,
+        "relative_path":  "skills/record-and-replay/SKILL.md",
+        "content_hash":  "86a0c307b996ee71ac11ae5dac54f5c508a570a655beee76b6b07e097824b4ea",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
         "name":  "motion-graphics",
         "folder":  "motion-graphics",
         "category":  "视频、图像与生成媒体",
@@ -674,40 +708,6 @@
         "files":  4,
         "relative_path":  "skills/options-payoff/SKILL.md",
         "content_hash":  "8c227aea471cd008c9b7924a849348c56e5259f27e812466525e6867054eeea7",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "saas-valuation-compression",
-        "folder":  "saas-valuation-compression",
-        "category":  "金融与市场分析",
-        "source":  "个人安装",
-        "purpose":  "分析 SaaS 公司估值倍数压缩，覆盖 ARR/收入倍数、利率、增长、利润率、同业比较、原因归因和情景影响。",
-        "scenario":  "研究行情、财务、估值、市场情绪或交易风险。",
-        "example":  "例：使用 saas-valuation-compression 分析某只股票/ETF 的关键指标、风险和关注点。",
-        "description":  "分析 SaaS 公司估值倍数压缩，覆盖 ARR/收入倍数、利率、增长、利润率、同业比较、原因归因和情景影响。",
-        "files":  2,
-        "relative_path":  "skills/saas-valuation-compression/SKILL.md",
-        "content_hash":  "85e776d18dd975f1f77168b2021cc6002ca998fa965271fa5dfa7721bbf068f4",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "imagegen",
-        "folder":  "imagegen",
-        "category":  "UI/UX 与前端设计",
-        "source":  "个人安装",
-        "purpose":  "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, s...",
-        "scenario":  "设计、实现或评审用户界面。",
-        "example":  "例：使用 imagegen 设计响应式页面或优化组件交互。",
-        "description":  "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
-        "files":  11,
-        "relative_path":  "skills/imagegen/SKILL.md",
-        "content_hash":  "7598aeefb84068bbdd68beb923e1c4304ebd6810abc932c51da0972c161e17f8",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -765,6 +765,40 @@
         "conflict":  false
     },
     {
+        "name":  "earnings-recap",
+        "folder":  "earnings-recap",
+        "category":  "金融与市场分析",
+        "source":  "个人安装",
+        "purpose":  "生成财报发布后复盘，比较实际值与预期值，分析 EPS、收入、利润率、指引、价格反应和后续关注点。",
+        "scenario":  "研究行情、财务、估值、市场情绪或交易风险。",
+        "example":  "例：使用 earnings-recap 分析某只股票/ETF 的关键指标、风险和关注点。",
+        "description":  "生成财报发布后复盘，比较实际值与预期值，分析 EPS、收入、利润率、指引、价格反应和后续关注点。",
+        "files":  3,
+        "relative_path":  "skills/earnings-recap/SKILL.md",
+        "content_hash":  "efa5584a1a9c600c9d2c8ca47430be037a51ad6069aaefde8c4c4313acddcd5c",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "google-drive:google-slides",
+        "folder":  "google-slides",
+        "category":  "办公文档与表格",
+        "source":  "插件技能",
+        "purpose":  "Google Slides work for finding, reading, summarizing, creating, importing, template following, visual cleanup, source-deck adap...",
+        "scenario":  "查找、读取、创建或编辑办公文档、表格和演示。",
+        "example":  "例：使用 google-drive:google-slides 总结文档、整理表格或创建演示稿。",
+        "description":  "Google Slides work for finding, reading, summarizing, creating, importing, template following, visual cleanup, source-deck adaptation, structural repair, and content edits in native Slides decks.",
+        "files":  19,
+        "relative_path":  "plugins/cache/openai-curated-remote/google-drive/0.1.8/skills/google-slides/SKILL.md",
+        "content_hash":  "",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
         "name":  "github:gh-fix-ci",
         "folder":  "gh-fix-ci",
         "category":  "GitHub、协作与交接",
@@ -799,40 +833,6 @@
         "conflict":  false
     },
     {
-        "name":  "earnings-recap",
-        "folder":  "earnings-recap",
-        "category":  "金融与市场分析",
-        "source":  "个人安装",
-        "purpose":  "生成财报发布后复盘，比较实际值与预期值，分析 EPS、收入、利润率、指引、价格反应和后续关注点。",
-        "scenario":  "研究行情、财务、估值、市场情绪或交易风险。",
-        "example":  "例：使用 earnings-recap 分析某只股票/ETF 的关键指标、风险和关注点。",
-        "description":  "生成财报发布后复盘，比较实际值与预期值，分析 EPS、收入、利润率、指引、价格反应和后续关注点。",
-        "files":  3,
-        "relative_path":  "skills/earnings-recap/SKILL.md",
-        "content_hash":  "efa5584a1a9c600c9d2c8ca47430be037a51ad6069aaefde8c4c4313acddcd5c",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "writing-great-skills",
-        "folder":  "writing-great-skills",
-        "category":  "研究、写作与知识管理",
-        "source":  "个人安装",
-        "purpose":  "编写和编辑优秀 skills 的参考技能，提供让技能更可预测的词汇和原则。适用于创建、评审或改进 skill。默认使用中文沟通。",
-        "scenario":  "做调研、写作、教学、笔记管理或需求澄清。",
-        "example":  "例：使用 writing-great-skills 把想法整理成 PRD、文章或学习材料。",
-        "description":  "编写和编辑优秀 skills 的参考技能，提供让技能更可预测的词汇和原则。适用于创建、评审或改进 skill。默认使用中文沟通。",
-        "files":  2,
-        "relative_path":  "skills/writing-great-skills/SKILL.md",
-        "content_hash":  "af96a82c2c5670282d66b69b9164f6df482a5f38dc2ad3136e0d51645011eb3c",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
         "name":  "migrate-to-shoehorn",
         "folder":  "migrate-to-shoehorn",
         "category":  "软件工程与代码质量",
@@ -850,17 +850,17 @@
         "conflict":  false
     },
     {
-        "name":  "grill-with-docs",
-        "folder":  "grill-with-docs",
-        "category":  "办公文档与表格",
+        "name":  "remotion-best-practices",
+        "folder":  "remotion-best-practices",
+        "category":  "视频、图像与生成媒体",
         "source":  "个人安装",
-        "purpose":  "通过高强度追问打磨计划或设计，并在过程中创建文档（ADR 和术语表）。适用于正式开工前澄清需求、设计和风险。默认使用中文沟通。",
-        "scenario":  "查找、读取、创建或编辑办公文档、表格和演示。",
-        "example":  "例：使用 grill-with-docs 总结文档、整理表格或创建演示稿。",
-        "description":  "通过高强度追问打磨计划或设计，并在过程中创建文档（ADR 和术语表）。适用于正式开工前澄清需求、设计和风险。默认使用中文沟通。",
-        "files":  1,
-        "relative_path":  "skills/grill-with-docs/SKILL.md",
-        "content_hash":  "ae6824096eeece06d18032b82535d984f34eb860bdf47b616684443847d8f3ff",
+        "purpose":  "Remotion + React 视频开发最佳实践。适用于编写、审查或排查 Remotion 合成、动画、序列、音频、字幕、媒体处理、转场、渲染配置和相关辅助工作流。回答和说明默认使用中文。",
+        "scenario":  "生成、剪辑、渲染或处理视频/图像/音频素材。",
+        "example":  "例：使用 remotion-best-practices 制作短视频、字幕、动态图形或图像素材。",
+        "description":  "Remotion + React 视频开发最佳实践。适用于编写、审查或排查 Remotion 合成、动画、序列、音频、字幕、媒体处理、转场、渲染配置和相关辅助工作流。回答和说明默认使用中文。",
+        "files":  41,
+        "relative_path":  "skills/remotion-best-practices/SKILL.md",
+        "content_hash":  "2f656e8e064e8c1dd5a261bddfc0c9408c6766f033a69f37d076fd7fd7269944",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -878,6 +878,40 @@
         "files":  1,
         "relative_path":  "skills/setup-pre-commit/SKILL.md",
         "content_hash":  "0224c6ac342f436641f47cc5e2f3de83da05ef8afece22c79aa90bf45b72e9d5",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "funda-data",
+        "folder":  "funda-data",
+        "category":  "金融与市场分析",
+        "source":  "个人安装",
+        "purpose":  "通过 Funda AI MCP 或 REST API 查询金融数据与研究结果，覆盖实时行情、财务报表、期权链、DCF、可比公司、财报预览/复盘、SEC 文件、供应链、资金流、宏观与新闻。",
+        "scenario":  "通过 Funda AI 查询金融数据、新闻、财报、SEC 文件等。",
+        "example":  "例：汇总某公司最新财报预览、DCF 和可比公司估值。",
+        "description":  "通过 Funda AI MCP 或 REST API 查询金融数据与研究结果，覆盖实时行情、财务报表、期权链、DCF、可比公司、财报预览/复盘、SEC 文件、供应链、资金流、宏观与新闻。",
+        "files":  14,
+        "relative_path":  "skills/funda-data/SKILL.md",
+        "content_hash":  "8bcd4d2e6c4fd0d3c0b106ee0d54614e88f41e2e013ea401af9058699f0d656f",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "writing-great-skills",
+        "folder":  "writing-great-skills",
+        "category":  "研究、写作与知识管理",
+        "source":  "个人安装",
+        "purpose":  "编写和编辑优秀 skills 的参考技能，提供让技能更可预测的词汇和原则。适用于创建、评审或改进 skill。默认使用中文沟通。",
+        "scenario":  "做调研、写作、教学、笔记管理或需求澄清。",
+        "example":  "例：使用 writing-great-skills 把想法整理成 PRD、文章或学习材料。",
+        "description":  "编写和编辑优秀 skills 的参考技能，提供让技能更可预测的词汇和原则。适用于创建、评审或改进 skill。默认使用中文沟通。",
+        "files":  2,
+        "relative_path":  "skills/writing-great-skills/SKILL.md",
+        "content_hash":  "af96a82c2c5670282d66b69b9164f6df482a5f38dc2ad3136e0d51645011eb3c",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -918,40 +952,6 @@
         "conflict":  false
     },
     {
-        "name":  "funda-data",
-        "folder":  "funda-data",
-        "category":  "金融与市场分析",
-        "source":  "个人安装",
-        "purpose":  "通过 Funda AI MCP 或 REST API 查询金融数据与研究结果，覆盖实时行情、财务报表、期权链、DCF、可比公司、财报预览/复盘、SEC 文件、供应链、资金流、宏观与新闻。",
-        "scenario":  "通过 Funda AI 查询金融数据、新闻、财报、SEC 文件等。",
-        "example":  "例：汇总某公司最新财报预览、DCF 和可比公司估值。",
-        "description":  "通过 Funda AI MCP 或 REST API 查询金融数据与研究结果，覆盖实时行情、财务报表、期权链、DCF、可比公司、财报预览/复盘、SEC 文件、供应链、资金流、宏观与新闻。",
-        "files":  14,
-        "relative_path":  "skills/funda-data/SKILL.md",
-        "content_hash":  "8bcd4d2e6c4fd0d3c0b106ee0d54614e88f41e2e013ea401af9058699f0d656f",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "estimate-analysis",
-        "folder":  "estimate-analysis",
-        "category":  "金融与市场分析",
-        "source":  "个人安装",
-        "purpose":  "深入分析分析师预期，包括盈利和收入修正趋势、增长预测、历史准确度、上调/下调动量以及潜在估值影响。",
-        "scenario":  "研究行情、财务、估值、市场情绪或交易风险。",
-        "example":  "例：使用 estimate-analysis 分析某只股票/ETF 的关键指标、风险和关注点。",
-        "description":  "深入分析分析师预期，包括盈利和收入修正趋势、增长预测、历史准确度、上调/下调动量以及潜在估值影响。",
-        "files":  3,
-        "relative_path":  "skills/estimate-analysis/SKILL.md",
-        "content_hash":  "0258ddcc7a8d4fd5aeeb9585af93f84b0bed8fe1367b5115beff637942127295",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
         "name":  "domain-modeling",
         "folder":  "domain-modeling",
         "category":  "UI/UX 与前端设计",
@@ -980,6 +980,40 @@
         "files":  4,
         "relative_path":  "skills/opencli-reader/SKILL.md",
         "content_hash":  "cb92252baa22d85bb13e8dace5b0d7a48722ac66f6d6876e00c8b0df65696ed7",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "obsidian-vault",
+        "folder":  "obsidian-vault",
+        "category":  "研究、写作与知识管理",
+        "source":  "个人安装",
+        "purpose":  "在 Obsidian vault 中搜索、创建和管理笔记，支持 wikilinks 和 index notes。适用于查找、创建或整理 Obsidian 笔记。默认使用中文沟通。",
+        "scenario":  "做调研、写作、教学、笔记管理或需求澄清。",
+        "example":  "例：使用 obsidian-vault 把想法整理成 PRD、文章或学习材料。",
+        "description":  "在 Obsidian vault 中搜索、创建和管理笔记，支持 wikilinks 和 index notes。适用于查找、创建或整理 Obsidian 笔记。默认使用中文沟通。",
+        "files":  1,
+        "relative_path":  "skills/obsidian-vault/SKILL.md",
+        "content_hash":  "d19bb679b128ccca03b967c321d2c481e46e0e990f1bc12a0d26963525b9ce0e",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "estimate-analysis",
+        "folder":  "estimate-analysis",
+        "category":  "金融与市场分析",
+        "source":  "个人安装",
+        "purpose":  "深入分析分析师预期，包括盈利和收入修正趋势、增长预测、历史准确度、上调/下调动量以及潜在估值影响。",
+        "scenario":  "研究行情、财务、估值、市场情绪或交易风险。",
+        "example":  "例：使用 estimate-analysis 分析某只股票/ETF 的关键指标、风险和关注点。",
+        "description":  "深入分析分析师预期，包括盈利和收入修正趋势、增长预测、历史准确度、上调/下调动量以及潜在估值影响。",
+        "files":  3,
+        "relative_path":  "skills/estimate-analysis/SKILL.md",
+        "content_hash":  "0258ddcc7a8d4fd5aeeb9585af93f84b0bed8fe1367b5115beff637942127295",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -1037,40 +1071,6 @@
         "conflict":  false
     },
     {
-        "name":  "obsidian-vault",
-        "folder":  "obsidian-vault",
-        "category":  "研究、写作与知识管理",
-        "source":  "个人安装",
-        "purpose":  "在 Obsidian vault 中搜索、创建和管理笔记，支持 wikilinks 和 index notes。适用于查找、创建或整理 Obsidian 笔记。默认使用中文沟通。",
-        "scenario":  "做调研、写作、教学、笔记管理或需求澄清。",
-        "example":  "例：使用 obsidian-vault 把想法整理成 PRD、文章或学习材料。",
-        "description":  "在 Obsidian vault 中搜索、创建和管理笔记，支持 wikilinks 和 index notes。适用于查找、创建或整理 Obsidian 笔记。默认使用中文沟通。",
-        "files":  1,
-        "relative_path":  "skills/obsidian-vault/SKILL.md",
-        "content_hash":  "d19bb679b128ccca03b967c321d2c481e46e0e990f1bc12a0d26963525b9ce0e",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "improve-codebase-architecture",
-        "folder":  "improve-codebase-architecture",
-        "category":  "UI/UX 与前端设计",
-        "source":  "个人安装",
-        "purpose":  "扫描代码库中的架构加深机会，生成可视化 HTML 报告，并对选中的机会进行追问和深化。适用于改进代码库架构、发现模块边界和重构机会。默认使用中文沟通。",
-        "scenario":  "设计、实现或评审用户界面。",
-        "example":  "例：使用 improve-codebase-architecture 设计响应式页面或优化组件交互。",
-        "description":  "扫描代码库中的架构加深机会，生成可视化 HTML 报告，并对选中的机会进行追问和深化。适用于改进代码库架构、发现模块边界和重构机会。默认使用中文沟通。",
-        "files":  2,
-        "relative_path":  "skills/improve-codebase-architecture/SKILL.md",
-        "content_hash":  "11e9e82e2b1b299a702e5e57e213de9cd17bd95e40604347ae414825c23c9797",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
         "name":  "setup-matt-pocock-skills",
         "folder":  "setup-matt-pocock-skills",
         "category":  "GitHub、协作与交接",
@@ -1088,17 +1088,51 @@
         "conflict":  false
     },
     {
-        "name":  "git-guardrails-claude-code",
-        "folder":  "git-guardrails-claude-code",
-        "category":  "GitHub、协作与交接",
+        "name":  "grill-with-docs",
+        "folder":  "grill-with-docs",
+        "category":  "办公文档与表格",
         "source":  "个人安装",
-        "purpose":  "为 Claude Code 设置 hooks，在危险 git 命令执行前拦截，例如 push、reset --hard、clean、branch -D 等。适用于防止破坏性 git 操作、添加 git 安全 hooks 或阻止 push/reset。默认...",
-        "scenario":  "处理 issue、PR、分支、冲突、交接和协作流程。",
-        "example":  "例：使用 git-guardrails-claude-code 整理交接说明或处理 PR 反馈。",
-        "description":  "为 Claude Code 设置 hooks，在危险 git 命令执行前拦截，例如 push、reset --hard、clean、branch -D 等。适用于防止破坏性 git 操作、添加 git 安全 hooks 或阻止 push/reset。默认使用中文沟通。",
+        "purpose":  "通过高强度追问打磨计划或设计，并在过程中创建文档（ADR 和术语表）。适用于正式开工前澄清需求、设计和风险。默认使用中文沟通。",
+        "scenario":  "查找、读取、创建或编辑办公文档、表格和演示。",
+        "example":  "例：使用 grill-with-docs 总结文档、整理表格或创建演示稿。",
+        "description":  "通过高强度追问打磨计划或设计，并在过程中创建文档（ADR 和术语表）。适用于正式开工前澄清需求、设计和风险。默认使用中文沟通。",
+        "files":  1,
+        "relative_path":  "skills/grill-with-docs/SKILL.md",
+        "content_hash":  "ae6824096eeece06d18032b82535d984f34eb860bdf47b616684443847d8f3ff",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "ui-ux-pro-max",
+        "folder":  "ui-ux-pro-max",
+        "category":  "数据抓取与外部信息读取",
+        "source":  "个人安装",
+        "purpose":  "UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind）。动作：plan、build、...",
+        "scenario":  "设计、评审或优化网页/移动端界面。",
+        "example":  "例：评审一个 SaaS dashboard，并给出配色、排版、交互和无障碍改进建议。",
+        "description":  "UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind）。动作：plan、build、create、design、implement、review、fix、improve、optimize、enhance、refactor、check UI/UX code。项目：website、landing page、dashboard、admin panel、e-commerce、SaaS、portfolio、blog、mobile app、.html、.tsx、.vue、.svelte。元素：button、modal、navbar、sidebar、card、table、form、chart。风格：glassmorphism、claymorphism、minimalism、brutalism、neumorphism、bento grid、dark mode、responsive、skeuomorphism、flat design。主题：color palette、accessibility、animation、layout、typography、font pairing、spacing、hover、shadow、gradient。回答和说明默认使用中文。",
+        "files":  22,
+        "relative_path":  "skills/ui-ux-pro-max/SKILL.md",
+        "content_hash":  "2064e4016958b44f01cb30c26f6521df75e1e03f1087173539ca536701a7ca5e",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  true
+    },
+    {
+        "name":  "improve-codebase-architecture",
+        "folder":  "improve-codebase-architecture",
+        "category":  "UI/UX 与前端设计",
+        "source":  "个人安装",
+        "purpose":  "扫描代码库中的架构加深机会，生成可视化 HTML 报告，并对选中的机会进行追问和深化。适用于改进代码库架构、发现模块边界和重构机会。默认使用中文沟通。",
+        "scenario":  "设计、实现或评审用户界面。",
+        "example":  "例：使用 improve-codebase-architecture 设计响应式页面或优化组件交互。",
+        "description":  "扫描代码库中的架构加深机会，生成可视化 HTML 报告，并对选中的机会进行追问和深化。适用于改进代码库架构、发现模块边界和重构机会。默认使用中文沟通。",
         "files":  2,
-        "relative_path":  "skills/git-guardrails-claude-code/SKILL.md",
-        "content_hash":  "577cb597440318db6cdd75bf159262b46c05ab470d093245233b26e8b7d25d0e",
+        "relative_path":  "skills/improve-codebase-architecture/SKILL.md",
+        "content_hash":  "11e9e82e2b1b299a702e5e57e213de9cd17bd95e40604347ae414825c23c9797",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -1156,40 +1190,6 @@
         "conflict":  false
     },
     {
-        "name":  "ui-ux",
-        "folder":  "ui-ux",
-        "category":  "UI/UX 与前端设计",
-        "source":  "个人安装",
-        "purpose":  "UI/UX Pro Max 的短别名。用于用户输入 $ui、ui、ux、UI/UX、界面设计、交互设计、页面设计、前端视觉优化、设计评审时，转向 ui-ux-pro-max 技能。默认使用中文沟通。",
-        "scenario":  "快速触发 UI/UX Pro Max。",
-        "example":  "例：输入 $ui-ux 后让它帮你设计一个金融数据看板。",
-        "description":  "UI/UX Pro Max 的短别名。用于用户输入 $ui、ui、ux、UI/UX、界面设计、交互设计、页面设计、前端视觉优化、设计评审时，转向 ui-ux-pro-max 技能。默认使用中文沟通。",
-        "files":  1,
-        "relative_path":  "skills/ui-ux/SKILL.md",
-        "content_hash":  "bca162ab31793dc6813080cbcf28ddc588510376dc1d587eaca57ab816298eba",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "hyperframes-creative",
-        "folder":  "hyperframes-creative",
-        "category":  "视频、图像与生成媒体",
-        "source":  "个人安装",
-        "purpose":  "HyperFrames 创意指导技能，覆盖 frame.md、design.md、配色、字体、旁白、节奏规划和音频响应设计。默认使用中文沟通创意方案。",
-        "scenario":  "生成、剪辑、渲染或处理视频/图像/音频素材。",
-        "example":  "例：使用 hyperframes-creative 制作短视频、字幕、动态图形或图像素材。",
-        "description":  "HyperFrames 创意指导技能，覆盖 frame.md、design.md、配色、字体、旁白、节奏规划和音频响应设计。默认使用中文沟通创意方案。",
-        "files":  68,
-        "relative_path":  "skills/hyperframes-creative/SKILL.md",
-        "content_hash":  "a7c97ef4303ee18abfde74dc7214f596aa0e3be64e588f7fbdf87d1784cd0e3d",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
         "name":  "music-to-video",
         "folder":  "music-to-video",
         "category":  "视频、图像与生成媒体",
@@ -1218,6 +1218,40 @@
         "files":  5,
         "relative_path":  "skills/teach/SKILL.md",
         "content_hash":  "01c8de3c0077c12ef9e9b67047d47697675b22a1459a9089da594e24e66aa674",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "strix",
+        "folder":  "strix",
+        "category":  "软件工程与代码质量",
+        "source":  "个人安装",
+        "purpose":  "使用 Strix 做 AI 辅助安全测试和渗透测试规划，帮助发现 Web 应用、API、云配置和代码中的漏洞，并把发现转化为可修复的工程任务。来源：usestrix/strix。",
+        "scenario":  "辅助实现、测试、调试、架构设计和代码质量提升。",
+        "example":  "例：使用 strix 完成功能、写测试或审查模块边界。",
+        "description":  "使用 Strix 做 AI 辅助安全测试和渗透测试规划，帮助发现 Web 应用、API、云配置和代码中的漏洞，并把发现转化为可修复的工程任务。来源：usestrix/strix。",
+        "files":  1,
+        "relative_path":  "skills/strix/SKILL.md",
+        "content_hash":  "d231cc3602c0541bd3e59ac0052ec42ab5331d997dec792cda06b6a0a6917e22",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "hyperframes-creative",
+        "folder":  "hyperframes-creative",
+        "category":  "视频、图像与生成媒体",
+        "source":  "个人安装",
+        "purpose":  "HyperFrames 创意指导技能，覆盖 frame.md、design.md、配色、字体、旁白、节奏规划和音频响应设计。默认使用中文沟通创意方案。",
+        "scenario":  "生成、剪辑、渲染或处理视频/图像/音频素材。",
+        "example":  "例：使用 hyperframes-creative 制作短视频、字幕、动态图形或图像素材。",
+        "description":  "HyperFrames 创意指导技能，覆盖 frame.md、design.md、配色、字体、旁白、节奏规划和音频响应设计。默认使用中文沟通创意方案。",
+        "files":  68,
+        "relative_path":  "skills/hyperframes-creative/SKILL.md",
+        "content_hash":  "a7c97ef4303ee18abfde74dc7214f596aa0e3be64e588f7fbdf87d1784cd0e3d",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -1275,40 +1309,6 @@
         "conflict":  false
     },
     {
-        "name":  "strix",
-        "folder":  "strix",
-        "category":  "软件工程与代码质量",
-        "source":  "个人安装",
-        "purpose":  "使用 Strix 做 AI 辅助安全测试和渗透测试规划，帮助发现 Web 应用、API、云配置和代码中的漏洞，并把发现转化为可修复的工程任务。来源：usestrix/strix。",
-        "scenario":  "辅助实现、测试、调试、架构设计和代码质量提升。",
-        "example":  "例：使用 strix 完成功能、写测试或审查模块边界。",
-        "description":  "使用 Strix 做 AI 辅助安全测试和渗透测试规划，帮助发现 Web 应用、API、云配置和代码中的漏洞，并把发现转化为可修复的工程任务。来源：usestrix/strix。",
-        "files":  1,
-        "relative_path":  "skills/strix/SKILL.md",
-        "content_hash":  "d231cc3602c0541bd3e59ac0052ec42ab5331d997dec792cda06b6a0a6917e22",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "plugin-creator",
-        "folder":  "plugin-creator",
-        "category":  "Codex 扩展与系统工具",
-        "source":  "系统内置",
-        "purpose":  "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, va...",
-        "scenario":  "安装、创建、管理或扩展 Codex 能力。",
-        "example":  "例：使用 plugin-creator 安装新 skill、创建插件或配置工具链。",
-        "description":  "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, valid manifest defaults, and personal-marketplace entries by default. Use when Codex needs to create a new personal plugin, add optional plugin structure, generate or update marketplace entries for plugin ordering and availability metadata, or update an existing local plugin during development with the CLI-driven cachebuster and reinstall flow.",
-        "files":  10,
-        "relative_path":  "skills/.system/plugin-creator/SKILL.md",
-        "content_hash":  "",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
         "name":  "scrapling-official",
         "folder":  "scrapling-official",
         "category":  "数据抓取与外部信息读取",
@@ -1334,8 +1334,42 @@
         "scenario":  "安装、创建、管理或扩展 Codex 能力。",
         "example":  "例：使用 skill-creator 安装新 skill、创建插件或配置工具链。",
         "description":  "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex\u0027s capabilities with specialized knowledge, workflows, or tool integrations.",
-        "files":  9,
+        "files":  10,
         "relative_path":  "skills/.system/skill-creator/SKILL.md",
+        "content_hash":  "",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "ui-ux",
+        "folder":  "ui-ux",
+        "category":  "UI/UX 与前端设计",
+        "source":  "个人安装",
+        "purpose":  "UI/UX Pro Max 的短别名。用于用户输入 $ui、ui、ux、UI/UX、界面设计、交互设计、页面设计、前端视觉优化、设计评审时，转向 ui-ux-pro-max 技能。默认使用中文沟通。",
+        "scenario":  "快速触发 UI/UX Pro Max。",
+        "example":  "例：输入 $ui-ux 后让它帮你设计一个金融数据看板。",
+        "description":  "UI/UX Pro Max 的短别名。用于用户输入 $ui、ui、ux、UI/UX、界面设计、交互设计、页面设计、前端视觉优化、设计评审时，转向 ui-ux-pro-max 技能。默认使用中文沟通。",
+        "files":  1,
+        "relative_path":  "skills/ui-ux/SKILL.md",
+        "content_hash":  "bca162ab31793dc6813080cbcf28ddc588510376dc1d587eaca57ab816298eba",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "plugin-creator",
+        "folder":  "plugin-creator",
+        "category":  "Codex 扩展与系统工具",
+        "source":  "系统内置",
+        "purpose":  "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, va...",
+        "scenario":  "安装、创建、管理或扩展 Codex 能力。",
+        "example":  "例：使用 plugin-creator 安装新 skill、创建插件或配置工具链。",
+        "description":  "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, valid manifest defaults, and personal-marketplace entries by default. Use when Codex needs to create a new personal plugin, add optional plugin structure, generate or update marketplace entries for plugin ordering and availability metadata, or update an existing local plugin during development with the CLI-driven cachebuster and reinstall flow.",
+        "files":  10,
+        "relative_path":  "skills/.system/plugin-creator/SKILL.md",
         "content_hash":  "",
         "installed_on":  [
                              "SY-202303281047"
@@ -1394,57 +1428,6 @@
         "conflict":  false
     },
     {
-        "name":  "ui-ux-pro-max",
-        "folder":  "ui-ux-pro-max",
-        "category":  "数据抓取与外部信息读取",
-        "source":  "个人安装",
-        "purpose":  "UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind）。动作：plan、build、...",
-        "scenario":  "设计、评审或优化网页/移动端界面。",
-        "example":  "例：评审一个 SaaS dashboard，并给出配色、排版、交互和无障碍改进建议。",
-        "description":  "UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind）。动作：plan、build、create、design、implement、review、fix、improve、optimize、enhance、refactor、check UI/UX code。项目：website、landing page、dashboard、admin panel、e-commerce、SaaS、portfolio、blog、mobile app、.html、.tsx、.vue、.svelte。元素：button、modal、navbar、sidebar、card、table、form、chart。风格：glassmorphism、claymorphism、minimalism、brutalism、neumorphism、bento grid、dark mode、responsive、skeuomorphism、flat design。主题：color palette、accessibility、animation、layout、typography、font pairing、spacing、hover、shadow、gradient。回答和说明默认使用中文。",
-        "files":  21,
-        "relative_path":  "skills/ui-ux-pro-max/SKILL.md",
-        "content_hash":  "727f5e59bb8c4d802fafd0477787290fce8c46b6a7769270e0368b19dd79c597",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "hyperframes-cli",
-        "folder":  "hyperframes-cli",
-        "category":  "视频、图像与生成媒体",
-        "source":  "个人安装",
-        "purpose":  "HyperFrames CLI 开发循环技能，覆盖 init、lint、validate、inspect、preview、render、publish、doctor 等命令。默认使用中文说明操作步骤和诊断结果。",
-        "scenario":  "生成、剪辑、渲染或处理视频/图像/音频素材。",
-        "example":  "例：使用 hyperframes-cli 制作短视频、字幕、动态图形或图像素材。",
-        "description":  "HyperFrames CLI 开发循环技能，覆盖 init、lint、validate、inspect、preview、render、publish、doctor 等命令。默认使用中文说明操作步骤和诊断结果。",
-        "files":  7,
-        "relative_path":  "skills/hyperframes-cli/SKILL.md",
-        "content_hash":  "cbbb29cdb459c34be9b8f2623040f849c253179e2615e504768d84f39acf8a99",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "hyperliquid-reader",
-        "folder":  "hyperliquid-reader",
-        "category":  "金融与市场分析",
-        "source":  "个人安装",
-        "purpose":  "只读获取 Hyperliquid 永续合约和现货市场数据，包括中间价、资金费率、订单簿、K 线和跨市场套利观察。",
-        "scenario":  "研究行情、财务、估值、市场情绪或交易风险。",
-        "example":  "例：使用 hyperliquid-reader 分析某只股票/ETF 的关键指标、风险和关注点。",
-        "description":  "只读获取 Hyperliquid 永续合约和现货市场数据，包括中间价、资金费率、订单簿、K 线和跨市场套利观察。",
-        "files":  3,
-        "relative_path":  "skills/hyperliquid-reader/SKILL.md",
-        "content_hash":  "7fafab6b297075ae4b713b42a5ca29d535d235b26d269667a5950dd02f73654d",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
         "name":  "etf-premium",
         "folder":  "etf-premium",
         "category":  "金融与市场分析",
@@ -1462,17 +1445,51 @@
         "conflict":  false
     },
     {
-        "name":  "telegram-reader",
-        "folder":  "telegram-reader",
-        "category":  "数据抓取与外部信息读取",
+        "name":  "karpathy-guidelines",
+        "folder":  "karpathy-guidelines",
+        "category":  "UI/UX 与前端设计",
         "source":  "个人安装",
-        "purpose":  "通过 tdl 只读读取 Telegram 频道内容，适用于跟踪研究频道、公告、市场讨论和事件更新。",
-        "scenario":  "读取网页、社交平台、市场终端或外部信息源。",
-        "example":  "例：使用 telegram-reader 抽取网页内容、社媒观点或行情终端数据。",
-        "description":  "通过 tdl 只读读取 Telegram 频道内容，适用于跟踪研究频道、公告、市场讨论和事件更新。",
+        "purpose":  "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcompl...",
+        "scenario":  "设计、实现或评审用户界面。",
+        "example":  "例：使用 karpathy-guidelines 设计响应式页面或优化组件交互。",
+        "description":  "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
+        "files":  1,
+        "relative_path":  "skills/karpathy-guidelines/SKILL.md",
+        "content_hash":  "efa90d8474228b4acb670a7ce1e1b552c651373c8f6991204af445e38a3234ae",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "tdd",
+        "folder":  "tdd",
+        "category":  "软件工程与代码质量",
+        "source":  "个人安装",
+        "purpose":  "测试驱动开发技能。适用于用户想测试先行地构建功能或修复 bug，提到 red-green-refactor，或希望编写集成测试时。默认使用中文沟通。",
+        "scenario":  "测试驱动开发。",
+        "example":  "例：先写失败测试，再实现订单折扣计算逻辑。",
+        "description":  "测试驱动开发技能。适用于用户想测试先行地构建功能或修复 bug，提到 red-green-refactor，或希望编写集成测试时。默认使用中文沟通。",
         "files":  3,
-        "relative_path":  "skills/telegram-reader/SKILL.md",
-        "content_hash":  "b6b3fbe6ef3d1a6e67ce1909131823dfe3e8e1bf2e5397216673fd0172a665ad",
+        "relative_path":  "skills/tdd/SKILL.md",
+        "content_hash":  "d283ffb63a18704c990231673f8fd1164ae9e436fe1fe6e778dd17b06f3706d2",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "hyperliquid-reader",
+        "folder":  "hyperliquid-reader",
+        "category":  "金融与市场分析",
+        "source":  "个人安装",
+        "purpose":  "只读获取 Hyperliquid 永续合约和现货市场数据，包括中间价、资金费率、订单簿、K 线和跨市场套利观察。",
+        "scenario":  "研究行情、财务、估值、市场情绪或交易风险。",
+        "example":  "例：使用 hyperliquid-reader 分析某只股票/ETF 的关键指标、风险和关注点。",
+        "description":  "只读获取 Hyperliquid 永续合约和现货市场数据，包括中间价、资金费率、订单簿、K 线和跨市场套利观察。",
+        "files":  3,
+        "relative_path":  "skills/hyperliquid-reader/SKILL.md",
+        "content_hash":  "7fafab6b297075ae4b713b42a5ca29d535d235b26d269667a5950dd02f73654d",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -1513,34 +1530,17 @@
         "conflict":  false
     },
     {
-        "name":  "tdd",
-        "folder":  "tdd",
-        "category":  "软件工程与代码质量",
+        "name":  "hyperframes-cli",
+        "folder":  "hyperframes-cli",
+        "category":  "视频、图像与生成媒体",
         "source":  "个人安装",
-        "purpose":  "测试驱动开发技能。适用于用户想测试先行地构建功能或修复 bug，提到 red-green-refactor，或希望编写集成测试时。默认使用中文沟通。",
-        "scenario":  "测试驱动开发。",
-        "example":  "例：先写失败测试，再实现订单折扣计算逻辑。",
-        "description":  "测试驱动开发技能。适用于用户想测试先行地构建功能或修复 bug，提到 red-green-refactor，或希望编写集成测试时。默认使用中文沟通。",
-        "files":  3,
-        "relative_path":  "skills/tdd/SKILL.md",
-        "content_hash":  "d283ffb63a18704c990231673f8fd1164ae9e436fe1fe6e778dd17b06f3706d2",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "finance-sentiment",
-        "folder":  "finance-sentiment",
-        "category":  "金融与市场分析",
-        "source":  "个人安装",
-        "purpose":  "通过 Adanos Finance API 研究股票情绪，覆盖 Reddit、X、新闻和 Polymarket 等来源。适用于用户询问股票市场情绪、社媒热度、新闻情绪或事件驱动信号时。",
-        "scenario":  "研究行情、财务、估值、市场情绪或交易风险。",
-        "example":  "例：使用 finance-sentiment 分析某只股票/ETF 的关键指标、风险和关注点。",
-        "description":  "通过 Adanos Finance API 研究股票情绪，覆盖 Reddit、X、新闻和 Polymarket 等来源。适用于用户询问股票市场情绪、社媒热度、新闻情绪或事件驱动信号时。",
-        "files":  3,
-        "relative_path":  "skills/finance-sentiment/SKILL.md",
-        "content_hash":  "ae4bd97312e720848a7f65129c25f14620f7845cc5de1b6696d71e7b702a1e2d",
+        "purpose":  "HyperFrames CLI 开发循环技能，覆盖 init、lint、validate、inspect、preview、render、publish、doctor 等命令。默认使用中文说明操作步骤和诊断结果。",
+        "scenario":  "生成、剪辑、渲染或处理视频/图像/音频素材。",
+        "example":  "例：使用 hyperframes-cli 制作短视频、字幕、动态图形或图像素材。",
+        "description":  "HyperFrames CLI 开发循环技能，覆盖 init、lint、validate、inspect、preview、render、publish、doctor 等命令。默认使用中文说明操作步骤和诊断结果。",
+        "files":  7,
+        "relative_path":  "skills/hyperframes-cli/SKILL.md",
+        "content_hash":  "cbbb29cdb459c34be9b8f2623040f849c253179e2615e504768d84f39acf8a99",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -1575,6 +1575,40 @@
         "files":  1,
         "relative_path":  "skills/research/SKILL.md",
         "content_hash":  "9e15c275c771d3dcf63a2e7400ae987ccfd4642b28ac87e764ec39a207d0f237",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "twitter-reader",
+        "folder":  "twitter-reader",
+        "category":  "数据抓取与外部信息读取",
+        "source":  "个人安装",
+        "purpose":  "通过 opencli 只读读取 Twitter/X 研究内容，适用于市场情绪、KOL 观点、突发新闻、公司动态和社交信号分析。",
+        "scenario":  "读取网页、社交平台、市场终端或外部信息源。",
+        "example":  "例：使用 twitter-reader 抽取网页内容、社媒观点或行情终端数据。",
+        "description":  "通过 opencli 只读读取 Twitter/X 研究内容，适用于市场情绪、KOL 观点、突发新闻、公司动态和社交信号分析。",
+        "files":  4,
+        "relative_path":  "skills/twitter-reader/SKILL.md",
+        "content_hash":  "552f8988618b1844e9babb73f754f63862eb8438f351cdfaddcd409ee2921e09",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "finance-sentiment",
+        "folder":  "finance-sentiment",
+        "category":  "金融与市场分析",
+        "source":  "个人安装",
+        "purpose":  "通过 Adanos Finance API 研究股票情绪，覆盖 Reddit、X、新闻和 Polymarket 等来源。适用于用户询问股票市场情绪、社媒热度、新闻情绪或事件驱动信号时。",
+        "scenario":  "研究行情、财务、估值、市场情绪或交易风险。",
+        "example":  "例：使用 finance-sentiment 分析某只股票/ETF 的关键指标、风险和关注点。",
+        "description":  "通过 Adanos Finance API 研究股票情绪，覆盖 Reddit、X、新闻和 Polymarket 等来源。适用于用户询问股票市场情绪、社媒热度、新闻情绪或事件驱动信号时。",
+        "files":  3,
+        "relative_path":  "skills/finance-sentiment/SKILL.md",
+        "content_hash":  "ae4bd97312e720848a7f65129c25f14620f7845cc5de1b6696d71e7b702a1e2d",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -1632,34 +1666,51 @@
         "conflict":  false
     },
     {
-        "name":  "gpt-image-2",
-        "folder":  "gpt-image-2",
-        "category":  "视频、图像与生成媒体",
+        "name":  "tradingview-reader",
+        "folder":  "tradingview-reader",
+        "category":  "数据抓取与外部信息读取",
         "source":  "个人安装",
-        "purpose":  "GPT Image 2 的短别名。用于生图、画图、修图、透明 PNG、去背景、logo、icon、海报、产品图、UI mockup、游戏素材和信息图任务时，转向 `gpt-image-2-skill`。默认使用中文沟通。",
-        "scenario":  "快速触发 GPT Image 2 图片生成与编辑流程。",
-        "example":  "例：输入中文需求，生成 logo、海报、UI mockup 或产品图。",
-        "description":  "GPT Image 2 的短别名。用于生图、画图、修图、透明 PNG、去背景、logo、icon、海报、产品图、UI mockup、游戏素材和信息图任务时，转向 `gpt-image-2-skill`。默认使用中文沟通。",
-        "files":  1,
-        "relative_path":  "skills/gpt-image-2/SKILL.md",
-        "content_hash":  "c6249e5ca4d5f5304060103ba8e3f5bcc82b8a7794bd17dcd4c489a013565e89",
+        "purpose":  "只读读取 TradingView 桌面端或网页状态，获取报价、图表、期权链、希腊值、隐含波动率、到期日和截图等市场信息。",
+        "scenario":  "读取网页、社交平台、市场终端或外部信息源。",
+        "example":  "例：使用 tradingview-reader 抽取网页内容、社媒观点或行情终端数据。",
+        "description":  "只读读取 TradingView 桌面端或网页状态，获取报价、图表、期权链、希腊值、隐含波动率、到期日和截图等市场信息。",
+        "files":  3,
+        "relative_path":  "skills/tradingview-reader/SKILL.md",
+        "content_hash":  "6daabf96095697d0f84ea937dcd4ebbc9fff98468385c2a140cd7c24860347ff",
         "installed_on":  [
                              "SY-202303281047"
                          ],
         "conflict":  false
     },
     {
-        "name":  "remotion-best-practices",
-        "folder":  "remotion-best-practices",
-        "category":  "视频、图像与生成媒体",
+        "name":  "computer-use:computer-use",
+        "folder":  "computer-use",
+        "category":  "Codex 扩展与系统工具",
+        "source":  "插件技能",
+        "purpose":  "Control Windows apps from Codex",
+        "scenario":  "安装、创建、管理或扩展 Codex 能力。",
+        "example":  "例：使用 computer-use:computer-use 安装新 skill、创建插件或配置工具链。",
+        "description":  "Control Windows apps from Codex",
+        "files":  1,
+        "relative_path":  "plugins/cache/openai-bundled/computer-use/26.623.31921/skills/computer-use/SKILL.md",
+        "content_hash":  "",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "to-issues",
+        "folder":  "to-issues",
+        "category":  "GitHub、协作与交接",
         "source":  "个人安装",
-        "purpose":  "Remotion + React 视频开发最佳实践。适用于编写、审查或排查 Remotion 合成、动画、序列、音频、字幕、媒体处理、转场、渲染配置和相关辅助工作流。回答和说明默认使用中文。",
-        "scenario":  "生成、剪辑、渲染或处理视频/图像/音频素材。",
-        "example":  "例：使用 remotion-best-practices 制作短视频、字幕、动态图形或图像素材。",
-        "description":  "Remotion + React 视频开发最佳实践。适用于编写、审查或排查 Remotion 合成、动画、序列、音频、字幕、媒体处理、转场、渲染配置和相关辅助工作流。回答和说明默认使用中文。",
-        "files":  41,
-        "relative_path":  "skills/remotion-best-practices/SKILL.md",
-        "content_hash":  "2f656e8e064e8c1dd5a261bddfc0c9408c6766f033a69f37d076fd7fd7269944",
+        "purpose":  "把计划、规格或 PRD 按 tracer-bullet 垂直切片拆成可独立领取的 issue，并发布到项目 issue tracker。默认使用中文沟通。",
+        "scenario":  "处理 issue、PR、分支、冲突、交接和协作流程。",
+        "example":  "例：使用 to-issues 整理交接说明或处理 PR 反馈。",
+        "description":  "把计划、规格或 PRD 按 tracer-bullet 垂直切片拆成可独立领取的 issue，并发布到项目 issue tracker。默认使用中文沟通。",
+        "files":  1,
+        "relative_path":  "skills/to-issues/SKILL.md",
+        "content_hash":  "1fea0b4c05077dfac4714ee9f0813b6e4887599d9e3ddc4ed6621485ed7a3c15",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -1677,23 +1728,6 @@
         "files":  6,
         "relative_path":  "skills/videocut/SKILL.md",
         "content_hash":  "aaa801a9362a2e434440f10c94a5c7ed577c3c1ba61754b330732b9c7e795177",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "tradingview-reader",
-        "folder":  "tradingview-reader",
-        "category":  "数据抓取与外部信息读取",
-        "source":  "个人安装",
-        "purpose":  "只读读取 TradingView 桌面端或网页状态，获取报价、图表、期权链、希腊值、隐含波动率、到期日和截图等市场信息。",
-        "scenario":  "读取网页、社交平台、市场终端或外部信息源。",
-        "example":  "例：使用 tradingview-reader 抽取网页内容、社媒观点或行情终端数据。",
-        "description":  "只读读取 TradingView 桌面端或网页状态，获取报价、图表、期权链、希腊值、隐含波动率、到期日和截图等市场信息。",
-        "files":  3,
-        "relative_path":  "skills/tradingview-reader/SKILL.md",
-        "content_hash":  "6daabf96095697d0f84ea937dcd4ebbc9fff98468385c2a140cd7c24860347ff",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -1751,57 +1785,6 @@
         "conflict":  false
     },
     {
-        "name":  "computer-use:computer-use",
-        "folder":  "computer-use",
-        "category":  "Codex 扩展与系统工具",
-        "source":  "插件技能",
-        "purpose":  "Control Windows apps from Codex",
-        "scenario":  "安装、创建、管理或扩展 Codex 能力。",
-        "example":  "例：使用 computer-use:computer-use 安装新 skill、创建插件或配置工具链。",
-        "description":  "Control Windows apps from Codex",
-        "files":  1,
-        "relative_path":  "plugins/cache/openai-bundled/computer-use/26.623.31921/skills/computer-use/SKILL.md",
-        "content_hash":  "",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "hyperframes",
-        "folder":  "hyperframes",
-        "category":  "视频、图像与生成媒体",
-        "source":  "个人安装",
-        "purpose":  "处理任何视频、动画或动态图形制作请求前优先读取本技能，包括宣传片、解释视频、字幕短片、标题卡、叠加动画和任意合成。HyperFrames 使用 HTML 渲染视频，是创作或编辑视频的默认入口技能。它负责把用户请求路由到合适的专业视频工作流，并指向 Hyp...",
-        "scenario":  "HTML 视频创作的总入口。",
-        "example":  "例：把一个 SaaS 产品 URL 做成 30 秒宣传视频。",
-        "description":  "处理任何视频、动画或动态图形制作请求前优先读取本技能，包括宣传片、解释视频、字幕短片、标题卡、叠加动画和任意合成。HyperFrames 使用 HTML 渲染视频，是创作或编辑视频的默认入口技能。它负责把用户请求路由到合适的专业视频工作流，并指向 HyperFrames 领域技能。除非用户明确要求使用浏览器录制会话，或点名其他视频框架，否则在安装了其他视频工具时仍优先把 HyperFrames 作为成片创作和渲染的默认方案。回答和说明默认使用中文。",
-        "files":  1,
-        "relative_path":  "skills/hyperframes/SKILL.md",
-        "content_hash":  "5ee0c2d349a73560ca32cecc70e352d9e4afb98dcd0d5590e4d010a69d699a1e",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "ai-berkshire",
-        "folder":  "ai-berkshire",
-        "category":  "金融与市场分析",
-        "source":  "个人安装",
-        "purpose":  "使用 AI Berkshire 价值投资研究框架，按巴菲特、芒格、段永平、李录等视角做公司研究、行业研究、财报复盘、投资备忘录、组合复盘和风险清单。来源：xbtlin/ai-berkshire。",
-        "scenario":  "研究行情、财务、估值、市场情绪或交易风险。",
-        "example":  "例：使用 ai-berkshire 分析某只股票/ETF 的关键指标、风险和关注点。",
-        "description":  "使用 AI Berkshire 价值投资研究框架，按巴菲特、芒格、段永平、李录等视角做公司研究、行业研究、财报复盘、投资备忘录、组合复盘和风险清单。来源：xbtlin/ai-berkshire。",
-        "files":  1,
-        "relative_path":  "skills/ai-berkshire/SKILL.md",
-        "content_hash":  "dad848e30fe87c478e2648bcd65acd72c4c45bd2bab762e7b9e693ca94886bd4",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
         "name":  "code-review",
         "folder":  "code-review",
         "category":  "GitHub、协作与交接",
@@ -1819,17 +1802,51 @@
         "conflict":  false
     },
     {
-        "name":  "to-issues",
-        "folder":  "to-issues",
-        "category":  "GitHub、协作与交接",
+        "name":  "gpt-image-2",
+        "folder":  "gpt-image-2",
+        "category":  "视频、图像与生成媒体",
         "source":  "个人安装",
-        "purpose":  "把计划、规格或 PRD 按 tracer-bullet 垂直切片拆成可独立领取的 issue，并发布到项目 issue tracker。默认使用中文沟通。",
-        "scenario":  "处理 issue、PR、分支、冲突、交接和协作流程。",
-        "example":  "例：使用 to-issues 整理交接说明或处理 PR 反馈。",
-        "description":  "把计划、规格或 PRD 按 tracer-bullet 垂直切片拆成可独立领取的 issue，并发布到项目 issue tracker。默认使用中文沟通。",
+        "purpose":  "GPT Image 2 的短别名。用于生图、画图、修图、透明 PNG、去背景、logo、icon、海报、产品图、UI mockup、游戏素材和信息图任务时，转向 `gpt-image-2-skill`。默认使用中文沟通。",
+        "scenario":  "快速触发 GPT Image 2 图片生成与编辑流程。",
+        "example":  "例：输入中文需求，生成 logo、海报、UI mockup 或产品图。",
+        "description":  "GPT Image 2 的短别名。用于生图、画图、修图、透明 PNG、去背景、logo、icon、海报、产品图、UI mockup、游戏素材和信息图任务时，转向 `gpt-image-2-skill`。默认使用中文沟通。",
         "files":  1,
-        "relative_path":  "skills/to-issues/SKILL.md",
-        "content_hash":  "1fea0b4c05077dfac4714ee9f0813b6e4887599d9e3ddc4ed6621485ed7a3c15",
+        "relative_path":  "skills/gpt-image-2/SKILL.md",
+        "content_hash":  "c6249e5ca4d5f5304060103ba8e3f5bcc82b8a7794bd17dcd4c489a013565e89",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "telegram-reader",
+        "folder":  "telegram-reader",
+        "category":  "数据抓取与外部信息读取",
+        "source":  "个人安装",
+        "purpose":  "通过 tdl 只读读取 Telegram 频道内容，适用于跟踪研究频道、公告、市场讨论和事件更新。",
+        "scenario":  "读取网页、社交平台、市场终端或外部信息源。",
+        "example":  "例：使用 telegram-reader 抽取网页内容、社媒观点或行情终端数据。",
+        "description":  "通过 tdl 只读读取 Telegram 频道内容，适用于跟踪研究频道、公告、市场讨论和事件更新。",
+        "files":  3,
+        "relative_path":  "skills/telegram-reader/SKILL.md",
+        "content_hash":  "b6b3fbe6ef3d1a6e67ce1909131823dfe3e8e1bf2e5397216673fd0172a665ad",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "ai-berkshire",
+        "folder":  "ai-berkshire",
+        "category":  "金融与市场分析",
+        "source":  "个人安装",
+        "purpose":  "使用 AI Berkshire 价值投资研究框架，按巴菲特、芒格、段永平、李录等视角做公司研究、行业研究、财报复盘、投资备忘录、组合复盘和风险清单。来源：xbtlin/ai-berkshire。",
+        "scenario":  "研究行情、财务、估值、市场情绪或交易风险。",
+        "example":  "例：使用 ai-berkshire 分析某只股票/ETF 的关键指标、风险和关注点。",
+        "description":  "使用 AI Berkshire 价值投资研究框架，按巴菲特、芒格、段永平、李录等视角做公司研究、行业研究、财报复盘、投资备忘录、组合复盘和风险清单。来源：xbtlin/ai-berkshire。",
+        "files":  1,
+        "relative_path":  "skills/ai-berkshire/SKILL.md",
+        "content_hash":  "dad848e30fe87c478e2648bcd65acd72c4c45bd2bab762e7b9e693ca94886bd4",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -1864,6 +1881,23 @@
         "files":  5,
         "relative_path":  "skills/startup-analysis/SKILL.md",
         "content_hash":  "6c61cfcf0158eb408089091c546e3f6e1075b08bdf459fbc0a6ec3481eb902f7",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "hyperframes",
+        "folder":  "hyperframes",
+        "category":  "视频、图像与生成媒体",
+        "source":  "个人安装",
+        "purpose":  "处理任何视频、动画或动态图形制作请求前优先读取本技能，包括宣传片、解释视频、字幕短片、标题卡、叠加动画和任意合成。HyperFrames 使用 HTML 渲染视频，是创作或编辑视频的默认入口技能。它负责把用户请求路由到合适的专业视频工作流，并指向 Hyp...",
+        "scenario":  "HTML 视频创作的总入口。",
+        "example":  "例：把一个 SaaS 产品 URL 做成 30 秒宣传视频。",
+        "description":  "处理任何视频、动画或动态图形制作请求前优先读取本技能，包括宣传片、解释视频、字幕短片、标题卡、叠加动画和任意合成。HyperFrames 使用 HTML 渲染视频，是创作或编辑视频的默认入口技能。它负责把用户请求路由到合适的专业视频工作流，并指向 HyperFrames 领域技能。除非用户明确要求使用浏览器录制会话，或点名其他视频框架，否则在安装了其他视频工具时仍优先把 HyperFrames 作为成片创作和渲染的默认方案。回答和说明默认使用中文。",
+        "files":  1,
+        "relative_path":  "skills/hyperframes/SKILL.md",
+        "content_hash":  "5ee0c2d349a73560ca32cecc70e352d9e4afb98dcd0d5590e4d010a69d699a1e",
         "installed_on":  [
                              "SY-202303281047"
                          ],
