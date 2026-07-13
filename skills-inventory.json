@@ -1122,6 +1122,23 @@
         "conflict":  false
     },
     {
+        "name":  "twitter-reader",
+        "folder":  "twitter-reader",
+        "category":  "数据抓取与外部信息读取",
+        "source":  "个人安装",
+        "purpose":  "通过 opencli 只读读取 Twitter/X 研究内容，适用于市场情绪、KOL 观点、突发新闻、公司动态和社交信号分析。",
+        "scenario":  "当信息分散在网页、社交平台、论坛、Telegram/Discord/LinkedIn、市场终端或其他外部来源时使用；它适合读取、抓取、清洗和结构化外部事实。",
+        "example":  "例：使用 twitter-reader 抓取某项目官网、社媒和公告内容，提取时间线、关键观点、链接来源、可信度和需要进一步核验的字段。",
+        "description":  "通过 opencli 只读读取 Twitter/X 研究内容，适用于市场情绪、KOL 观点、突发新闻、公司动态和社交信号分析。",
+        "files":  4,
+        "relative_path":  "skills/twitter-reader/SKILL.md",
+        "content_hash":  "552f8988618b1844e9babb73f754f63862eb8438f351cdfaddcd409ee2921e09",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
         "name":  "opencli-reader",
         "folder":  "opencli-reader",
         "category":  "数据抓取与外部信息读取",
@@ -1258,23 +1275,6 @@
         "conflict":  false
     },
     {
-        "name":  "ui-ux-pro-max",
-        "folder":  "ui-ux-pro-max",
-        "category":  "数据抓取与外部信息读取",
-        "source":  "个人安装",
-        "purpose":  "UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind）。动作：plan、build、...",
-        "scenario":  "当你已经有页面、产品想法、截图或前端代码，需要判断界面是否专业、好用、信息层级是否清楚时使用；它适合输出布局、配色、组件状态、交互路径、移动端适配和无障碍改进建议。",
-        "example":  "例：给它一个 SaaS dashboard 截图或页面代码，让它指出导航、筛选、表格密度、按钮层级、空状态和移动端断点的问题，并给出可直接让前端修改的方案。",
-        "description":  "UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind）。动作：plan、build、create、design、implement、review、fix、improve、optimize、enhance、refactor、check UI/UX code。项目：website、landing page、dashboard、admin panel、e-commerce、SaaS、portfolio、blog、mobile app、.html、.tsx、.vue、.svelte。元素：button、modal、navbar、sidebar、card、table、form、chart。风格：glassmorphism、claymorphism、minimalism、brutalism、neumorphism、bento grid、dark mode、responsive、skeuomorphism、flat design。主题：color palette、accessibility、animation、layout、typography、font pairing、spacing、hover、shadow、gradient。回答和说明默认使用中文。",
-        "files":  22,
-        "relative_path":  "skills/ui-ux-pro-max/SKILL.md",
-        "content_hash":  "2064e4016958b44f01cb30c26f6521df75e1e03f1087173539ca536701a7ca5e",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  true
-    },
-    {
         "name":  "grill-with-docs",
         "folder":  "grill-with-docs",
         "category":  "办公文档与表格",
@@ -1292,17 +1292,17 @@
         "conflict":  false
     },
     {
-        "name":  "video-use",
-        "folder":  "video-use",
-        "category":  "视频、图像与生成媒体",
+        "name":  "nihaixia",
+        "folder":  "nihaixia",
+        "category":  "研究、写作与知识管理",
         "source":  "个人安装",
-        "purpose":  "通过对话编辑视频：转录、剪辑、调色、生成叠加动画、烧录字幕，适用于口播、蒙太奇、教程、旅行、访谈等素材。先提问并确认计划，再执行、迭代和保存。生产正确性规则必须严格遵守，其余部分允许按素材进行创作判断。回答和说明默认使用中文。",
-        "scenario":  "当你已经有视频素材，需要转录、剪辑、删除口误、添加字幕、调色、叠加图形或导出成片时使用；它适合对真实素材做可审查的剪辑循环。",
-        "example":  "例：导入一段口播视频，先转录并标出口误和停顿，再执行 FFmpeg 剪辑、烧录字幕、生成预览并反复审查到没有明显错误。",
-        "description":  "通过对话编辑视频：转录、剪辑、调色、生成叠加动画、烧录字幕，适用于口播、蒙太奇、教程、旅行、访谈等素材。先提问并确认计划，再执行、迭代和保存。生产正确性规则必须严格遵守，其余部分允许按素材进行创作判断。回答和说明默认使用中文。",
-        "files":  33,
-        "relative_path":  "skills/video-use/SKILL.md",
-        "content_hash":  "32355874cc112e8bc05bf6a5d6aea9f90018b01f837328631cd4fb235b1e8a22",
+        "purpose":  "倪海厦（1954-2012）台湾中医师，经方派代表人物，汉唐中医创始人。 核心心智模型：六经辨证、阳气论、经典至上、经方为主。 决策启发式：先辨六经再选方、阳气不足先扶阳、经典原方最可靠。 触发词：「倪海厦」「海厦视角」「中医倪海厦」「经方思维」「倪海厦...",
+        "scenario":  "当你要学习、检索或整理倪海厦相关公开教学资料时使用，覆盖伤寒论、金匮要略、黄帝内经、神农本草经、针灸、人纪医案、梁冬对话和经方思维。它适合做资料定位、课程复习、观点溯源、术语解释和学习笔记整理；不能用于个人医疗诊断、处方、剂量或替代医生建议。",
+        "example":  "例：用户询问倪海厦怎么看失眠时，先按关键词索引定位失眠、六健康标准、黄连阿胶汤和相关 modules，再引用资料观点整理成学习笔记，并明确这只是课程资料梳理，不给个人用药建议。",
+        "description":  "倪海厦（1954-2012）台湾中医师，经方派代表人物，汉唐中医创始人。 核心心智模型：六经辨证、阳气论、经典至上、经方为主。 决策启发式：先辨六经再选方、阳气不足先扶阳、经典原方最可靠。 触发词：「倪海厦」「海厦视角」「中医倪海厦」「经方思维」「倪海厦会怎么看」「倪师」。 知识库覆盖：伤寒论129条全+金匮23篇+黄帝内经18篇+针灸教程+神农本草经345种+天纪+849医案（按疾病分类6个模块）+梁冬对话+口述表达DNA+六经辨证诊断公式（8个公式+快速诊断流程图+脉舌速查+合病并病速查+真寒假热鉴别+七步走思维模式）。 基于一手素材：梁冬对话录音稿、人纪班闭门课记录、医案集、神农本草经视频讲义。版本：2026-05-23 StableV2026.5.23+Bencao。",
+        "files":  32,
+        "relative_path":  "skills/nihaixia/SKILL.md",
+        "content_hash":  "664d24b3f18a30c18d237c3b9ce649f62af039af2086246b087e75791f30cdaf",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -1324,6 +1324,23 @@
                              "SY-202303281047"
                          ],
         "conflict":  false
+    },
+    {
+        "name":  "ui-ux-pro-max",
+        "folder":  "ui-ux-pro-max",
+        "category":  "数据抓取与外部信息读取",
+        "source":  "个人安装",
+        "purpose":  "UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind）。动作：plan、build、...",
+        "scenario":  "当你已经有页面、产品想法、截图或前端代码，需要判断界面是否专业、好用、信息层级是否清楚时使用；它适合输出布局、配色、组件状态、交互路径、移动端适配和无障碍改进建议。",
+        "example":  "例：给它一个 SaaS dashboard 截图或页面代码，让它指出导航、筛选、表格密度、按钮层级、空状态和移动端断点的问题，并给出可直接让前端修改的方案。",
+        "description":  "UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind）。动作：plan、build、create、design、implement、review、fix、improve、optimize、enhance、refactor、check UI/UX code。项目：website、landing page、dashboard、admin panel、e-commerce、SaaS、portfolio、blog、mobile app、.html、.tsx、.vue、.svelte。元素：button、modal、navbar、sidebar、card、table、form、chart。风格：glassmorphism、claymorphism、minimalism、brutalism、neumorphism、bento grid、dark mode、responsive、skeuomorphism、flat design。主题：color palette、accessibility、animation、layout、typography、font pairing、spacing、hover、shadow、gradient。回答和说明默认使用中文。",
+        "files":  22,
+        "relative_path":  "skills/ui-ux-pro-max/SKILL.md",
+        "content_hash":  "2064e4016958b44f01cb30c26f6521df75e1e03f1087173539ca536701a7ca5e",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  true
     },
     {
         "name":  "saas-valuation-compression",
@@ -1683,23 +1700,6 @@
         "conflict":  false
     },
     {
-        "name":  "karpathy-guidelines",
-        "folder":  "karpathy-guidelines",
-        "category":  "UI/UX 与前端设计",
-        "source":  "个人安装",
-        "purpose":  "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcompl...",
-        "scenario":  "当你需要设计页面、评审界面、优化交互、做原型或把产品需求落到前端结构时使用；它适合处理信息架构、视觉层级、组件状态、响应式布局和可用性问题。",
-        "example":  "例：使用 karpathy-guidelines 设计一个数据看板，明确用户任务、页面区块、筛选交互、表格/图表密度、空状态、错误状态和移动端适配规则。",
-        "description":  "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
-        "files":  1,
-        "relative_path":  "skills/karpathy-guidelines/SKILL.md",
-        "content_hash":  "efa90d8474228b4acb670a7ce1e1b552c651373c8f6991204af445e38a3234ae",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
         "name":  "github:yeet",
         "folder":  "yeet",
         "category":  "GitHub、协作与交接",
@@ -1710,74 +1710,6 @@
         "description":  "Publish local changes to GitHub by confirming scope, committing intentionally, pushing the branch, and opening a draft PR through the GitHub app from this plugin, with `gh` used only as a fallback where connector coverage is insufficient.",
         "files":  5,
         "relative_path":  "plugins/cache/openai-curated-remote/github/0.1.8-2841cf9749ae/skills/yeet/SKILL.md",
-        "content_hash":  "",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "triage",
-        "folder":  "triage",
-        "category":  "GitHub、协作与交接",
-        "source":  "个人安装",
-        "purpose":  "按 triage 角色状态机推进 issues 和外部 PR：分类、验证、必要时追问，并写成 agent-ready brief。默认使用中文沟通。",
-        "scenario":  "当工作围绕 issue、PR、分支、commit、CI、代码审查、合并冲突或任务交接展开时使用；它适合把协作信息整理成可执行动作和清晰记录。",
-        "example":  "例：使用 triage 读取 PR 和 review comments，判断哪些反馈需要改代码、哪些需要回复说明，并输出修改计划、风险点和提交说明。",
-        "description":  "按 triage 角色状态机推进 issues 和外部 PR：分类、验证、必要时追问，并写成 agent-ready brief。默认使用中文沟通。",
-        "files":  3,
-        "relative_path":  "skills/triage/SKILL.md",
-        "content_hash":  "440898a9beb1cf62f35fb13a477e5d844eeb3c673ba637a465c02c5a9f9898ac",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "tdd",
-        "folder":  "tdd",
-        "category":  "软件工程与代码质量",
-        "source":  "个人安装",
-        "purpose":  "测试驱动开发技能。适用于用户想测试先行地构建功能或修复 bug，提到 red-green-refactor，或希望编写集成测试时。默认使用中文沟通。",
-        "scenario":  "当你希望测试先行地新增功能或修复 bug 时使用；它适合先写能失败的最小测试，再实现代码并做 red-green-refactor。",
-        "example":  "例：先写订单折扣计算的边界测试，包括空购物车、叠加优惠、四舍五入和非法输入，再实现最小逻辑让测试通过。",
-        "description":  "测试驱动开发技能。适用于用户想测试先行地构建功能或修复 bug，提到 red-green-refactor，或希望编写集成测试时。默认使用中文沟通。",
-        "files":  3,
-        "relative_path":  "skills/tdd/SKILL.md",
-        "content_hash":  "d283ffb63a18704c990231673f8fd1164ae9e436fe1fe6e778dd17b06f3706d2",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "openai-templates:artifact-template-three-statement-forecast",
-        "folder":  "artifact-template-three-statement-forecast",
-        "category":  "UI/UX 与前端设计",
-        "source":  "插件技能",
-        "purpose":  "Create a spreadsheet using the Three-Statement Forecast template and its retained reference file. Use when the user selects or...",
-        "scenario":  "当你需要设计页面、评审界面、优化交互、做原型或把产品需求落到前端结构时使用；它适合处理信息架构、视觉层级、组件状态、响应式布局和可用性问题。",
-        "example":  "例：使用 openai-templates:artifact-template-three-statement-forecast 设计一个数据看板，明确用户任务、页面区块、筛选交互、表格/图表密度、空状态、错误状态和移动端适配规则。",
-        "description":  "Create a spreadsheet using the Three-Statement Forecast template and its retained reference file. Use when the user selects or names Three-Statement Forecast. Build an integrated income statement, balance sheet, and cash flow forecast with assumptions, checks, and an executive summary.",
-        "files":  5,
-        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-three-statement-forecast/SKILL.md",
-        "content_hash":  "",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "openai-templates:artifact-template-sales-pipeline",
-        "folder":  "artifact-template-sales-pipeline",
-        "category":  "办公文档与表格",
-        "source":  "插件技能",
-        "purpose":  "Create a spreadsheet using the Sales Pipeline template and its retained reference file. Use when the user selects or names Sale...",
-        "scenario":  "当任务涉及 Google Drive、文档、表格、幻灯片、Markdown 报告或结构化资料整理时使用；它适合把零散文本/数据变成可阅读、可编辑、可展示的办公产物。",
-        "example":  "例：使用 openai-templates:artifact-template-sales-pipeline 汇总一份调研材料，整理为带标题层级、关键结论、数据表、待办项和演示页大纲的文档。",
-        "description":  "Create a spreadsheet using the Sales Pipeline template and its retained reference file. Use when the user selects or names Sales Pipeline. Track opportunities, stages, owners, deal sizes, probabilities, forecasts, next steps, and risks.",
-        "files":  5,
-        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-sales-pipeline/SKILL.md",
         "content_hash":  "",
         "installed_on":  [
                              "SY-202303281047"
@@ -1802,153 +1734,51 @@
         "conflict":  false
     },
     {
-        "name":  "hyperliquid-reader",
-        "folder":  "hyperliquid-reader",
-        "category":  "金融与市场分析",
+        "name":  "tdd",
+        "folder":  "tdd",
+        "category":  "软件工程与代码质量",
         "source":  "个人安装",
-        "purpose":  "只读获取 Hyperliquid 永续合约和现货市场数据，包括中间价、资金费率、订单簿、K 线和跨市场套利观察。",
-        "scenario":  "当任务涉及股票、基金、ETF、期权、财报、估值、市场情绪、流动性或交易风险时使用；它适合把原始行情和财务数据转成可执行的投资判断、风险提示和后续跟踪清单。",
-        "example":  "例：使用 hyperliquid-reader 分析一只股票或基金，输出核心指标、趋势变化、估值位置、催化因素、下行风险、适合加仓/减仓/观望的条件。",
-        "description":  "只读获取 Hyperliquid 永续合约和现货市场数据，包括中间价、资金费率、订单簿、K 线和跨市场套利观察。",
+        "purpose":  "测试驱动开发技能。适用于用户想测试先行地构建功能或修复 bug，提到 red-green-refactor，或希望编写集成测试时。默认使用中文沟通。",
+        "scenario":  "当你希望测试先行地新增功能或修复 bug 时使用；它适合先写能失败的最小测试，再实现代码并做 red-green-refactor。",
+        "example":  "例：先写订单折扣计算的边界测试，包括空购物车、叠加优惠、四舍五入和非法输入，再实现最小逻辑让测试通过。",
+        "description":  "测试驱动开发技能。适用于用户想测试先行地构建功能或修复 bug，提到 red-green-refactor，或希望编写集成测试时。默认使用中文沟通。",
         "files":  3,
-        "relative_path":  "skills/hyperliquid-reader/SKILL.md",
-        "content_hash":  "7fafab6b297075ae4b713b42a5ca29d535d235b26d269667a5950dd02f73654d",
+        "relative_path":  "skills/tdd/SKILL.md",
+        "content_hash":  "d283ffb63a18704c990231673f8fd1164ae9e436fe1fe6e778dd17b06f3706d2",
         "installed_on":  [
                              "SY-202303281047"
                          ],
         "conflict":  false
     },
     {
-        "name":  "research",
-        "folder":  "research",
-        "category":  "办公文档与表格",
+        "name":  "karpathy-guidelines",
+        "folder":  "karpathy-guidelines",
+        "category":  "UI/UX 与前端设计",
         "source":  "个人安装",
-        "purpose":  "基于高可信一手来源调查问题，并把发现保存为仓库内 Markdown 文件。适用于研究主题、收集文档/API 事实，或把阅读调研交给后台 agent。默认使用中文沟通。",
-        "scenario":  "当任务涉及 Google Drive、文档、表格、幻灯片、Markdown 报告或结构化资料整理时使用；它适合把零散文本/数据变成可阅读、可编辑、可展示的办公产物。",
-        "example":  "例：使用 research 汇总一份调研材料，整理为带标题层级、关键结论、数据表、待办项和演示页大纲的文档。",
-        "description":  "基于高可信一手来源调查问题，并把发现保存为仓库内 Markdown 文件。适用于研究主题、收集文档/API 事实，或把阅读调研交给后台 agent。默认使用中文沟通。",
+        "purpose":  "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcompl...",
+        "scenario":  "当你需要设计页面、评审界面、优化交互、做原型或把产品需求落到前端结构时使用；它适合处理信息架构、视觉层级、组件状态、响应式布局和可用性问题。",
+        "example":  "例：使用 karpathy-guidelines 设计一个数据看板，明确用户任务、页面区块、筛选交互、表格/图表密度、空状态、错误状态和移动端适配规则。",
+        "description":  "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
         "files":  1,
-        "relative_path":  "skills/research/SKILL.md",
-        "content_hash":  "9e15c275c771d3dcf63a2e7400ae987ccfd4642b28ac87e764ec39a207d0f237",
+        "relative_path":  "skills/karpathy-guidelines/SKILL.md",
+        "content_hash":  "efa90d8474228b4acb670a7ce1e1b552c651373c8f6991204af445e38a3234ae",
         "installed_on":  [
                              "SY-202303281047"
                          ],
         "conflict":  false
     },
     {
-        "name":  "discord-reader",
-        "folder":  "discord-reader",
-        "category":  "数据抓取与外部信息读取",
-        "source":  "个人安装",
-        "purpose":  "通过 opencli 只读读取 Discord 研究内容，适用于提取群组讨论、项目动态、市场观点和社群信号。",
-        "scenario":  "当信息分散在网页、社交平台、论坛、Telegram/Discord/LinkedIn、市场终端或其他外部来源时使用；它适合读取、抓取、清洗和结构化外部事实。",
-        "example":  "例：使用 discord-reader 抓取某项目官网、社媒和公告内容，提取时间线、关键观点、链接来源、可信度和需要进一步核验的字段。",
-        "description":  "通过 opencli 只读读取 Discord 研究内容，适用于提取群组讨论、项目动态、市场观点和社群信号。",
-        "files":  3,
-        "relative_path":  "skills/discord-reader/SKILL.md",
-        "content_hash":  "a9a11278470f2ca4222009b57bf1aa46942e6d3269f9f3a8d7755f6260496382",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "twitter-reader",
-        "folder":  "twitter-reader",
-        "category":  "数据抓取与外部信息读取",
-        "source":  "个人安装",
-        "purpose":  "通过 opencli 只读读取 Twitter/X 研究内容，适用于市场情绪、KOL 观点、突发新闻、公司动态和社交信号分析。",
-        "scenario":  "当信息分散在网页、社交平台、论坛、Telegram/Discord/LinkedIn、市场终端或其他外部来源时使用；它适合读取、抓取、清洗和结构化外部事实。",
-        "example":  "例：使用 twitter-reader 抓取某项目官网、社媒和公告内容，提取时间线、关键观点、链接来源、可信度和需要进一步核验的字段。",
-        "description":  "通过 opencli 只读读取 Twitter/X 研究内容，适用于市场情绪、KOL 观点、突发新闻、公司动态和社交信号分析。",
-        "files":  4,
-        "relative_path":  "skills/twitter-reader/SKILL.md",
-        "content_hash":  "552f8988618b1844e9babb73f754f63862eb8438f351cdfaddcd409ee2921e09",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "openai-templates:artifact-template-strategy-memorandum",
-        "folder":  "artifact-template-strategy-memorandum",
-        "category":  "通用工具",
-        "source":  "插件技能",
-        "purpose":  "Create a document using the Strategy Memorandum template and its retained reference file. Use when the user selects or names St...",
-        "scenario":  "当任务不属于明确专门领域，但需要按固定流程、工具约束或上下文规则完成时使用；它适合把重复任务整理成可调用的操作路径。",
-        "example":  "例：使用 openai-templates:artifact-template-strategy-memorandum 处理对应领域的一次具体请求，先确认输入和输出，再执行步骤、记录结果，并说明后续如何复用。",
-        "description":  "Create a document using the Strategy Memorandum template and its retained reference file. Use when the user selects or names Strategy Memorandum. Present strategic context, choices, rationale, risks, milestones, and a clear recommendation.",
-        "files":  5,
-        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-strategy-memorandum/SKILL.md",
-        "content_hash":  "",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "sepa-strategy",
-        "folder":  "sepa-strategy",
-        "category":  "金融与市场分析",
-        "source":  "个人安装",
-        "purpose":  "按 Mark Minervini SEPA 框架分析趋势模板、VCP 形态、入场点、止损、仓位和风险控制，适用于成长股波段交易。",
-        "scenario":  "当任务涉及股票、基金、ETF、期权、财报、估值、市场情绪、流动性或交易风险时使用；它适合把原始行情和财务数据转成可执行的投资判断、风险提示和后续跟踪清单。",
-        "example":  "例：使用 sepa-strategy 分析一只股票或基金，输出核心指标、趋势变化、估值位置、催化因素、下行风险、适合加仓/减仓/观望的条件。",
-        "description":  "按 Mark Minervini SEPA 框架分析趋势模板、VCP 形态、入场点、止损、仓位和风险控制，适用于成长股波段交易。",
-        "files":  9,
-        "relative_path":  "skills/sepa-strategy/SKILL.md",
-        "content_hash":  "9dcae855fc0a3f8f05b3e1ae8a24c653ee01452392b50cb1bc54f4894afd2c77",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "openai-templates:artifact-template-project-tracker",
-        "folder":  "artifact-template-project-tracker",
+        "name":  "openai-templates:artifact-template-sales-pipeline",
+        "folder":  "artifact-template-sales-pipeline",
         "category":  "办公文档与表格",
         "source":  "插件技能",
-        "purpose":  "Create a spreadsheet using the Project Tracker template and its retained reference file. Use when the user selects or names Pro...",
+        "purpose":  "Create a spreadsheet using the Sales Pipeline template and its retained reference file. Use when the user selects or names Sale...",
         "scenario":  "当任务涉及 Google Drive、文档、表格、幻灯片、Markdown 报告或结构化资料整理时使用；它适合把零散文本/数据变成可阅读、可编辑、可展示的办公产物。",
-        "example":  "例：使用 openai-templates:artifact-template-project-tracker 汇总一份调研材料，整理为带标题层级、关键结论、数据表、待办项和演示页大纲的文档。",
-        "description":  "Create a spreadsheet using the Project Tracker template and its retained reference file. Use when the user selects or names Project Tracker. Manage workstreams, tasks, owners, status, priority, dates, launch pulse, and a Gantt schedule.",
+        "example":  "例：使用 openai-templates:artifact-template-sales-pipeline 汇总一份调研材料，整理为带标题层级、关键结论、数据表、待办项和演示页大纲的文档。",
+        "description":  "Create a spreadsheet using the Sales Pipeline template and its retained reference file. Use when the user selects or names Sales Pipeline. Track opportunities, stages, owners, deal sizes, probabilities, forecasts, next steps, and risks.",
         "files":  5,
-        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-project-tracker/SKILL.md",
+        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-sales-pipeline/SKILL.md",
         "content_hash":  "",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "finance-sentiment",
-        "folder":  "finance-sentiment",
-        "category":  "金融与市场分析",
-        "source":  "个人安装",
-        "purpose":  "通过 Adanos Finance API 研究股票情绪，覆盖 Reddit、X、新闻和 Polymarket 等来源。适用于用户询问股票市场情绪、社媒热度、新闻情绪或事件驱动信号时。",
-        "scenario":  "当任务涉及股票、基金、ETF、期权、财报、估值、市场情绪、流动性或交易风险时使用；它适合把原始行情和财务数据转成可执行的投资判断、风险提示和后续跟踪清单。",
-        "example":  "例：使用 finance-sentiment 分析一只股票或基金，输出核心指标、趋势变化、估值位置、催化因素、下行风险、适合加仓/减仓/观望的条件。",
-        "description":  "通过 Adanos Finance API 研究股票情绪，覆盖 Reddit、X、新闻和 Polymarket 等来源。适用于用户询问股票市场情绪、社媒热度、新闻情绪或事件驱动信号时。",
-        "files":  3,
-        "relative_path":  "skills/finance-sentiment/SKILL.md",
-        "content_hash":  "ae4bd97312e720848a7f65129c25f14620f7845cc5de1b6696d71e7b702a1e2d",
-        "installed_on":  [
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
-    },
-    {
-        "name":  "hormuz-strait",
-        "folder":  "hormuz-strait",
-        "category":  "金融与市场分析",
-        "source":  "个人安装",
-        "purpose":  "监控霍尔木兹海峡相关风险，分析航运、原油价格、保险成本、危机时间线及其对能源、通胀和市场的潜在影响。",
-        "scenario":  "当任务涉及股票、基金、ETF、期权、财报、估值、市场情绪、流动性或交易风险时使用；它适合把原始行情和财务数据转成可执行的投资判断、风险提示和后续跟踪清单。",
-        "example":  "例：使用 hormuz-strait 分析一只股票或基金，输出核心指标、趋势变化、估值位置、催化因素、下行风险、适合加仓/减仓/观望的条件。",
-        "description":  "监控霍尔木兹海峡相关风险，分析航运、原油价格、保险成本、危机时间线及其对能源、通胀和市场的潜在影响。",
-        "files":  3,
-        "relative_path":  "skills/hormuz-strait/SKILL.md",
-        "content_hash":  "4b18a3eb95d76b18328d7f295a3d8fb0f1c6fb2bcf8a37db36669f4342b6e8ff",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -1972,17 +1802,187 @@
         "conflict":  false
     },
     {
-        "name":  "computer-use:computer-use",
-        "folder":  "computer-use",
-        "category":  "Codex 扩展与系统工具",
+        "name":  "hyperliquid-reader",
+        "folder":  "hyperliquid-reader",
+        "category":  "金融与市场分析",
+        "source":  "个人安装",
+        "purpose":  "只读获取 Hyperliquid 永续合约和现货市场数据，包括中间价、资金费率、订单簿、K 线和跨市场套利观察。",
+        "scenario":  "当任务涉及股票、基金、ETF、期权、财报、估值、市场情绪、流动性或交易风险时使用；它适合把原始行情和财务数据转成可执行的投资判断、风险提示和后续跟踪清单。",
+        "example":  "例：使用 hyperliquid-reader 分析一只股票或基金，输出核心指标、趋势变化、估值位置、催化因素、下行风险、适合加仓/减仓/观望的条件。",
+        "description":  "只读获取 Hyperliquid 永续合约和现货市场数据，包括中间价、资金费率、订单簿、K 线和跨市场套利观察。",
+        "files":  3,
+        "relative_path":  "skills/hyperliquid-reader/SKILL.md",
+        "content_hash":  "7fafab6b297075ae4b713b42a5ca29d535d235b26d269667a5950dd02f73654d",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "openai-templates:artifact-template-three-statement-forecast",
+        "folder":  "artifact-template-three-statement-forecast",
+        "category":  "UI/UX 与前端设计",
         "source":  "插件技能",
-        "purpose":  "Control Windows apps from Codex",
-        "scenario":  "当你要安装/创建/维护 skill、插件、MCP、浏览器/桌面控制能力或 Codex 配置时使用；它适合处理环境搭建、能力扩展、同步备份和故障诊断。",
-        "example":  "例：使用 computer-use:computer-use 安装一个 GitHub skill，检查 SKILL.md、汉化说明、同步到技能仓库，并更新公开可视化清单。",
-        "description":  "Control Windows apps from Codex",
-        "files":  1,
-        "relative_path":  "plugins/cache/openai-bundled/computer-use/26.623.31921/skills/computer-use/SKILL.md",
+        "purpose":  "Create a spreadsheet using the Three-Statement Forecast template and its retained reference file. Use when the user selects or...",
+        "scenario":  "当你需要设计页面、评审界面、优化交互、做原型或把产品需求落到前端结构时使用；它适合处理信息架构、视觉层级、组件状态、响应式布局和可用性问题。",
+        "example":  "例：使用 openai-templates:artifact-template-three-statement-forecast 设计一个数据看板，明确用户任务、页面区块、筛选交互、表格/图表密度、空状态、错误状态和移动端适配规则。",
+        "description":  "Create a spreadsheet using the Three-Statement Forecast template and its retained reference file. Use when the user selects or names Three-Statement Forecast. Build an integrated income statement, balance sheet, and cash flow forecast with assumptions, checks, and an executive summary.",
+        "files":  5,
+        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-three-statement-forecast/SKILL.md",
         "content_hash":  "",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "discord-reader",
+        "folder":  "discord-reader",
+        "category":  "数据抓取与外部信息读取",
+        "source":  "个人安装",
+        "purpose":  "通过 opencli 只读读取 Discord 研究内容，适用于提取群组讨论、项目动态、市场观点和社群信号。",
+        "scenario":  "当信息分散在网页、社交平台、论坛、Telegram/Discord/LinkedIn、市场终端或其他外部来源时使用；它适合读取、抓取、清洗和结构化外部事实。",
+        "example":  "例：使用 discord-reader 抓取某项目官网、社媒和公告内容，提取时间线、关键观点、链接来源、可信度和需要进一步核验的字段。",
+        "description":  "通过 opencli 只读读取 Discord 研究内容，适用于提取群组讨论、项目动态、市场观点和社群信号。",
+        "files":  3,
+        "relative_path":  "skills/discord-reader/SKILL.md",
+        "content_hash":  "a9a11278470f2ca4222009b57bf1aa46942e6d3269f9f3a8d7755f6260496382",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "finance-sentiment",
+        "folder":  "finance-sentiment",
+        "category":  "金融与市场分析",
+        "source":  "个人安装",
+        "purpose":  "通过 Adanos Finance API 研究股票情绪，覆盖 Reddit、X、新闻和 Polymarket 等来源。适用于用户询问股票市场情绪、社媒热度、新闻情绪或事件驱动信号时。",
+        "scenario":  "当任务涉及股票、基金、ETF、期权、财报、估值、市场情绪、流动性或交易风险时使用；它适合把原始行情和财务数据转成可执行的投资判断、风险提示和后续跟踪清单。",
+        "example":  "例：使用 finance-sentiment 分析一只股票或基金，输出核心指标、趋势变化、估值位置、催化因素、下行风险、适合加仓/减仓/观望的条件。",
+        "description":  "通过 Adanos Finance API 研究股票情绪，覆盖 Reddit、X、新闻和 Polymarket 等来源。适用于用户询问股票市场情绪、社媒热度、新闻情绪或事件驱动信号时。",
+        "files":  3,
+        "relative_path":  "skills/finance-sentiment/SKILL.md",
+        "content_hash":  "ae4bd97312e720848a7f65129c25f14620f7845cc5de1b6696d71e7b702a1e2d",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "openai-templates:artifact-template-strategy-memorandum",
+        "folder":  "artifact-template-strategy-memorandum",
+        "category":  "通用工具",
+        "source":  "插件技能",
+        "purpose":  "Create a document using the Strategy Memorandum template and its retained reference file. Use when the user selects or names St...",
+        "scenario":  "当任务不属于明确专门领域，但需要按固定流程、工具约束或上下文规则完成时使用；它适合把重复任务整理成可调用的操作路径。",
+        "example":  "例：使用 openai-templates:artifact-template-strategy-memorandum 处理对应领域的一次具体请求，先确认输入和输出，再执行步骤、记录结果，并说明后续如何复用。",
+        "description":  "Create a document using the Strategy Memorandum template and its retained reference file. Use when the user selects or names Strategy Memorandum. Present strategic context, choices, rationale, risks, milestones, and a clear recommendation.",
+        "files":  5,
+        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-strategy-memorandum/SKILL.md",
+        "content_hash":  "",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "research",
+        "folder":  "research",
+        "category":  "办公文档与表格",
+        "source":  "个人安装",
+        "purpose":  "基于高可信一手来源调查问题，并把发现保存为仓库内 Markdown 文件。适用于研究主题、收集文档/API 事实，或把阅读调研交给后台 agent。默认使用中文沟通。",
+        "scenario":  "当任务涉及 Google Drive、文档、表格、幻灯片、Markdown 报告或结构化资料整理时使用；它适合把零散文本/数据变成可阅读、可编辑、可展示的办公产物。",
+        "example":  "例：使用 research 汇总一份调研材料，整理为带标题层级、关键结论、数据表、待办项和演示页大纲的文档。",
+        "description":  "基于高可信一手来源调查问题，并把发现保存为仓库内 Markdown 文件。适用于研究主题、收集文档/API 事实，或把阅读调研交给后台 agent。默认使用中文沟通。",
+        "files":  1,
+        "relative_path":  "skills/research/SKILL.md",
+        "content_hash":  "9e15c275c771d3dcf63a2e7400ae987ccfd4642b28ac87e764ec39a207d0f237",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "openai-templates:artifact-template-project-tracker",
+        "folder":  "artifact-template-project-tracker",
+        "category":  "办公文档与表格",
+        "source":  "插件技能",
+        "purpose":  "Create a spreadsheet using the Project Tracker template and its retained reference file. Use when the user selects or names Pro...",
+        "scenario":  "当任务涉及 Google Drive、文档、表格、幻灯片、Markdown 报告或结构化资料整理时使用；它适合把零散文本/数据变成可阅读、可编辑、可展示的办公产物。",
+        "example":  "例：使用 openai-templates:artifact-template-project-tracker 汇总一份调研材料，整理为带标题层级、关键结论、数据表、待办项和演示页大纲的文档。",
+        "description":  "Create a spreadsheet using the Project Tracker template and its retained reference file. Use when the user selects or names Project Tracker. Manage workstreams, tasks, owners, status, priority, dates, launch pulse, and a Gantt schedule.",
+        "files":  5,
+        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-project-tracker/SKILL.md",
+        "content_hash":  "",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "triage",
+        "folder":  "triage",
+        "category":  "GitHub、协作与交接",
+        "source":  "个人安装",
+        "purpose":  "按 triage 角色状态机推进 issues 和外部 PR：分类、验证、必要时追问，并写成 agent-ready brief。默认使用中文沟通。",
+        "scenario":  "当工作围绕 issue、PR、分支、commit、CI、代码审查、合并冲突或任务交接展开时使用；它适合把协作信息整理成可执行动作和清晰记录。",
+        "example":  "例：使用 triage 读取 PR 和 review comments，判断哪些反馈需要改代码、哪些需要回复说明，并输出修改计划、风险点和提交说明。",
+        "description":  "按 triage 角色状态机推进 issues 和外部 PR：分类、验证、必要时追问，并写成 agent-ready brief。默认使用中文沟通。",
+        "files":  3,
+        "relative_path":  "skills/triage/SKILL.md",
+        "content_hash":  "440898a9beb1cf62f35fb13a477e5d844eeb3c673ba637a465c02c5a9f9898ac",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "hormuz-strait",
+        "folder":  "hormuz-strait",
+        "category":  "金融与市场分析",
+        "source":  "个人安装",
+        "purpose":  "监控霍尔木兹海峡相关风险，分析航运、原油价格、保险成本、危机时间线及其对能源、通胀和市场的潜在影响。",
+        "scenario":  "当任务涉及股票、基金、ETF、期权、财报、估值、市场情绪、流动性或交易风险时使用；它适合把原始行情和财务数据转成可执行的投资判断、风险提示和后续跟踪清单。",
+        "example":  "例：使用 hormuz-strait 分析一只股票或基金，输出核心指标、趋势变化、估值位置、催化因素、下行风险、适合加仓/减仓/观望的条件。",
+        "description":  "监控霍尔木兹海峡相关风险，分析航运、原油价格、保险成本、危机时间线及其对能源、通胀和市场的潜在影响。",
+        "files":  3,
+        "relative_path":  "skills/hormuz-strait/SKILL.md",
+        "content_hash":  "4b18a3eb95d76b18328d7f295a3d8fb0f1c6fb2bcf8a37db36669f4342b6e8ff",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "sepa-strategy",
+        "folder":  "sepa-strategy",
+        "category":  "金融与市场分析",
+        "source":  "个人安装",
+        "purpose":  "按 Mark Minervini SEPA 框架分析趋势模板、VCP 形态、入场点、止损、仓位和风险控制，适用于成长股波段交易。",
+        "scenario":  "当任务涉及股票、基金、ETF、期权、财报、估值、市场情绪、流动性或交易风险时使用；它适合把原始行情和财务数据转成可执行的投资判断、风险提示和后续跟踪清单。",
+        "example":  "例：使用 sepa-strategy 分析一只股票或基金，输出核心指标、趋势变化、估值位置、催化因素、下行风险、适合加仓/减仓/观望的条件。",
+        "description":  "按 Mark Minervini SEPA 框架分析趋势模板、VCP 形态、入场点、止损、仓位和风险控制，适用于成长股波段交易。",
+        "files":  9,
+        "relative_path":  "skills/sepa-strategy/SKILL.md",
+        "content_hash":  "9dcae855fc0a3f8f05b3e1ae8a24c653ee01452392b50cb1bc54f4894afd2c77",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "telegram-reader",
+        "folder":  "telegram-reader",
+        "category":  "数据抓取与外部信息读取",
+        "source":  "个人安装",
+        "purpose":  "通过 tdl 只读读取 Telegram 频道内容，适用于跟踪研究频道、公告、市场讨论和事件更新。",
+        "scenario":  "当信息分散在网页、社交平台、论坛、Telegram/Discord/LinkedIn、市场终端或其他外部来源时使用；它适合读取、抓取、清洗和结构化外部事实。",
+        "example":  "例：使用 telegram-reader 抓取某项目官网、社媒和公告内容，提取时间线、关键观点、链接来源、可信度和需要进一步核验的字段。",
+        "description":  "通过 tdl 只读读取 Telegram 频道内容，适用于跟踪研究频道、公告、市场讨论和事件更新。",
+        "files":  3,
+        "relative_path":  "skills/telegram-reader/SKILL.md",
+        "content_hash":  "b6b3fbe6ef3d1a6e67ce1909131823dfe3e8e1bf2e5397216673fd0172a665ad",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -2006,17 +2006,17 @@
         "conflict":  false
     },
     {
-        "name":  "slideshow",
-        "folder":  "slideshow",
+        "name":  "videocut",
+        "folder":  "videocut",
         "category":  "视频、图像与生成媒体",
         "source":  "个人安装",
-        "purpose":  "制作演示文稿、pitch deck 或交互式 deck，输出为可导航幻灯片而不是渲染视频。默认使用中文沟通。",
+        "purpose":  "执行视频剪辑。根据确认的删除任务执行 FFmpeg 剪辑，循环审查直到零口误，并生成字幕。触发词：执行剪辑、开始剪、确认剪辑。回答和说明默认使用中文。",
         "scenario":  "当你要生成或处理视频、图片、字幕、音频、动效、演示短片或可发布媒体资产时使用；它适合把创意需求拆成脚本、素材、生成、合成、审查和导出步骤。",
-        "example":  "例：使用 slideshow 制作一个产品短视频或图片资产，明确输入素材、画面风格、分辨率、字幕/旁白、导出格式，并给出可复查的中间文件。",
-        "description":  "制作演示文稿、pitch deck 或交互式 deck，输出为可导航幻灯片而不是渲染视频。默认使用中文沟通。",
-        "files":  2,
-        "relative_path":  "skills/slideshow/SKILL.md",
-        "content_hash":  "0d9c045baee7d9d6931b14f0d340adeb39f2bafeb7dd1f81949beec858727e55",
+        "example":  "例：使用 videocut 制作一个产品短视频或图片资产，明确输入素材、画面风格、分辨率、字幕/旁白、导出格式，并给出可复查的中间文件。",
+        "description":  "执行视频剪辑。根据确认的删除任务执行 FFmpeg 剪辑，循环审查直到零口误，并生成字幕。触发词：执行剪辑、开始剪、确认剪辑。回答和说明默认使用中文。",
+        "files":  6,
+        "relative_path":  "skills/videocut/SKILL.md",
+        "content_hash":  "aaa801a9362a2e434440f10c94a5c7ed577c3c1ba61754b330732b9c7e795177",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -2040,16 +2040,16 @@
         "conflict":  false
     },
     {
-        "name":  "imagegen",
-        "folder":  "imagegen",
-        "category":  "UI/UX 与前端设计",
-        "source":  "系统内置",
-        "purpose":  "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, s...",
-        "scenario":  "当你需要设计页面、评审界面、优化交互、做原型或把产品需求落到前端结构时使用；它适合处理信息架构、视觉层级、组件状态、响应式布局和可用性问题。",
-        "example":  "例：使用 imagegen 设计一个数据看板，明确用户任务、页面区块、筛选交互、表格/图表密度、空状态、错误状态和移动端适配规则。",
-        "description":  "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
-        "files":  12,
-        "relative_path":  "skills/.system/imagegen/SKILL.md",
+        "name":  "computer-use:computer-use",
+        "folder":  "computer-use",
+        "category":  "Codex 扩展与系统工具",
+        "source":  "插件技能",
+        "purpose":  "Control Windows apps from Codex",
+        "scenario":  "当你要安装/创建/维护 skill、插件、MCP、浏览器/桌面控制能力或 Codex 配置时使用；它适合处理环境搭建、能力扩展、同步备份和故障诊断。",
+        "example":  "例：使用 computer-use:computer-use 安装一个 GitHub skill，检查 SKILL.md、汉化说明、同步到技能仓库，并更新公开可视化清单。",
+        "description":  "Control Windows apps from Codex",
+        "files":  1,
+        "relative_path":  "plugins/cache/openai-bundled/computer-use/26.623.31921/skills/computer-use/SKILL.md",
         "content_hash":  "",
         "installed_on":  [
                              "SY-202303281047"
@@ -2074,17 +2074,17 @@
         "conflict":  false
     },
     {
-        "name":  "videocut",
-        "folder":  "videocut",
+        "name":  "video-use",
+        "folder":  "video-use",
         "category":  "视频、图像与生成媒体",
         "source":  "个人安装",
-        "purpose":  "执行视频剪辑。根据确认的删除任务执行 FFmpeg 剪辑，循环审查直到零口误，并生成字幕。触发词：执行剪辑、开始剪、确认剪辑。回答和说明默认使用中文。",
-        "scenario":  "当你要生成或处理视频、图片、字幕、音频、动效、演示短片或可发布媒体资产时使用；它适合把创意需求拆成脚本、素材、生成、合成、审查和导出步骤。",
-        "example":  "例：使用 videocut 制作一个产品短视频或图片资产，明确输入素材、画面风格、分辨率、字幕/旁白、导出格式，并给出可复查的中间文件。",
-        "description":  "执行视频剪辑。根据确认的删除任务执行 FFmpeg 剪辑，循环审查直到零口误，并生成字幕。触发词：执行剪辑、开始剪、确认剪辑。回答和说明默认使用中文。",
-        "files":  6,
-        "relative_path":  "skills/videocut/SKILL.md",
-        "content_hash":  "aaa801a9362a2e434440f10c94a5c7ed577c3c1ba61754b330732b9c7e795177",
+        "purpose":  "通过对话编辑视频：转录、剪辑、调色、生成叠加动画、烧录字幕，适用于口播、蒙太奇、教程、旅行、访谈等素材。先提问并确认计划，再执行、迭代和保存。生产正确性规则必须严格遵守，其余部分允许按素材进行创作判断。回答和说明默认使用中文。",
+        "scenario":  "当你已经有视频素材，需要转录、剪辑、删除口误、添加字幕、调色、叠加图形或导出成片时使用；它适合对真实素材做可审查的剪辑循环。",
+        "example":  "例：导入一段口播视频，先转录并标出口误和停顿，再执行 FFmpeg 剪辑、烧录字幕、生成预览并反复审查到没有明显错误。",
+        "description":  "通过对话编辑视频：转录、剪辑、调色、生成叠加动画、烧录字幕，适用于口播、蒙太奇、教程、旅行、访谈等素材。先提问并确认计划，再执行、迭代和保存。生产正确性规则必须严格遵守，其余部分允许按素材进行创作判断。回答和说明默认使用中文。",
+        "files":  33,
+        "relative_path":  "skills/video-use/SKILL.md",
+        "content_hash":  "32355874cc112e8bc05bf6a5d6aea9f90018b01f837328631cd4fb235b1e8a22",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -2108,17 +2108,17 @@
         "conflict":  false
     },
     {
-        "name":  "gpt-image-2",
-        "folder":  "gpt-image-2",
-        "category":  "视频、图像与生成媒体",
-        "source":  "个人安装",
-        "purpose":  "GPT Image 2 的短别名。用于生图、画图、修图、透明 PNG、去背景、logo、icon、海报、产品图、UI mockup、游戏素材和信息图任务时，转向 `gpt-image-2-skill`。默认使用中文沟通。",
-        "scenario":  "这是 GPT Image 2 图片工作流的短入口，适合快速触发生图、修图、产品图、logo、icon、海报和 UI mockup 任务。",
-        "example":  "例：输入 $gpt-image-2 生成一组金融 App 图标，让它产出风格统一、透明背景、可落地到界面中的 icon 资产。",
-        "description":  "GPT Image 2 的短别名。用于生图、画图、修图、透明 PNG、去背景、logo、icon、海报、产品图、UI mockup、游戏素材和信息图任务时，转向 `gpt-image-2-skill`。默认使用中文沟通。",
-        "files":  1,
-        "relative_path":  "skills/gpt-image-2/SKILL.md",
-        "content_hash":  "c6249e5ca4d5f5304060103ba8e3f5bcc82b8a7794bd17dcd4c489a013565e89",
+        "name":  "imagegen",
+        "folder":  "imagegen",
+        "category":  "UI/UX 与前端设计",
+        "source":  "系统内置",
+        "purpose":  "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, s...",
+        "scenario":  "当你需要设计页面、评审界面、优化交互、做原型或把产品需求落到前端结构时使用；它适合处理信息架构、视觉层级、组件状态、响应式布局和可用性问题。",
+        "example":  "例：使用 imagegen 设计一个数据看板，明确用户任务、页面区块、筛选交互、表格/图表密度、空状态、错误状态和移动端适配规则。",
+        "description":  "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
+        "files":  12,
+        "relative_path":  "skills/.system/imagegen/SKILL.md",
+        "content_hash":  "",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -2142,17 +2142,17 @@
         "conflict":  false
     },
     {
-        "name":  "telegram-reader",
-        "folder":  "telegram-reader",
-        "category":  "数据抓取与外部信息读取",
+        "name":  "ai-berkshire",
+        "folder":  "ai-berkshire",
+        "category":  "金融与市场分析",
         "source":  "个人安装",
-        "purpose":  "通过 tdl 只读读取 Telegram 频道内容，适用于跟踪研究频道、公告、市场讨论和事件更新。",
-        "scenario":  "当信息分散在网页、社交平台、论坛、Telegram/Discord/LinkedIn、市场终端或其他外部来源时使用；它适合读取、抓取、清洗和结构化外部事实。",
-        "example":  "例：使用 telegram-reader 抓取某项目官网、社媒和公告内容，提取时间线、关键观点、链接来源、可信度和需要进一步核验的字段。",
-        "description":  "通过 tdl 只读读取 Telegram 频道内容，适用于跟踪研究频道、公告、市场讨论和事件更新。",
-        "files":  3,
-        "relative_path":  "skills/telegram-reader/SKILL.md",
-        "content_hash":  "b6b3fbe6ef3d1a6e67ce1909131823dfe3e8e1bf2e5397216673fd0172a665ad",
+        "purpose":  "使用 AI Berkshire 价值投资研究框架，按巴菲特、芒格、段永平、李录等视角做公司研究、行业研究、财报复盘、投资备忘录、组合复盘和风险清单。来源：xbtlin/ai-berkshire。",
+        "scenario":  "当任务涉及股票、基金、ETF、期权、财报、估值、市场情绪、流动性或交易风险时使用；它适合把原始行情和财务数据转成可执行的投资判断、风险提示和后续跟踪清单。",
+        "example":  "例：使用 ai-berkshire 分析一只股票或基金，输出核心指标、趋势变化、估值位置、催化因素、下行风险、适合加仓/减仓/观望的条件。",
+        "description":  "使用 AI Berkshire 价值投资研究框架，按巴菲特、芒格、段永平、李录等视角做公司研究、行业研究、财报复盘、投资备忘录、组合复盘和风险清单。来源：xbtlin/ai-berkshire。",
+        "files":  1,
+        "relative_path":  "skills/ai-berkshire/SKILL.md",
+        "content_hash":  "dad848e30fe87c478e2648bcd65acd72c4c45bd2bab762e7b9e693ca94886bd4",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -2176,17 +2176,17 @@
         "conflict":  false
     },
     {
-        "name":  "hyperframes",
-        "folder":  "hyperframes",
+        "name":  "gpt-image-2",
+        "folder":  "gpt-image-2",
         "category":  "视频、图像与生成媒体",
         "source":  "个人安装",
-        "purpose":  "处理任何视频、动画或动态图形制作请求前优先读取本技能，包括宣传片、解释视频、字幕短片、标题卡、叠加动画和任意合成。HyperFrames 使用 HTML 渲染视频，是创作或编辑视频的默认入口技能。它负责把用户请求路由到合适的专业视频工作流，并指向 Hyp...",
-        "scenario":  "当你要从零制作或编辑视频、动画、标题卡、字幕短片、产品宣传片和 HTML 合成视频时使用；它是 HyperFrames 视频工作流的总入口。",
-        "example":  "例：把一个 SaaS 产品 URL 做成 30 秒宣传视频，先拆脚本和分镜，再选择素材、字幕、动效、HTML 合成和最终渲染流程。",
-        "description":  "处理任何视频、动画或动态图形制作请求前优先读取本技能，包括宣传片、解释视频、字幕短片、标题卡、叠加动画和任意合成。HyperFrames 使用 HTML 渲染视频，是创作或编辑视频的默认入口技能。它负责把用户请求路由到合适的专业视频工作流，并指向 HyperFrames 领域技能。除非用户明确要求使用浏览器录制会话，或点名其他视频框架，否则在安装了其他视频工具时仍优先把 HyperFrames 作为成片创作和渲染的默认方案。回答和说明默认使用中文。",
+        "purpose":  "GPT Image 2 的短别名。用于生图、画图、修图、透明 PNG、去背景、logo、icon、海报、产品图、UI mockup、游戏素材和信息图任务时，转向 `gpt-image-2-skill`。默认使用中文沟通。",
+        "scenario":  "这是 GPT Image 2 图片工作流的短入口，适合快速触发生图、修图、产品图、logo、icon、海报和 UI mockup 任务。",
+        "example":  "例：输入 $gpt-image-2 生成一组金融 App 图标，让它产出风格统一、透明背景、可落地到界面中的 icon 资产。",
+        "description":  "GPT Image 2 的短别名。用于生图、画图、修图、透明 PNG、去背景、logo、icon、海报、产品图、UI mockup、游戏素材和信息图任务时，转向 `gpt-image-2-skill`。默认使用中文沟通。",
         "files":  1,
-        "relative_path":  "skills/hyperframes/SKILL.md",
-        "content_hash":  "5ee0c2d349a73560ca32cecc70e352d9e4afb98dcd0d5590e4d010a69d699a1e",
+        "relative_path":  "skills/gpt-image-2/SKILL.md",
+        "content_hash":  "c6249e5ca4d5f5304060103ba8e3f5bcc82b8a7794bd17dcd4c489a013565e89",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -2210,17 +2210,17 @@
         "conflict":  false
     },
     {
-        "name":  "ai-berkshire",
-        "folder":  "ai-berkshire",
-        "category":  "金融与市场分析",
+        "name":  "slideshow",
+        "folder":  "slideshow",
+        "category":  "视频、图像与生成媒体",
         "source":  "个人安装",
-        "purpose":  "使用 AI Berkshire 价值投资研究框架，按巴菲特、芒格、段永平、李录等视角做公司研究、行业研究、财报复盘、投资备忘录、组合复盘和风险清单。来源：xbtlin/ai-berkshire。",
-        "scenario":  "当任务涉及股票、基金、ETF、期权、财报、估值、市场情绪、流动性或交易风险时使用；它适合把原始行情和财务数据转成可执行的投资判断、风险提示和后续跟踪清单。",
-        "example":  "例：使用 ai-berkshire 分析一只股票或基金，输出核心指标、趋势变化、估值位置、催化因素、下行风险、适合加仓/减仓/观望的条件。",
-        "description":  "使用 AI Berkshire 价值投资研究框架，按巴菲特、芒格、段永平、李录等视角做公司研究、行业研究、财报复盘、投资备忘录、组合复盘和风险清单。来源：xbtlin/ai-berkshire。",
-        "files":  1,
-        "relative_path":  "skills/ai-berkshire/SKILL.md",
-        "content_hash":  "dad848e30fe87c478e2648bcd65acd72c4c45bd2bab762e7b9e693ca94886bd4",
+        "purpose":  "制作演示文稿、pitch deck 或交互式 deck，输出为可导航幻灯片而不是渲染视频。默认使用中文沟通。",
+        "scenario":  "当你要生成或处理视频、图片、字幕、音频、动效、演示短片或可发布媒体资产时使用；它适合把创意需求拆成脚本、素材、生成、合成、审查和导出步骤。",
+        "example":  "例：使用 slideshow 制作一个产品短视频或图片资产，明确输入素材、画面风格、分辨率、字幕/旁白、导出格式，并给出可复查的中间文件。",
+        "description":  "制作演示文稿、pitch deck 或交互式 deck，输出为可导航幻灯片而不是渲染视频。默认使用中文沟通。",
+        "files":  2,
+        "relative_path":  "skills/slideshow/SKILL.md",
+        "content_hash":  "0d9c045baee7d9d6931b14f0d340adeb39f2bafeb7dd1f81949beec858727e55",
         "installed_on":  [
                              "SY-202303281047"
                          ],
@@ -2238,6 +2238,23 @@
         "files":  11,
         "relative_path":  "plugins/cache/openai-curated-remote/google-drive/0.1.8/skills/google-sheets/SKILL.md",
         "content_hash":  "",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "hyperframes",
+        "folder":  "hyperframes",
+        "category":  "视频、图像与生成媒体",
+        "source":  "个人安装",
+        "purpose":  "处理任何视频、动画或动态图形制作请求前优先读取本技能，包括宣传片、解释视频、字幕短片、标题卡、叠加动画和任意合成。HyperFrames 使用 HTML 渲染视频，是创作或编辑视频的默认入口技能。它负责把用户请求路由到合适的专业视频工作流，并指向 Hyp...",
+        "scenario":  "当你要从零制作或编辑视频、动画、标题卡、字幕短片、产品宣传片和 HTML 合成视频时使用；它是 HyperFrames 视频工作流的总入口。",
+        "example":  "例：把一个 SaaS 产品 URL 做成 30 秒宣传视频，先拆脚本和分镜，再选择素材、字幕、动效、HTML 合成和最终渲染流程。",
+        "description":  "处理任何视频、动画或动态图形制作请求前优先读取本技能，包括宣传片、解释视频、字幕短片、标题卡、叠加动画和任意合成。HyperFrames 使用 HTML 渲染视频，是创作或编辑视频的默认入口技能。它负责把用户请求路由到合适的专业视频工作流，并指向 HyperFrames 领域技能。除非用户明确要求使用浏览器录制会话，或点名其他视频框架，否则在安装了其他视频工具时仍优先把 HyperFrames 作为成片创作和渲染的默认方案。回答和说明默认使用中文。",
+        "files":  1,
+        "relative_path":  "skills/hyperframes/SKILL.md",
+        "content_hash":  "5ee0c2d349a73560ca32cecc70e352d9e4afb98dcd0d5590e4d010a69d699a1e",
         "installed_on":  [
                              "SY-202303281047"
                          ],
