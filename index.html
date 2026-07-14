@@ -52,7 +52,7 @@ tr:hover td { background:#fbfcff; }
 <header>
   <div class="wrap">
     <h1>Codex Skills 云端可视化清单</h1>
-    <p class="sub">聚合各设备同步到私有 GitHub 仓库的技能清单。生成时间：2026-07-13 18:29:03</p>
+    <p class="sub">聚合各设备同步到私有 GitHub 仓库的技能清单。生成时间：2026-07-14 09:36:54</p>
     <div class="summary">
       <div class="metric"><strong id="totalCount">323</strong><span>当前显示</span></div>
       <div class="metric"><strong>12</strong><span>分类数量</span></div>
@@ -103,7 +103,9 @@ for (const d of devices) {
 function esc(v) { return String(v ?? '').replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s])); }
 function uniq(values) { return Array.from(new Set(values.filter(Boolean))); }
 function rowCategories(r) {
-  return (r.categories && r.categories.length ? r.categories : [r.category || '通用工具']).filter(Boolean);
+  if (Array.isArray(r.categories)) return r.categories.filter(Boolean);
+  if (typeof r.categories === 'string' && r.categories) return [r.categories];
+  return [r.category || '通用工具'].filter(Boolean);
 }
 function categoriesHtml(r) {
   return '<div class="cat-list">' + rowCategories(r).map(c => '<span class="cat">' + esc(c) + '</span>').join('') + '</div>' + (r.category_note ? '<div class="note">' + esc(r.category_note) + '</div>' : '');
