@@ -3762,7 +3762,7 @@
         "example":  "例：使用 computer-use:computer-use 录制一次后台导出报表流程，整理成可重复步骤，标出登录、筛选、下载和失败恢复点。",
         "description":  "Control Windows apps from ChatGPT",
         "files":  1,
-        "relative_path":  "plugins/cache/openai-bundled/computer-use/26.707.72221/skills/computer-use/SKILL.md",
+        "relative_path":  "plugins/cache/openai-bundled/computer-use/26.715.72359/skills/computer-use/SKILL.md",
         "content_hash":  "",
         "installed_on":  [
                              "SY-202303281047"
@@ -3908,6 +3908,26 @@
         "description":  "Create a document using the Strategy Memorandum template and its retained reference file. Use when the user selects or names Strategy Memorandum. Present strategic context, choices, rationale, risks, milestones, and a clear recommendation.",
         "files":  5,
         "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-strategy-memorandum/SKILL.md",
+        "content_hash":  "",
+        "installed_on":  [
+                             "DESKTOP-PQ0SG39",
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
+        "name":  "openai-templates:artifact-template-financial-budget",
+        "folder":  "artifact-template-financial-budget",
+        "category":  "办公文档与表格",
+        "categories":  "办公文档与表格",
+        "category_note":  "",
+        "source":  "插件技能",
+        "purpose":  "Create a spreadsheet using the Financial Budget template and its retained reference file. Use when the user selects or names Financial Budget. Model actuals, budget and scenario...",
+        "scenario":  "当任务直接涉及\"Create a spreadsheet using the Financial Budget template and its retained reference file. Use when the user selects o...\"时使用；重点是围绕该技能的真实对象、输入材料和交付标准完成工作，而不是泛泛回答。",
+        "example":  "例：使用 openai-templates:artifact-template-financial-budget 处理\"Create a spreadsheet using the Financial Budget template and its retained reference file. Use when the user selects o...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
+        "description":  "Create a spreadsheet using the Financial Budget template and its retained reference file. Use when the user selects or names Financial Budget. Model actuals, budget and scenario forecasts, variances, cash runway, and departmental plans.",
+        "files":  5,
+        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-financial-budget/SKILL.md",
         "content_hash":  "",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
@@ -4610,7 +4630,7 @@
         "example":  "例：使用 chrome:control-chrome 处理\"Control the user\u0027s Chrome browser for tasks that depend on existing Chrome state: tabs, logged-in sessions, or extens...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
         "description":  "Control the user\u0027s Chrome browser for tasks that depend on existing Chrome state: tabs, logged-in sessions, or extensions. Prefer purpose-built connectors, APIs, or CLIs when available.",
         "files":  1,
-        "relative_path":  "plugins/cache/openai-bundled/chrome/latest/skills/control-chrome/SKILL.md",
+        "relative_path":  "plugins/cache/openai-bundled/chrome/26.715.72359/skills/control-chrome/SKILL.md",
         "content_hash":  "",
         "installed_on":  [
                              "SY-202303281047"
@@ -4728,7 +4748,7 @@
         "example":  "例：使用 browser:control-in-app-browser 录制一次后台导出报表流程，整理成可重复步骤，标出登录、筛选、下载和失败恢复点。",
         "description":  "Control the in-app Browser for opening, navigating, inspecting visible or interactive page state, clicking, typing, screenshots, and local web testing. It can have existing signed-in sessions. For semantic operations on linked resources, prefer a purpose-built connector, API, or CLI when available.",
         "files":  2,
-        "relative_path":  "plugins/cache/openai-bundled/browser/26.707.72221/skills/control-in-app-browser/SKILL.md",
+        "relative_path":  "plugins/cache/openai-bundled/browser/26.715.72359/skills/control-in-app-browser/SKILL.md",
         "content_hash":  "",
         "installed_on":  [
                              "SY-202303281047"
@@ -5067,12 +5087,12 @@
         "categories":  "通用工具",
         "category_note":  "",
         "source":  "插件技能",
-        "purpose":  "Create visualizations and interactive tools in conversation. Use when asked to show how something works, make simulators or labs, maps, plots, charts or graphs, comparisons, sce...",
-        "scenario":  "当任务直接涉及\"Create visualizations and interactive tools in conversation. Use when asked to show how something works, make simulat...\"时使用；重点是围绕该技能的真实对象、输入材料和交付标准完成工作，而不是泛泛回答。",
-        "example":  "例：使用 visualize:visualize 处理\"Create visualizations and interactive tools in conversation. Use when asked to show how something works, make simulat...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
-        "description":  "Create visualizations and interactive tools in conversation. Use when asked to show how something works, make simulators or labs, maps, plots, charts or graphs, comparisons, scenarios, adjustable inputs, and exploration.",
+        "purpose":  "Create visualizations and interactive tools directly in conversation. Use when asked to show how something works, make simulators or labs, maps, plots, charts or graphs, compari...",
+        "scenario":  "当任务直接涉及\"Create visualizations and interactive tools directly in conversation. Use when asked to show how something works, mak...\"时使用；重点是围绕该技能的真实对象、输入材料和交付标准完成工作，而不是泛泛回答。",
+        "example":  "例：使用 visualize:visualize 处理\"Create visualizations and interactive tools directly in conversation. Use when asked to show how something works, mak...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
+        "description":  "Create visualizations and interactive tools directly in conversation. Use when asked to show how something works, make simulators or labs, maps, plots, charts or graphs, comparisons, scenarios, adjustable inputs, and exploration beyond regular text.",
         "files":  5,
-        "relative_path":  "plugins/cache/openai-bundled/visualize/1.0.11/skills/visualize/SKILL.md",
+        "relative_path":  "plugins/cache/openai-bundled/visualize/1.0.14/skills/visualize/SKILL.md",
         "content_hash":  "",
         "installed_on":  [
                              "SY-202303281047"
@@ -5291,7 +5311,7 @@
         "example":  "例：使用 sites:sites-hosting 处理\"Host websites with Sites. Always use after `sites-building`, and use for website publishing, deployment, hosting mana...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
         "description":  "Host websites with Sites. Always use after `sites-building`, and use for website publishing, deployment, hosting management, or projects containing `.openai/hosting.json`.",
         "files":  2,
-        "relative_path":  "plugins/cache/openai-bundled/sites/0.1.27/skills/sites-hosting/SKILL.md",
+        "relative_path":  "plugins/cache/openai-bundled/sites/0.1.30/skills/sites-hosting/SKILL.md",
         "content_hash":  "",
         "installed_on":  [
                              "SY-202303281047"
@@ -5865,6 +5885,26 @@
         "conflict":  false
     },
     {
+        "name":  "gsp-subagent-build-loop",
+        "folder":  "gsp-subagent-build-loop",
+        "category":  "游戏开发",
+        "categories":  "游戏开发",
+        "category_note":  "",
+        "source":  "个人安装",
+        "purpose":  "专注于规划和监督游戏构建实现流程。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
+        "scenario":  "在玩家能看到或感受到的交互体验需要打磨时使用；重点检查可读性、反馈、操作路径、手感、界面状态和完成感。",
+        "example":  "例：使用 gsp-subagent-build-loop 检查战斗 HUD、对话选择、任务追踪和命中反馈，指出玩家看不懂、点不到、反馈弱或状态不清的地方。",
+        "description":  "游戏构建与执行管理技能。用于规划构建策略、监督实现循环、审查构建质量并协调多步骤开发。",
+        "files":  1,
+        "relative_path":  "skills/gsp-subagent-build-loop/SKILL.md",
+        "content_hash":  "28e36dba2eaab5f925dd94cac2cff416ea92f82dd95668cad1c40bd9b4dbc23d",
+        "installed_on":  [
+                             "DESKTOP-PQ0SG39",
+                             "SY-202303281047"
+                         ],
+        "conflict":  true
+    },
+    {
         "name":  "tech-debt",
         "folder":  "tech-debt",
         "category":  "游戏开发",
@@ -5905,19 +5945,19 @@
         "conflict":  true
     },
     {
-        "name":  "skill-test",
-        "folder":  "skill-test",
-        "category":  "游戏开发",
-        "categories":  "游戏开发",
+        "name":  "ui-ux-pro-max",
+        "folder":  "ui-ux-pro-max",
+        "category":  "电商做图",
+        "categories":  "电商做图",
         "category_note":  "",
         "source":  "个人安装",
-        "purpose":  "专注于测试游戏开发 skill 是否按预期触发并产出可用结果。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
-        "scenario":  "在已有原型、构建或修复结果需要验证时使用；重点是把问题复现、测试范围、证据、回归路径和阻塞等级整理清楚。",
-        "example":  "例：使用 skill-test 对 first playable 做验证，记录复现步骤、期望结果、实际结果、截图/日志证据、严重等级和回归测试命令。",
-        "description":  "Codex Game Studios 游戏开发工作流技能。用于游戏项目的策划、制作、审查、QA、发布、团队角色协作或项目管理；此技能是 CCGS 适配器，执行时会参考对应 .claude canonical 工作流。",
-        "files":  1,
-        "relative_path":  "skills/skill-test/SKILL.md",
-        "content_hash":  "a380078a3a509d64d1f36f8efa3df35deb5896e2f3a76ff32afd241cc06f7d58",
+        "purpose":  "UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind）。动作：plan、build、create、design、implement、review、fix、improve、optimiz...",
+        "scenario":  "当你已经有页面、产品想法、截图或前端代码，需要判断界面是否专业、好用、信息层级是否清楚时使用；它适合输出布局、配色、组件状态、交互路径、移动端适配和无障碍改进建议。",
+        "example":  "例：给它一个 SaaS dashboard 截图或页面代码，让它指出导航、筛选、表格密度、按钮层级、空状态和移动端断点的问题，并给出可直接让前端修改的方案。",
+        "description":  "UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind）。动作：plan、build、create、design、implement、review、fix、improve、optimize、enhance、refactor、check UI/UX code。项目：website、landing page、dashboard、admin panel、e-commerce、SaaS、portfolio、blog、mobile app、.html、.tsx、.vue、.svelte。元素：button、modal、navbar、sidebar、card、table、form、chart。风格：glassmorphism、claymorphism、minimalism、brutalism、neumorphism、bento grid、dark mode、responsive、skeuomorphism、flat design。主题：color palette、accessibility、animation、layout、typography、font pairing、spacing、hover、shadow、gradient。回答和说明默认使用中文。",
+        "files":  21,
+        "relative_path":  "skills/ui-ux-pro-max/SKILL.md",
+        "content_hash":  "29c5e3435d536c0da8c7db46974f0516a904d3e443f349c9f9830f03708cdeea",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
@@ -5965,24 +6005,24 @@
         "conflict":  false
     },
     {
-        "name":  "gsp-subagent-build-loop",
-        "folder":  "gsp-subagent-build-loop",
-        "category":  "游戏开发",
-        "categories":  "游戏开发",
+        "name":  "image-text-replace",
+        "folder":  "image-text-replace",
+        "category":  "电商做图",
+        "categories":  "电商做图",
         "category_note":  "",
         "source":  "个人安装",
-        "purpose":  "专注于规划和监督游戏构建实现流程。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
-        "scenario":  "在玩家能看到或感受到的交互体验需要打磨时使用；重点检查可读性、反馈、操作路径、手感、界面状态和完成感。",
-        "example":  "例：使用 gsp-subagent-build-loop 检查战斗 HUD、对话选择、任务追踪和命中反馈，指出玩家看不懂、点不到、反馈弱或状态不清的地方。",
-        "description":  "游戏构建与执行管理技能。用于规划构建策略、监督实现循环、审查构建质量并协调多步骤开发。",
+        "purpose":  "图片上已有文字的内容替换（A → B），支持简单精准改字和复杂改字（花字/手写/多处/字符数变化）。当用户提到改字、替换文字、把 A 改成 B、修改文字、换个字、文字替换、改标题、改价格、改名字、改广告语时触发。",
+        "scenario":  "在不重做整张营销图的前提下修改价格、标题、规格或广告语时使用；重点是文字内容、字体风格、透视和原版式一致。",
+        "example":  "例：使用 image-text-replace 把促销图中的「到手价 99」改成「到手价 89」，保持原字体、倾斜角度、描边、阴影和周围装饰不变。",
+        "description":  "图片上已有文字的内容替换（A → B），支持简单精准改字和复杂改字（花字/手写/多处/字符数变化）。当用户提到改字、替换文字、把 A 改成 B、修改文字、换个字、文字替换、改标题、改价格、改名字、改广告语时触发。",
         "files":  1,
-        "relative_path":  "skills/gsp-subagent-build-loop/SKILL.md",
-        "content_hash":  "28e36dba2eaab5f925dd94cac2cff416ea92f82dd95668cad1c40bd9b4dbc23d",
+        "relative_path":  "skills/image-text-replace/SKILL.md",
+        "content_hash":  "f7f5863d9093567ec080199973c2995dad03bbffd84b12505cd519d81f7d0bb5",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
                          ],
-        "conflict":  true
+        "conflict":  false
     },
     {
         "name":  "product-design",
@@ -6025,24 +6065,24 @@
         "conflict":  false
     },
     {
-        "name":  "meitu-product-swap",
-        "folder":  "meitu-product-swap",
-        "category":  "电商做图",
-        "categories":  "电商做图",
+        "name":  "skill-test",
+        "folder":  "skill-test",
+        "category":  "游戏开发",
+        "categories":  "游戏开发",
         "category_note":  "",
         "source":  "个人安装",
-        "purpose":  "对电商图片中的商品进行智能替换，支持一对一、一对多、多对一映射关系。当用户提到商品替换、换商品、复刻爆款图片、替换商品主体时触发。",
-        "scenario":  "在需要复用参考海报或爆款图的构图，并把其中商品替换成自有商品时使用；重点是遮挡关系、比例、透视、光影和品牌包装保真。",
-        "example":  "例：使用 meitu-product-swap 把竞品海报中模特手持的原饮料替换成自有罐装产品，保持手指遮挡、罐体比例、环境光和景深一致。",
-        "description":  "对电商图片中的商品进行智能替换，支持一对一、一对多、多对一映射关系。当用户提到商品替换、换商品、复刻爆款图片、替换商品主体时触发。",
-        "files":  2,
-        "relative_path":  "skills/meitu-product-swap/SKILL.md",
-        "content_hash":  "fab4ce723e3c75c71c769858bf0804a5d8d89b8c48fd8012bd1230992e90015d",
+        "purpose":  "专注于测试游戏开发 skill 是否按预期触发并产出可用结果。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
+        "scenario":  "在已有原型、构建或修复结果需要验证时使用；重点是把问题复现、测试范围、证据、回归路径和阻塞等级整理清楚。",
+        "example":  "例：使用 skill-test 对 first playable 做验证，记录复现步骤、期望结果、实际结果、截图/日志证据、严重等级和回归测试命令。",
+        "description":  "Codex Game Studios 游戏开发工作流技能。用于游戏项目的策划、制作、审查、QA、发布、团队角色协作或项目管理；此技能是 CCGS 适配器，执行时会参考对应 .claude canonical 工作流。",
+        "files":  1,
+        "relative_path":  "skills/skill-test/SKILL.md",
+        "content_hash":  "a380078a3a509d64d1f36f8efa3df35deb5896e2f3a76ff32afd241cc06f7d58",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
                          ],
-        "conflict":  false
+        "conflict":  true
     },
     {
         "name":  "writers-room-story-engine",
@@ -6088,19 +6128,24 @@
         "conflict":  false
     },
     {
-        "name":  "image-text-replace",
-        "folder":  "image-text-replace",
-        "category":  "电商做图",
-        "categories":  "电商做图",
-        "category_note":  "",
+        "name":  "image2-0",
+        "folder":  "image2-0",
+        "category":  "视频、图像与生成媒体",
+        "categories":  [
+                           "视频、图像与生成媒体",
+                           "电商做图",
+                           "游戏开发",
+                           "小说编写"
+                       ],
+        "category_note":  "多类目：既是图片生成/编辑工具，也可用于电商主图、产品图、小说封面、角色设定图和游戏素材。",
         "source":  "个人安装",
-        "purpose":  "图片上已有文字的内容替换（A → B），支持简单精准改字和复杂改字（花字/手写/多处/字符数变化）。当用户提到改字、替换文字、把 A 改成 B、修改文字、换个字、文字替换、改标题、改价格、改名字、改广告语时触发。",
-        "scenario":  "在不重做整张营销图的前提下修改价格、标题、规格或广告语时使用；重点是文字内容、字体风格、透视和原版式一致。",
-        "example":  "例：使用 image-text-replace 把促销图中的「到手价 99」改成「到手价 89」，保持原字体、倾斜角度、描边、阴影和周围装饰不变。",
-        "description":  "图片上已有文字的内容替换（A → B），支持简单精准改字和复杂改字（花字/手写/多处/字符数变化）。当用户提到改字、替换文字、把 A 改成 B、修改文字、换个字、文字替换、改标题、改价格、改名字、改广告语时触发。",
+        "purpose":  "GPT Image 2 / image2.0 的短别名。用于用户输入 `$image2`、`$image2-0`、`image2.0`、`gpt image 2`、`GPT Image 2`、生图、画图、修图、透明 PNG、去背景、logo、icon、海报、产品图、UI mockup 时，转向 `gpt-image-2-skill`。默认使用中文沟通。",
+        "scenario":  "这是 image2.0 / GPT Image 2 的兼容别名，适合在你输入 image2.0、GPT Image 2 或需要图像生成/编辑时快速触发正确流程。",
+        "example":  "例：把参考图改成统一角度的产品展示图，要求背景透明、边缘干净、尺寸适合电商主图。",
+        "description":  "GPT Image 2 / image2.0 的短别名。用于用户输入 `$image2`、`$image2-0`、`image2.0`、`gpt image 2`、`GPT Image 2`、生图、画图、修图、透明 PNG、去背景、logo、icon、海报、产品图、UI mockup 时，转向 `gpt-image-2-skill`。默认使用中文沟通。",
         "files":  1,
-        "relative_path":  "skills/image-text-replace/SKILL.md",
-        "content_hash":  "f7f5863d9093567ec080199973c2995dad03bbffd84b12505cd519d81f7d0bb5",
+        "relative_path":  "skills/image2-0/SKILL.md",
+        "content_hash":  "dfa977fdb1bb87b658b6068d13a556fd28eb0150c5b52a306ab0c9f2fc557a27",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
@@ -6148,19 +6193,19 @@
         "conflict":  true
     },
     {
-        "name":  "ccgs-agent-router",
-        "folder":  "ccgs-agent-router",
+        "name":  "gsp-playability-verifier",
+        "folder":  "gsp-playability-verifier",
         "category":  "游戏开发",
         "categories":  "游戏开发",
         "category_note":  "",
         "source":  "个人安装",
-        "purpose":  "专注于根据任务选择 CCGS 角色、团队和工作流。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
-        "scenario":  "在不知道下一步该用哪个游戏工作流，或需要接手、交接项目上下文时使用；重点是把当前状态路由到正确技能和下一步行动。",
-        "example":  "例：使用 ccgs-agent-router 读取现有策划和代码状态，判断下一步该进入创意澄清、GDD 审查、原型实现、QA 还是发布准备。",
-        "description":  "Codex Game Studios 游戏开发路由技能。用于根据游戏项目任务选择合适的 CCGS 团队角色、工作流和下一步行动。",
+        "purpose":  "专注于验证原型是否有明确目标、操作理解和反馈闭环。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
+        "scenario":  "当项目推进到\"验证原型是否有明确目标、操作理解和反馈闭环\"这一专项环节时使用；重点是把该环节的输入、判断标准、风险和交付物收束清楚。",
+        "example":  "例：使用 gsp-playability-verifier 处理小说改编单机小游戏中的\"验证原型是否有明确目标、操作理解和反馈闭环\"，输出检查清单、关键决策、风险、验收标准和下一步任务。",
+        "description":  "游戏可玩性验证技能。用于检查原型或构建是否具备清晰目标、可理解操作、反馈闭环和继续游玩的理由。",
         "files":  1,
-        "relative_path":  "skills/ccgs-agent-router/SKILL.md",
-        "content_hash":  "696536abdbd012095c6b135a7c0c696719d4da1fc3ed80aa36afd477b862fc43",
+        "relative_path":  "skills/gsp-playability-verifier/SKILL.md",
+        "content_hash":  "3b2e1a3ae972f04107617913db4bb00e61b0f87a9aa7689bf3063a8ddb92a2ea",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
@@ -6208,29 +6253,24 @@
         "conflict":  false
     },
     {
-        "name":  "image2-0",
-        "folder":  "image2-0",
-        "category":  "视频、图像与生成媒体",
-        "categories":  [
-                           "视频、图像与生成媒体",
-                           "电商做图",
-                           "游戏开发",
-                           "小说编写"
-                       ],
-        "category_note":  "多类目：既是图片生成/编辑工具，也可用于电商主图、产品图、小说封面、角色设定图和游戏素材。",
+        "name":  "game-review",
+        "folder":  "game-review",
+        "category":  "游戏开发",
+        "categories":  "游戏开发",
+        "category_note":  "",
         "source":  "个人安装",
-        "purpose":  "GPT Image 2 / image2.0 的短别名。用于用户输入 `$image2`、`$image2-0`、`image2.0`、`gpt image 2`、`GPT Image 2`、生图、画图、修图、透明 PNG、去背景、logo、icon、海报、产品图、UI mockup 时，转向 `gpt-image-2-skill`。默认使用中文沟通。",
-        "scenario":  "这是 image2.0 / GPT Image 2 的兼容别名，适合在你输入 image2.0、GPT Image 2 或需要图像生成/编辑时快速触发正确流程。",
-        "example":  "例：把参考图改成统一角度的产品展示图，要求背景透明、边缘干净、尺寸适合电商主图。",
-        "description":  "GPT Image 2 / image2.0 的短别名。用于用户输入 `$image2`、`$image2-0`、`image2.0`、`gpt image 2`、`GPT Image 2`、生图、画图、修图、透明 PNG、去背景、logo、icon、海报、产品图、UI mockup 时，转向 `gpt-image-2-skill`。默认使用中文沟通。",
-        "files":  1,
-        "relative_path":  "skills/image2-0/SKILL.md",
-        "content_hash":  "dfa977fdb1bb87b658b6068d13a556fd28eb0150c5b52a306ab0c9f2fc557a27",
+        "purpose":  "专注于审查 GDD 或游戏概念的核心循环、进度、经济和风险。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
+        "scenario":  "当项目推进到\"审查 GDD 或游戏概念的核心循环、进度、经济和风险\"这一专项环节时使用；重点是把该环节的输入、判断标准、风险和交付物收束清楚。",
+        "example":  "例：使用 game-review 处理小说改编单机小游戏中的\"审查 GDD 或游戏概念的核心循环、进度、经济和风险\"，输出检查清单、关键决策、风险、验收标准和下一步任务。",
+        "description":  "游戏设计审查技能。用于审查 GDD 或游戏概念，按核心循环、进度、经济、体验、风险和留存进行评分和改进。",
+        "files":  11,
+        "relative_path":  "skills/game-review/SKILL.md",
+        "content_hash":  "73a97caaa1dbcd7ec0fc5b23f90c3ac57cb76bc2b25a101d0e491fdb14eace72",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
                          ],
-        "conflict":  false
+        "conflict":  true
     },
     {
         "name":  "hyperframes-animation",
@@ -6273,19 +6313,19 @@
         "conflict":  true
     },
     {
-        "name":  "ui-ux-pro-max",
-        "folder":  "ui-ux-pro-max",
-        "category":  "电商做图",
-        "categories":  "电商做图",
+        "name":  "ccgs-agent-router",
+        "folder":  "ccgs-agent-router",
+        "category":  "游戏开发",
+        "categories":  "游戏开发",
         "category_note":  "",
         "source":  "个人安装",
-        "purpose":  "UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind）。动作：plan、build、create、design、implement、review、fix、improve、optimiz...",
-        "scenario":  "当你已经有页面、产品想法、截图或前端代码，需要判断界面是否专业、好用、信息层级是否清楚时使用；它适合输出布局、配色、组件状态、交互路径、移动端适配和无障碍改进建议。",
-        "example":  "例：给它一个 SaaS dashboard 截图或页面代码，让它指出导航、筛选、表格密度、按钮层级、空状态和移动端断点的问题，并给出可直接让前端修改的方案。",
-        "description":  "UI/UX 设计情报库：50 种风格、21 套配色、50 组字体搭配、20 类图表、8 个技术栈（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind）。动作：plan、build、create、design、implement、review、fix、improve、optimize、enhance、refactor、check UI/UX code。项目：website、landing page、dashboard、admin panel、e-commerce、SaaS、portfolio、blog、mobile app、.html、.tsx、.vue、.svelte。元素：button、modal、navbar、sidebar、card、table、form、chart。风格：glassmorphism、claymorphism、minimalism、brutalism、neumorphism、bento grid、dark mode、responsive、skeuomorphism、flat design。主题：color palette、accessibility、animation、layout、typography、font pairing、spacing、hover、shadow、gradient。回答和说明默认使用中文。",
-        "files":  21,
-        "relative_path":  "skills/ui-ux-pro-max/SKILL.md",
-        "content_hash":  "29c5e3435d536c0da8c7db46974f0516a904d3e443f349c9f9830f03708cdeea",
+        "purpose":  "专注于根据任务选择 CCGS 角色、团队和工作流。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
+        "scenario":  "在不知道下一步该用哪个游戏工作流，或需要接手、交接项目上下文时使用；重点是把当前状态路由到正确技能和下一步行动。",
+        "example":  "例：使用 ccgs-agent-router 读取现有策划和代码状态，判断下一步该进入创意澄清、GDD 审查、原型实现、QA 还是发布准备。",
+        "description":  "Codex Game Studios 游戏开发路由技能。用于根据游戏项目任务选择合适的 CCGS 团队角色、工作流和下一步行动。",
+        "files":  1,
+        "relative_path":  "skills/ccgs-agent-router/SKILL.md",
+        "content_hash":  "696536abdbd012095c6b135a7c0c696719d4da1fc3ed80aa36afd477b862fc43",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
@@ -6333,19 +6373,22 @@
         "conflict":  true
     },
     {
-        "name":  "game-review",
-        "folder":  "game-review",
-        "category":  "游戏开发",
-        "categories":  "游戏开发",
-        "category_note":  "",
+        "name":  "ebook-publishing",
+        "folder":  "ebook-publishing",
+        "category":  "小说编写",
+        "categories":  [
+                           "小说编写",
+                           "办公文档与表格"
+                       ],
+        "category_note":  "多类目：小说写作后段的导出、投稿、出版和状态文档管理。",
         "source":  "个人安装",
-        "purpose":  "专注于审查 GDD 或游戏概念的核心循环、进度、经济和风险。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
-        "scenario":  "当项目推进到\"审查 GDD 或游戏概念的核心循环、进度、经济和风险\"这一专项环节时使用；重点是把该环节的输入、判断标准、风险和交付物收束清楚。",
-        "example":  "例：使用 game-review 处理小说改编单机小游戏中的\"审查 GDD 或游戏概念的核心循环、进度、经济和风险\"，输出检查清单、关键决策、风险、验收标准和下一步任务。",
-        "description":  "游戏设计审查技能。用于审查 GDD 或游戏概念，按核心循环、进度、经济、体验、风险和留存进行评分和改进。",
-        "files":  11,
-        "relative_path":  "skills/game-review/SKILL.md",
-        "content_hash":  "73a97caaa1dbcd7ec0fc5b23f90c3ac57cb76bc2b25a101d0e491fdb14eace72",
+        "purpose":  "电子书与有声书自助出版技能。用于 EPUB/PDF/MOBI 格式、KDP、Apple Books、Kobo、Draft2Digital、ISBN、封面规格、关键词、定价、发行和营销计划。",
+        "scenario":  "在小说写完或准备投稿/出版时使用；重点是格式转换、平台规范、元数据、封面/插图、状态管理和发布清单。 ",
+        "example":  "例：使用 ebook-publishing 把完稿转换成番茄/起点/晋江投稿格式或 EPUB，检查章节标题、正文标记、简介、关键词、封面规格和发布清单。",
+        "description":  "电子书与有声书自助出版技能。用于 EPUB/PDF/MOBI 格式、KDP、Apple Books、Kobo、Draft2Digital、ISBN、封面规格、关键词、定价、发行和营销计划。",
+        "files":  13,
+        "relative_path":  "skills/ebook-publishing/SKILL.md",
+        "content_hash":  "54ede7588eb6f30e436d40e28528e590fd479e100ed2843a12f4b7a824f09208",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
@@ -6393,24 +6436,24 @@
         "conflict":  true
     },
     {
-        "name":  "team-release",
-        "folder":  "team-release",
-        "category":  "游戏开发",
-        "categories":  "游戏开发",
+        "name":  "openai-templates:artifact-template-analytics-dashboard",
+        "folder":  "artifact-template-analytics-dashboard",
+        "category":  "UI/UX 与前端设计",
+        "categories":  "UI/UX 与前端设计",
         "category_note":  "",
-        "source":  "个人安装",
-        "purpose":  "专注于处理发布管理、清单、商店资料、风险和回滚准备。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
-        "scenario":  "当项目需要从发布团队的专业视角推进或审查时使用；它适合把该团队的关注点转成任务清单、质量标准和跨团队协作要求。",
-        "example":  "例：使用 team-release 检查构建包、商店素材、发布说明、回滚条件和上线清单，输出团队视角的风险清单、协作对象和验收材料。",
-        "description":  "Codex Game Studios 游戏开发工作流技能。用于游戏项目的策划、制作、审查、QA、发布、团队角色协作或项目管理；此技能是 CCGS 适配器，执行时会参考对应 .claude canonical 工作流。",
-        "files":  1,
-        "relative_path":  "skills/team-release/SKILL.md",
-        "content_hash":  "06fd0901436dae9bdb54d13d3ec496b2c85f173e621a4983745827ded5082ac9",
+        "source":  "插件技能",
+        "purpose":  "Create a spreadsheet using the Analytics Dashboard template and its retained reference file. Use when the user selects or names Analytics Dashboard. Monitor acquisition, engagem...",
+        "scenario":  "当任务直接涉及\"Create a spreadsheet using the Analytics Dashboard template and its retained reference file. Use when the user select...\"时使用；重点是围绕该技能的真实对象、输入材料和交付标准完成工作，而不是泛泛回答。",
+        "example":  "例：使用 openai-templates:artifact-template-analytics-dashboard 处理\"Create a spreadsheet using the Analytics Dashboard template and its retained reference file. Use when the user select...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
+        "description":  "Create a spreadsheet using the Analytics Dashboard template and its retained reference file. Use when the user selects or names Analytics Dashboard. Monitor acquisition, engagement, retention, revenue, and conversion funnel KPIs with charts.",
+        "files":  5,
+        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-analytics-dashboard/SKILL.md",
+        "content_hash":  "",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
                          ],
-        "conflict":  true
+        "conflict":  false
     },
     {
         "name":  "ecommerce-visual-copywriting",
@@ -6453,22 +6496,19 @@
         "conflict":  true
     },
     {
-        "name":  "ebook-publishing",
-        "folder":  "ebook-publishing",
-        "category":  "小说编写",
-        "categories":  [
-                           "小说编写",
-                           "办公文档与表格"
-                       ],
-        "category_note":  "多类目：小说写作后段的导出、投稿、出版和状态文档管理。",
+        "name":  "gsp-live-risk-audit",
+        "folder":  "gsp-live-risk-audit",
+        "category":  "游戏开发",
+        "categories":  "游戏开发",
+        "category_note":  "",
         "source":  "个人安装",
-        "purpose":  "电子书与有声书自助出版技能。用于 EPUB/PDF/MOBI 格式、KDP、Apple Books、Kobo、Draft2Digital、ISBN、封面规格、关键词、定价、发行和营销计划。",
-        "scenario":  "在小说写完或准备投稿/出版时使用；重点是格式转换、平台规范、元数据、封面/插图、状态管理和发布清单。 ",
-        "example":  "例：使用 ebook-publishing 把完稿转换成番茄/起点/晋江投稿格式或 EPUB，检查章节标题、正文标记、简介、关键词、封面规格和发布清单。",
-        "description":  "电子书与有声书自助出版技能。用于 EPUB/PDF/MOBI 格式、KDP、Apple Books、Kobo、Draft2Digital、ISBN、封面规格、关键词、定价、发行和营销计划。",
-        "files":  13,
-        "relative_path":  "skills/ebook-publishing/SKILL.md",
-        "content_hash":  "54ede7588eb6f30e436d40e28528e590fd479e100ed2843a12f4b7a824f09208",
+        "purpose":  "专注于按专项维度审计游戏质量、风险和完成度。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
+        "scenario":  "当项目推进到\"按专项维度审计游戏质量、风险和完成度\"这一专项环节时使用；重点是把该环节的输入、判断标准、风险和交付物收束清楚。",
+        "example":  "例：使用 gsp-live-risk-audit 处理小说改编单机小游戏中的\"按专项维度审计游戏质量、风险和完成度\"，输出检查清单、关键决策、风险、验收标准和下一步任务。",
+        "description":  "游戏项目审计技能。用于按特定维度检查游戏项目质量、风险、体验、范围完整度和发布准备状态。",
+        "files":  1,
+        "relative_path":  "skills/gsp-live-risk-audit/SKILL.md",
+        "content_hash":  "c622f6dbad1f5cc011483daa385baaecec1abaa91e5a3fa937353ca9b15a0f1b",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
@@ -6516,24 +6556,24 @@
         "conflict":  true
     },
     {
-        "name":  "openai-templates:artifact-template-financial-budget",
-        "folder":  "artifact-template-financial-budget",
-        "category":  "办公文档与表格",
-        "categories":  "办公文档与表格",
+        "name":  "team-release",
+        "folder":  "team-release",
+        "category":  "游戏开发",
+        "categories":  "游戏开发",
         "category_note":  "",
-        "source":  "插件技能",
-        "purpose":  "Create a spreadsheet using the Financial Budget template and its retained reference file. Use when the user selects or names Financial Budget. Model actuals, budget and scenario...",
-        "scenario":  "当任务直接涉及\"Create a spreadsheet using the Financial Budget template and its retained reference file. Use when the user selects o...\"时使用；重点是围绕该技能的真实对象、输入材料和交付标准完成工作，而不是泛泛回答。",
-        "example":  "例：使用 openai-templates:artifact-template-financial-budget 处理\"Create a spreadsheet using the Financial Budget template and its retained reference file. Use when the user selects o...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
-        "description":  "Create a spreadsheet using the Financial Budget template and its retained reference file. Use when the user selects or names Financial Budget. Model actuals, budget and scenario forecasts, variances, cash runway, and departmental plans.",
-        "files":  5,
-        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-financial-budget/SKILL.md",
-        "content_hash":  "",
+        "source":  "个人安装",
+        "purpose":  "专注于处理发布管理、清单、商店资料、风险和回滚准备。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
+        "scenario":  "当项目需要从发布团队的专业视角推进或审查时使用；它适合把该团队的关注点转成任务清单、质量标准和跨团队协作要求。",
+        "example":  "例：使用 team-release 检查构建包、商店素材、发布说明、回滚条件和上线清单，输出团队视角的风险清单、协作对象和验收材料。",
+        "description":  "Codex Game Studios 游戏开发工作流技能。用于游戏项目的策划、制作、审查、QA、发布、团队角色协作或项目管理；此技能是 CCGS 适配器，执行时会参考对应 .claude canonical 工作流。",
+        "files":  1,
+        "relative_path":  "skills/team-release/SKILL.md",
+        "content_hash":  "06fd0901436dae9bdb54d13d3ec496b2c85f173e621a4983745827ded5082ac9",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
                          ],
-        "conflict":  false
+        "conflict":  true
     },
     {
         "name":  "review-agent",
@@ -6550,7 +6590,8 @@
         "relative_path":  "skills/.system/review-agent/SKILL.md",
         "content_hash":  "",
         "installed_on":  [
-                             "DESKTOP-PQ0SG39"
+                             "DESKTOP-PQ0SG39",
+                             "SY-202303281047"
                          ],
         "conflict":  false
     },
@@ -6575,19 +6616,19 @@
         "conflict":  false
     },
     {
-        "name":  "gsp-live-risk-audit",
-        "folder":  "gsp-live-risk-audit",
+        "name":  "skill-improve",
+        "folder":  "skill-improve",
         "category":  "游戏开发",
         "categories":  "游戏开发",
         "category_note":  "",
         "source":  "个人安装",
-        "purpose":  "专注于按专项维度审计游戏质量、风险和完成度。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
-        "scenario":  "当项目推进到\"按专项维度审计游戏质量、风险和完成度\"这一专项环节时使用；重点是把该环节的输入、判断标准、风险和交付物收束清楚。",
-        "example":  "例：使用 gsp-live-risk-audit 处理小说改编单机小游戏中的\"按专项维度审计游戏质量、风险和完成度\"，输出检查清单、关键决策、风险、验收标准和下一步任务。",
-        "description":  "游戏项目审计技能。用于按特定维度检查游戏项目质量、风险、体验、范围完整度和发布准备状态。",
+        "purpose":  "专注于改进已有游戏开发 skill 的触发、流程、边界和输出质量。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
+        "scenario":  "当项目推进到\"改进已有游戏开发 skill 的触发、流程、边界和输出质量\"这一专项环节时使用；重点是把该环节的输入、判断标准、风险和交付物收束清楚。",
+        "example":  "例：使用 skill-improve 处理小说改编单机小游戏中的\"改进已有游戏开发 skill 的触发、流程、边界和输出质量\"，输出检查清单、关键决策、风险、验收标准和下一步任务。",
+        "description":  "Codex Game Studios 游戏开发工作流技能。用于游戏项目的策划、制作、审查、QA、发布、团队角色协作或项目管理；此技能是 CCGS 适配器，执行时会参考对应 .claude canonical 工作流。",
         "files":  1,
-        "relative_path":  "skills/gsp-live-risk-audit/SKILL.md",
-        "content_hash":  "c622f6dbad1f5cc011483daa385baaecec1abaa91e5a3fa937353ca9b15a0f1b",
+        "relative_path":  "skills/skill-improve/SKILL.md",
+        "content_hash":  "22476251cee64512059dbcd50193cc95372441ead507b6f3d94ee6ad9b69fac3",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
@@ -6635,19 +6676,19 @@
         "conflict":  false
     },
     {
-        "name":  "grilling",
-        "folder":  "grilling",
-        "category":  "软件工程与代码质量",
-        "categories":  "软件工程与代码质量",
+        "name":  "meitu-product-swap",
+        "folder":  "meitu-product-swap",
+        "category":  "电商做图",
+        "categories":  "电商做图",
         "category_note":  "",
         "source":  "个人安装",
-        "purpose":  "对计划或设计进行高强度追问。适用于用户想在构建前压力测试方案，或使用任何 grill 触发短语时。默认使用中文沟通。",
-        "scenario":  "当任务直接涉及\"对计划或设计进行高强度追问。适用于用户想在构建前压力测试方案，或使用任何 grill 触发短语时。默认使用中文沟通。\"时使用；重点是围绕该技能的真实对象、输入材料和交付标准完成工作，而不是泛泛回答。",
-        "example":  "例：使用 grilling 处理\"对计划或设计进行高强度追问。适用于用户想在构建前压力测试方案，或使用任何 grill 触发短语时。默认使用中文沟通。\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
-        "description":  "对计划或设计进行高强度追问。适用于用户想在构建前压力测试方案，或使用任何 grill 触发短语时。默认使用中文沟通。",
-        "files":  1,
-        "relative_path":  "skills/grilling/SKILL.md",
-        "content_hash":  "274fd0a251c58cfa6e7d54baa779d4216c1e41614f8dec6dd712a983d5d9a9c7",
+        "purpose":  "对电商图片中的商品进行智能替换，支持一对一、一对多、多对一映射关系。当用户提到商品替换、换商品、复刻爆款图片、替换商品主体时触发。",
+        "scenario":  "在需要复用参考海报或爆款图的构图，并把其中商品替换成自有商品时使用；重点是遮挡关系、比例、透视、光影和品牌包装保真。",
+        "example":  "例：使用 meitu-product-swap 把竞品海报中模特手持的原饮料替换成自有罐装产品，保持手指遮挡、罐体比例、环境光和景深一致。",
+        "description":  "对电商图片中的商品进行智能替换，支持一对一、一对多、多对一映射关系。当用户提到商品替换、换商品、复刻爆款图片、替换商品主体时触发。",
+        "files":  2,
+        "relative_path":  "skills/meitu-product-swap/SKILL.md",
+        "content_hash":  "fab4ce723e3c75c71c769858bf0804a5d8d89b8c48fd8012bd1230992e90015d",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
@@ -6695,19 +6736,19 @@
         "conflict":  true
     },
     {
-        "name":  "skill-improve",
-        "folder":  "skill-improve",
-        "category":  "游戏开发",
-        "categories":  "游戏开发",
+        "name":  "character-check",
+        "folder":  "character-check",
+        "category":  "小说编写",
+        "categories":  "小说编写",
         "category_note":  "",
         "source":  "个人安装",
-        "purpose":  "专注于改进已有游戏开发 skill 的触发、流程、边界和输出质量。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
-        "scenario":  "当项目推进到\"改进已有游戏开发 skill 的触发、流程、边界和输出质量\"这一专项环节时使用；重点是把该环节的输入、判断标准、风险和交付物收束清楚。",
-        "example":  "例：使用 skill-improve 处理小说改编单机小游戏中的\"改进已有游戏开发 skill 的触发、流程、边界和输出质量\"，输出检查清单、关键决策、风险、验收标准和下一步任务。",
-        "description":  "Codex Game Studios 游戏开发工作流技能。用于游戏项目的策划、制作、审查、QA、发布、团队角色协作或项目管理；此技能是 CCGS 适配器，执行时会参考对应 .claude canonical 工作流。",
-        "files":  1,
-        "relative_path":  "skills/skill-improve/SKILL.md",
-        "content_hash":  "22476251cee64512059dbcd50193cc95372441ead507b6f3d94ee6ad9b69fac3",
+        "purpose":  "角色质量检查工具，检测人设扁平化、前后不统一、配角工具人化等问题。当用户说\"角色检查\"、\"人设检查\"、\"人物检查\"、\"检查角色\"时自动激活。",
+        "scenario":  "在人物需要立住、关系需要推进或对白不像真人时使用；重点是人物欲望、伤口、关系张力、行为一致性和角色弧光。 ",
+        "example":  "例：使用 character-check 为主角、师父、反派和女主建立人物小传、欲望、秘密、关系张力和前三次出场的行为差异。",
+        "description":  "角色质量检查工具，检测人设扁平化、前后不统一、配角工具人化等问题。当用户说\"角色检查\"、\"人设检查\"、\"人物检查\"、\"检查角色\"时自动激活。",
+        "files":  3,
+        "relative_path":  "skills/character-check/SKILL.md",
+        "content_hash":  "09ae600e9d7de8d050a2dc034719a8da945dbb4fac4d6f84c6058b9920f768e2",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
@@ -6755,19 +6796,19 @@
         "conflict":  false
     },
     {
-        "name":  "openai-templates:artifact-template-analytics-dashboard",
-        "folder":  "artifact-template-analytics-dashboard",
-        "category":  "UI/UX 与前端设计",
-        "categories":  "UI/UX 与前端设计",
+        "name":  "grilling",
+        "folder":  "grilling",
+        "category":  "软件工程与代码质量",
+        "categories":  "软件工程与代码质量",
         "category_note":  "",
-        "source":  "插件技能",
-        "purpose":  "Create a spreadsheet using the Analytics Dashboard template and its retained reference file. Use when the user selects or names Analytics Dashboard. Monitor acquisition, engagem...",
-        "scenario":  "当任务直接涉及\"Create a spreadsheet using the Analytics Dashboard template and its retained reference file. Use when the user select...\"时使用；重点是围绕该技能的真实对象、输入材料和交付标准完成工作，而不是泛泛回答。",
-        "example":  "例：使用 openai-templates:artifact-template-analytics-dashboard 处理\"Create a spreadsheet using the Analytics Dashboard template and its retained reference file. Use when the user select...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
-        "description":  "Create a spreadsheet using the Analytics Dashboard template and its retained reference file. Use when the user selects or names Analytics Dashboard. Monitor acquisition, engagement, retention, revenue, and conversion funnel KPIs with charts.",
-        "files":  5,
-        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-analytics-dashboard/SKILL.md",
-        "content_hash":  "",
+        "source":  "个人安装",
+        "purpose":  "对计划或设计进行高强度追问。适用于用户想在构建前压力测试方案，或使用任何 grill 触发短语时。默认使用中文沟通。",
+        "scenario":  "当任务直接涉及\"对计划或设计进行高强度追问。适用于用户想在构建前压力测试方案，或使用任何 grill 触发短语时。默认使用中文沟通。\"时使用；重点是围绕该技能的真实对象、输入材料和交付标准完成工作，而不是泛泛回答。",
+        "example":  "例：使用 grilling 处理\"对计划或设计进行高强度追问。适用于用户想在构建前压力测试方案，或使用任何 grill 触发短语时。默认使用中文沟通。\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
+        "description":  "对计划或设计进行高强度追问。适用于用户想在构建前压力测试方案，或使用任何 grill 触发短语时。默认使用中文沟通。",
+        "files":  1,
+        "relative_path":  "skills/grilling/SKILL.md",
+        "content_hash":  "274fd0a251c58cfa6e7d54baa779d4216c1e41614f8dec6dd712a983d5d9a9c7",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
@@ -6808,26 +6849,6 @@
         "files":  2,
         "relative_path":  "skills/guard/SKILL.md",
         "content_hash":  "f216886abbe3076828d01138f1a5dbc32395e47697715a3620bd60ea38e8177c",
-        "installed_on":  [
-                             "DESKTOP-PQ0SG39",
-                             "SY-202303281047"
-                         ],
-        "conflict":  true
-    },
-    {
-        "name":  "character-check",
-        "folder":  "character-check",
-        "category":  "小说编写",
-        "categories":  "小说编写",
-        "category_note":  "",
-        "source":  "个人安装",
-        "purpose":  "角色质量检查工具，检测人设扁平化、前后不统一、配角工具人化等问题。当用户说\"角色检查\"、\"人设检查\"、\"人物检查\"、\"检查角色\"时自动激活。",
-        "scenario":  "在人物需要立住、关系需要推进或对白不像真人时使用；重点是人物欲望、伤口、关系张力、行为一致性和角色弧光。 ",
-        "example":  "例：使用 character-check 为主角、师父、反派和女主建立人物小传、欲望、秘密、关系张力和前三次出场的行为差异。",
-        "description":  "角色质量检查工具，检测人设扁平化、前后不统一、配角工具人化等问题。当用户说\"角色检查\"、\"人设检查\"、\"人物检查\"、\"检查角色\"时自动激活。",
-        "files":  3,
-        "relative_path":  "skills/character-check/SKILL.md",
-        "content_hash":  "09ae600e9d7de8d050a2dc034719a8da945dbb4fac4d6f84c6058b9920f768e2",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
@@ -7214,7 +7235,7 @@
         "example":  "例：使用 sites:sites-building 处理\"Use Sites to build websites, including landing pages, portfolios, dashboards, portals, trackers, hubs, and internal t...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
         "description":  "Use Sites to build websites, including landing pages, portfolios, dashboards, portals, trackers, hubs, and internal tools. Always use Sites when the project contains `.openai/hosting.json`.",
         "files":  34,
-        "relative_path":  "plugins/cache/openai-bundled/sites/0.1.27/skills/sites-building/SKILL.md",
+        "relative_path":  "plugins/cache/openai-bundled/sites/0.1.30/skills/sites-building/SKILL.md",
         "content_hash":  "",
         "installed_on":  [
                              "SY-202303281047"
@@ -7322,6 +7343,26 @@
         "conflict":  false
     },
     {
+        "name":  "humanize-text",
+        "folder":  "humanize-text",
+        "category":  "小说编写",
+        "categories":  "小说编写",
+        "category_note":  "",
+        "source":  "个人安装",
+        "purpose":  "将AI生成的文本进行人语化处理，去除机器味、注入人味。当用户说\"人语化\"、\"去AI味\"、\"润色\"、\"让这更像人写的\"、\"人性化处理\"、\"AI痕迹检测\"时自动激活。基于Wikipedia\"Signs of AI writing\"指南，检测并修复24种AI写作模式（内容模式、语言模式、风格模式、交流模式、填充模糊），同时注入\"灵魂\"——观点、节奏、复杂情绪...",
+        "scenario":  "在已有草稿需要审稿、查问题或降低 AI 味时使用；重点是找出节奏拖沓、人物扁平、冲突弱、开篇不抓人和语言模板化。 ",
+        "example":  "例：使用 humanize-text 检查前三章是否有黄金三章钩子、主角目标、情绪波动、信息差和章节末期待，并把模板化句子改得更像真人写。",
+        "description":  "将AI生成的文本进行人语化处理，去除机器味、注入人味。当用户说\"人语化\"、\"去AI味\"、\"润色\"、\"让这更像人写的\"、\"人性化处理\"、\"AI痕迹检测\"时自动激活。基于Wikipedia\"Signs of AI writing\"指南，检测并修复24种AI写作模式（内容模式、语言模式、风格模式、交流模式、填充模糊），同时注入\"灵魂\"——观点、节奏、复杂情绪、第一人称。支持小说、文章、文案等多种文本类型。",
+        "files":  5,
+        "relative_path":  "skills/humanize-text/SKILL.md",
+        "content_hash":  "57ad55908da3bf70141236b18a04606811317c35ffc97b8d61ec3372c5ece687",
+        "installed_on":  [
+                             "DESKTOP-PQ0SG39",
+                             "SY-202303281047"
+                         ],
+        "conflict":  true
+    },
+    {
         "name":  "figma",
         "folder":  "figma",
         "category":  "视频、图像与生成媒体",
@@ -7362,19 +7403,19 @@
         "conflict":  true
     },
     {
-        "name":  "motion-graphics",
-        "folder":  "motion-graphics",
-        "category":  "视频、图像与生成媒体",
-        "categories":  "视频、图像与生成媒体",
+        "name":  "openai-templates:artifact-template-business-review",
+        "folder":  "artifact-template-business-review",
+        "category":  "通用工具",
+        "categories":  "通用工具",
         "category_note":  "",
-        "source":  "个人安装",
-        "purpose":  "制作短时长、无旁白、设计驱动的动态图形，如 kinetic type、数据/图表瞬间、logo sting、lower-third overlay。默认使用中文沟通。",
-        "scenario":  "在需要用 HTML/React/动画管线合成视频时使用；重点是分镜、时间轴、素材引用、动效节奏和可复现渲染。",
-        "example":  "例：使用 motion-graphics 制作 30 秒产品动效视频，定义镜头、字幕、关键帧、素材路径、渲染命令和验收截图。",
-        "description":  "制作短时长、无旁白、设计驱动的动态图形，如 kinetic type、数据/图表瞬间、logo sting、lower-third overlay。默认使用中文沟通。",
-        "files":  23,
-        "relative_path":  "skills/motion-graphics/SKILL.md",
-        "content_hash":  "bbb9844a93d0659617f14e7001383469bfa50ea698acd9cbecf60c20c71c7ade",
+        "source":  "插件技能",
+        "purpose":  "Create a presentation using the Business Review template and its retained reference file. Use when the user selects or names Business Review. Review business performance, KPIs,...",
+        "scenario":  "当任务直接涉及\"Create a presentation using the Business Review template and its retained reference file. Use when the user selects o...\"时使用；重点是围绕该技能的真实对象、输入材料和交付标准完成工作，而不是泛泛回答。",
+        "example":  "例：使用 openai-templates:artifact-template-business-review 处理\"Create a presentation using the Business Review template and its retained reference file. Use when the user selects o...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
+        "description":  "Create a presentation using the Business Review template and its retained reference file. Use when the user selects or names Business Review. Review business performance, KPIs, segment results, strategic priorities, decisions, and outlook.",
+        "files":  5,
+        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-business-review/SKILL.md",
+        "content_hash":  "",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
@@ -7422,19 +7463,19 @@
         "conflict":  true
     },
     {
-        "name":  "humanize-text",
-        "folder":  "humanize-text",
-        "category":  "小说编写",
-        "categories":  "小说编写",
+        "name":  "design-pipeline",
+        "folder":  "design-pipeline",
+        "category":  "电商做图",
+        "categories":  "电商做图",
         "category_note":  "",
         "source":  "个人安装",
-        "purpose":  "将AI生成的文本进行人语化处理，去除机器味、注入人味。当用户说\"人语化\"、\"去AI味\"、\"润色\"、\"让这更像人写的\"、\"人性化处理\"、\"AI痕迹检测\"时自动激活。基于Wikipedia\"Signs of AI writing\"指南，检测并修复24种AI写作模式（内容模式、语言模式、风格模式、交流模式、填充模糊），同时注入\"灵魂\"——观点、节奏、复杂情绪...",
-        "scenario":  "在已有草稿需要审稿、查问题或降低 AI 味时使用；重点是找出节奏拖沓、人物扁平、冲突弱、开篇不抓人和语言模板化。 ",
-        "example":  "例：使用 humanize-text 检查前三章是否有黄金三章钩子、主角目标、情绪波动、信息差和章节末期待，并把模板化句子改得更像真人写。",
-        "description":  "将AI生成的文本进行人语化处理，去除机器味、注入人味。当用户说\"人语化\"、\"去AI味\"、\"润色\"、\"让这更像人写的\"、\"人性化处理\"、\"AI痕迹检测\"时自动激活。基于Wikipedia\"Signs of AI writing\"指南，检测并修复24种AI写作模式（内容模式、语言模式、风格模式、交流模式、填充模糊），同时注入\"灵魂\"——观点、节奏、复杂情绪、第一人称。支持小说、文章、文案等多种文本类型。",
-        "files":  5,
-        "relative_path":  "skills/humanize-text/SKILL.md",
-        "content_hash":  "57ad55908da3bf70141236b18a04606811317c35ffc97b8d61ec3372c5ece687",
+        "purpose":  "电商美工全流程。用于分析参考店铺或竞品视觉风格，并生成同风格电商素材，包括主图、海报、Banner、批量产品图和详情页视觉。 (2) 用户需要生成电商产品主图 (3) 用户需要制作活动Banner/海报 (4) 用户需要批量生成同风格产品图 (5) 用户需要从参考URL提取设计语言并复用。关键词：美工、设计、主图、海报、Banner、批量生成、风格分析...",
+        "scenario":  "在日常电商美工工作量较大、需要批量做海报、Banner、主图、封面或套模板时使用；重点是参考风格拆解、尺寸适配、视觉统一和快速交付。",
+        "example":  "例：使用 design-pipeline 拆解竞品店铺视觉风格后，批量生成同风格主图、活动 Banner、小红书封面和详情页首屏，并统一字体、色彩、版式和平台尺寸。",
+        "description":  "电商美工全流程。用于分析参考店铺或竞品视觉风格，并生成同风格电商素材，包括主图、海报、Banner、批量产品图和详情页视觉。 (2) 用户需要生成电商产品主图 (3) 用户需要制作活动Banner/海报 (4) 用户需要批量生成同风格产品图 (5) 用户需要从参考URL提取设计语言并复用。关键词：美工、设计、主图、海报、Banner、批量生成、风格分析、店铺拆解、电商素材、详情页、小红书、产品图、视觉风格",
+        "files":  6,
+        "relative_path":  "skills/design-pipeline/SKILL.md",
+        "content_hash":  "079d6c00da37089ffe504ff8151fad1b6efb7e07f4fd03f955b02a4d8cc02187",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
@@ -7482,24 +7523,24 @@
         "conflict":  true
     },
     {
-        "name":  "gsp-playability-verifier",
-        "folder":  "gsp-playability-verifier",
-        "category":  "游戏开发",
-        "categories":  "游戏开发",
+        "name":  "motion-graphics",
+        "folder":  "motion-graphics",
+        "category":  "视频、图像与生成媒体",
+        "categories":  "视频、图像与生成媒体",
         "category_note":  "",
         "source":  "个人安装",
-        "purpose":  "专注于验证原型是否有明确目标、操作理解和反馈闭环。适合在游戏项目对应阶段把输入材料转成明确判断、交付物、风险和下一步行动。",
-        "scenario":  "当项目推进到\"验证原型是否有明确目标、操作理解和反馈闭环\"这一专项环节时使用；重点是把该环节的输入、判断标准、风险和交付物收束清楚。",
-        "example":  "例：使用 gsp-playability-verifier 处理小说改编单机小游戏中的\"验证原型是否有明确目标、操作理解和反馈闭环\"，输出检查清单、关键决策、风险、验收标准和下一步任务。",
-        "description":  "游戏可玩性验证技能。用于检查原型或构建是否具备清晰目标、可理解操作、反馈闭环和继续游玩的理由。",
-        "files":  1,
-        "relative_path":  "skills/gsp-playability-verifier/SKILL.md",
-        "content_hash":  "3b2e1a3ae972f04107617913db4bb00e61b0f87a9aa7689bf3063a8ddb92a2ea",
+        "purpose":  "制作短时长、无旁白、设计驱动的动态图形，如 kinetic type、数据/图表瞬间、logo sting、lower-third overlay。默认使用中文沟通。",
+        "scenario":  "在需要用 HTML/React/动画管线合成视频时使用；重点是分镜、时间轴、素材引用、动效节奏和可复现渲染。",
+        "example":  "例：使用 motion-graphics 制作 30 秒产品动效视频，定义镜头、字幕、关键帧、素材路径、渲染命令和验收截图。",
+        "description":  "制作短时长、无旁白、设计驱动的动态图形，如 kinetic type、数据/图表瞬间、logo sting、lower-third overlay。默认使用中文沟通。",
+        "files":  23,
+        "relative_path":  "skills/motion-graphics/SKILL.md",
+        "content_hash":  "bbb9844a93d0659617f14e7001383469bfa50ea698acd9cbecf60c20c71c7ade",
         "installed_on":  [
                              "DESKTOP-PQ0SG39",
                              "SY-202303281047"
                          ],
-        "conflict":  true
+        "conflict":  false
     },
     {
         "name":  "prototype",
@@ -7540,26 +7581,6 @@
                              "SY-202303281047"
                          ],
         "conflict":  false
-    },
-    {
-        "name":  "design-pipeline",
-        "folder":  "design-pipeline",
-        "category":  "电商做图",
-        "categories":  "电商做图",
-        "category_note":  "",
-        "source":  "个人安装",
-        "purpose":  "电商美工全流程。用于分析参考店铺或竞品视觉风格，并生成同风格电商素材，包括主图、海报、Banner、批量产品图和详情页视觉。 (2) 用户需要生成电商产品主图 (3) 用户需要制作活动Banner/海报 (4) 用户需要批量生成同风格产品图 (5) 用户需要从参考URL提取设计语言并复用。关键词：美工、设计、主图、海报、Banner、批量生成、风格分析...",
-        "scenario":  "在日常电商美工工作量较大、需要批量做海报、Banner、主图、封面或套模板时使用；重点是参考风格拆解、尺寸适配、视觉统一和快速交付。",
-        "example":  "例：使用 design-pipeline 拆解竞品店铺视觉风格后，批量生成同风格主图、活动 Banner、小红书封面和详情页首屏，并统一字体、色彩、版式和平台尺寸。",
-        "description":  "电商美工全流程。用于分析参考店铺或竞品视觉风格，并生成同风格电商素材，包括主图、海报、Banner、批量产品图和详情页视觉。 (2) 用户需要生成电商产品主图 (3) 用户需要制作活动Banner/海报 (4) 用户需要批量生成同风格产品图 (5) 用户需要从参考URL提取设计语言并复用。关键词：美工、设计、主图、海报、Banner、批量生成、风格分析、店铺拆解、电商素材、详情页、小红书、产品图、视觉风格",
-        "files":  6,
-        "relative_path":  "skills/design-pipeline/SKILL.md",
-        "content_hash":  "079d6c00da37089ffe504ff8151fad1b6efb7e07f4fd03f955b02a4d8cc02187",
-        "installed_on":  [
-                             "DESKTOP-PQ0SG39",
-                             "SY-202303281047"
-                         ],
-        "conflict":  true
     },
     {
         "name":  "regression-suite",
@@ -7702,6 +7723,25 @@
         "conflict":  true
     },
     {
+        "name":  "charlie-munger-value-investing",
+        "folder":  "charlie-munger-value-investing",
+        "category":  "金融与市场分析",
+        "categories":  "金融与市场分析",
+        "category_note":  "",
+        "source":  "个人安装",
+        "purpose":  "查理·芒格风格的上市公司基本面与估值分析（A股/美股/港股），尤其适合消费品、品牌、美妆、鞋服、 食品饮料、零售。用户要求分析股票、估值、好公司好价格、三情景估值、分层买入区间、 查理芒格/价值投资/基本面分析/估值分析时使用。不用于技术面短线交易。最终报告用中文输出。",
+        "scenario":  "当任务直接涉及\"查理·芒格风格的上市公司基本面与估值分析（A股/美股/港股），尤其适合消费品、品牌、美妆、鞋服、 食品饮料、零售。用户要求分析股票、估值、好公司好价格、三情景估值、分层买入区间、 查理芒格/价值投资/基本面分析/估值分析时使用。不用于...\"时使用；重点是围绕该技能的真实对象、输入材料和交付标准完成工作，而不是泛泛回答。",
+        "example":  "例：使用 charlie-munger-value-investing 处理\"查理·芒格风格的上市公司基本面与估值分析（A股/美股/港股），尤其适合消费品、品牌、美妆、鞋服、 食品饮料、零售。用户要求分析股票、估值、好公司好价格、三情景估值、分层买入区间、 查理芒格/价值投资/基本面分析/估值分析时使用。不用于...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
+        "description":  "查理·芒格风格的上市公司基本面与估值分析（A股/美股/港股），尤其适合消费品、品牌、美妆、鞋服、 食品饮料、零售。用户要求分析股票、估值、好公司好价格、三情景估值、分层买入区间、 查理芒格/价值投资/基本面分析/估值分析时使用。不用于技术面短线交易。最终报告用中文输出。",
+        "files":  7,
+        "relative_path":  "skills/charlie-munger-value-investing/SKILL.md",
+        "content_hash":  "1cc6c7f96394dd3ee96e1c20557c69c7f05bcffae28e22e3f91f189e20de1f46",
+        "installed_on":  [
+                             "SY-202303281047"
+                         ],
+        "conflict":  false
+    },
+    {
         "name":  "playtest-report",
         "folder":  "playtest-report",
         "category":  "游戏开发",
@@ -7720,26 +7760,6 @@
                              "SY-202303281047"
                          ],
         "conflict":  true
-    },
-    {
-        "name":  "openai-templates:artifact-template-business-review",
-        "folder":  "artifact-template-business-review",
-        "category":  "通用工具",
-        "categories":  "通用工具",
-        "category_note":  "",
-        "source":  "插件技能",
-        "purpose":  "Create a presentation using the Business Review template and its retained reference file. Use when the user selects or names Business Review. Review business performance, KPIs,...",
-        "scenario":  "当任务直接涉及\"Create a presentation using the Business Review template and its retained reference file. Use when the user selects o...\"时使用；重点是围绕该技能的真实对象、输入材料和交付标准完成工作，而不是泛泛回答。",
-        "example":  "例：使用 openai-templates:artifact-template-business-review 处理\"Create a presentation using the Business Review template and its retained reference file. Use when the user selects o...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
-        "description":  "Create a presentation using the Business Review template and its retained reference file. Use when the user selects or names Business Review. Review business performance, KPIs, segment results, strategic priorities, decisions, and outlook.",
-        "files":  5,
-        "relative_path":  "plugins/cache/openai-curated-remote/openai-templates/0.1.0/skills/artifact-template-business-review/SKILL.md",
-        "content_hash":  "",
-        "installed_on":  [
-                             "DESKTOP-PQ0SG39",
-                             "SY-202303281047"
-                         ],
-        "conflict":  false
     },
     {
         "name":  "book-init",
