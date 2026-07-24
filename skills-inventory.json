@@ -1253,13 +1253,13 @@
     {
         "name":  "five-layer-memory-codex",
         "folder":  "five-layer-memory-codex",
-        "category":  "数据抓取与外部信息读取",
-        "categories":  "数据抓取与外部信息读取",
+        "category":  "研究、写作与知识管理",
+        "categories":  "研究、写作与知识管理",
         "category_note":  "",
         "source":  "个人安装",
         "purpose":  "在 Codex 中建立和维护本地五层个人记忆，覆盖核心价值、认知偏好、行为习惯、当前情境和待确认模式；支持初始化、加载、更新、复盘、遗忘和状态检查。仅在用户明确调用 $five-layer-memory-codex，或明确要求操作“五层记忆”时使用；不用于普通问答，不自动读取对话历史，不直接修改 Codex 内置 memories。",
-        "scenario":  "当任务直接涉及\"在 Codex 中建立和维护本地五层个人记忆，覆盖核心价值、认知偏好、行为习惯、当前情境和待确认模式；支持初始化、加载、更新、复盘、遗忘和状态检查。仅在用户明确调用 $five-layer-memory-codex，或明确要求操作“五...\"时使用；重点是围绕该技能的真实对象、输入材料和交付标准完成工作，而不是泛泛回答。",
-        "example":  "例：使用 five-layer-memory-codex 处理\"在 Codex 中建立和维护本地五层个人记忆，覆盖核心价值、认知偏好、行为习惯、当前情境和待确认模式；支持初始化、加载、更新、复盘、遗忘和状态检查。仅在用户明确调用 $five-layer-memory-codex，或明确要求操作“五...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
+        "scenario":  "当你希望 Codex 在不同任务之间复用稳定偏好、当前目标和工作方式时使用。它适合在用户主动授权后初始化五层记忆，按任务加载 L1-L4，校准过期或冲突内容，并通过稳定 ID 更新或遗忘指定条目；普通对话不会自动读取或写入。",
+        "example":  "例：先用 $five-layer-memory-codex 初始化五层记忆 保存决策偏好和当前项目；以后策划新项目时显式加载相关层，让 Codex 按已确认偏好组织方案；偏好变化后更新原 ID，需要删除时先备份再精确遗忘。",
         "description":  "在 Codex 中建立和维护本地五层个人记忆，覆盖核心价值、认知偏好、行为习惯、当前情境和待确认模式；支持初始化、加载、更新、复盘、遗忘和状态检查。仅在用户明确调用 $five-layer-memory-codex，或明确要求操作“五层记忆”时使用；不用于普通问答，不自动读取对话历史，不直接修改 Codex 内置 memories。",
         "files":  6,
         "relative_path":  "skills/five-layer-memory-codex/SKILL.md",
@@ -4609,7 +4609,7 @@
         "example":  "例：使用 chrome:control-chrome 处理\"Control the user\u0027s Chrome browser for tasks that depend on existing Chrome state: tabs, logged-in sessions, or extens...\"相关工作，明确输入、约束、输出格式、风险点和验证方式。",
         "description":  "Control the user\u0027s Chrome browser for tasks that depend on existing Chrome state: tabs, logged-in sessions, or extensions. Prefer purpose-built connectors, APIs, or CLIs when available.",
         "files":  1,
-        "relative_path":  "plugins/cache/openai-bundled/chrome/latest/skills/control-chrome/SKILL.md",
+        "relative_path":  "plugins/cache/openai-bundled/chrome/26.715.72359/skills/control-chrome/SKILL.md",
         "content_hash":  "",
         "installed_on":  [
                              "SY-202303281047"
